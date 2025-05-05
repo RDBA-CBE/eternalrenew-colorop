@@ -15,7 +15,7 @@ export default function TestimonialCard4({
   sliderWrapperClassname = "p-10 p-md-11 p-lg-13"
 }: TestimonialCard4Props) {
   return (
-    <div className={`card shadow-lg ${className}`}>
+    <div className={`card shadow-lg ${className} bg-orange1`}>
       <div className="row gx-0">
         <div
           style={{ backgroundImage: "url(/img/photos/testimonials-img.jpg)" }}

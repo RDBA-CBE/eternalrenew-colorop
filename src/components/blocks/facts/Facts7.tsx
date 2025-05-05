@@ -15,7 +15,7 @@ export default function Facts7() {
           <div className="col-lg-8 mt-lg-2">
             <div className="row align-items-center counter-wrapper gy-6 text-center">
               {factList5.map(({ id, title, amount }) => (
-                <Counter1 key={id} title={title} number={amount} titleColor="text-blue" />
+                <Counter1 key={id} title={title} number={amount} titleColor="text-green1" />
               ))}
             </div>
           </div>

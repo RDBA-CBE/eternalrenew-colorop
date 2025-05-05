@@ -19,12 +19,12 @@ export default function TestimonialCard2({
 }: TestimonialCard2Props) {
   return (
     <blockquote className={blockClassName}>
-      <p>“{review}”</p>
+      <p className="text-white">“{review}”</p>
 
       <div className={blockDetailsClassName}>
         <div className="info ps-0">
-          <h5 className="mb-1">{name}</h5>
-          <p className="mb-0">{designation}</p>
+          <h5 className="mb-1 text-white">{name}</h5>
+          <p className="mb-0 text-white">{designation}</p>
         </div>
       </div>
     </blockquote>
