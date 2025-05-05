@@ -19,7 +19,7 @@ export default function Footer12() {
 
               <p className="mb-0  mb-md-4 text-white fw-normal">
                 Copyrights 2025 ©  Eternal Renewables. <br className="d-none d-lg-block" />
-                Concept by <a href="https://irepute.in/" target="_blank">repute</a>
+                
 
               </p>
 
@@ -30,10 +30,9 @@ export default function Footer12() {
           <div className="col-md-12 col-lg-3 col-xl-3 text-white pt-md-2 fw-normal pt-5">
             <div className="widget">
               <h4 className="widget-title text-white mb-3 ">Get in Touch</h4>
-              <address className="mb-2">#25,1st Floor,State Bank Colony,<br /> Mahalingapuram Post,Pollachi, <br />
-              Coimbatore - 642 002.</address>
+              <address className="mb-2">Eternal Renewables Private Limited,<br /> No. 118, Nehru Street, Rathinasabapathipuram,<br /> T.Kottampatty, Mahalingapuram,<br /> Pollachi, Tamilnadu, <br />Coimbatore - 642 002, India.</address>
               <a href="mailto:ceo@eternalrenewables.com">ceo@eternalrenewables.com</a>
-              <br /> +91 99761 89999
+              {/* <br /> +91 99761 89999 */}
             </div>
           </div>
 
@@ -117,7 +116,7 @@ export default function Footer12() {
               <h4 className="widget-title text-white mb-3">Location</h4>
               <div className="map-container">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.854393695361!2d77.01295023006428!3d10.668408012332982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba837847551d481%3A0xbf64260fa08ceb00!2sState%20Bank%20Colony%2C%20Mahalakshmi%20Nagar%2C%20Pollachi%2C%20Tamil%20Nadu%20642002!5e0!3m2!1sen!2sin!4v1744885380001!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3920.8745273781806!2d77.01946287504033!3d10.666846089475307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDQwJzAwLjciTiA3N8KwMDEnMTkuMyJF!5e0!3m2!1sen!2sin!4v1745992742863!5m2!1sen!2sin"
                   width="100%"
                   height="200"
                   style={{ border: 0 }}
