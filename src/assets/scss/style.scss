@@ -1,0 +1,149 @@
+/*!
+Theme Name: Sandbox - Modern & Multipurpose React Nextjs Template
+Theme URI:	https://sandbox-nextjs-theta.vercel.app
+Version:	3.4.1
+Author:		Ui Lib
+Author URI:	https://ui-lib.com
+*/
+
+// Bootstrap Functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Theme colors
+@import "theme-colors";
+
+// User variables
+@import "user-variables";
+
+// Theme variables
+@import "variables";
+
+// Bootstrap configuration
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/variables-dark";
+//@import "../../../node_modules/bootstrap/scss/maps";
+@import "theme/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+// Theme configuration
+@import "theme/functions";
+@import "theme/mixins";
+@import "theme/utilities";
+@import "theme/root";
+
+// Bootstrap layout & components
+@import "bootstrap";
+
+// Theme layout & components
+@import "theme/theme";
+
+// User custom styles
+@import "user";
+
+
+.footer-img{
+    width: 250px !important;
+};
+
+p{
+    font-size: 16px;
+    color: #000;
+}
+
+.bg-yellow1{
+    background-color: #f5edd4;
+  }
+
+.EternalEPC.wrapper.angled.upper-end:before {
+    border-left-color: transparent !important;
+    border-right-width: 0 !important;
+    border-top-width: 4rem;
+    top: -4rem;
+  }
+
+ .EternalEPC.wrapper.angled.lower-start:after{
+    border-left-width:0 !important
+ }
+
+ .contactUs .wrapper.angled.upper-end:before{
+  border-right-width:0 !important
+ }
+
+ @media (min-width: 1200px) {
+  .mb-xl-26 {
+    margin-bottom: 24rem !important;
+  }
+}
+
+.display-3{
+  font-size: 35px;
+}
+
+@media (max-width:768px){
+  .display-3{
+    font-size: 30px;
+  }
+}
+
+
+  .text-inverse a:not(.btn):hover{
+    color: #34a853;
+  }
+
+  .navbar-expand-lg .navbar-collapse .nav-link{
+    color: #165ea5 !important;
+  }
+
+  .blog-banner.wrapper.angled.upper-end:before {
+  
+    border-right-width: 0 !important;
+
+}
+.home-project .post-category{
+  text-transform: none !important;
+}
+
+.approach-project img {
+  margin-bottom: 1rem;
+}
+
+// .eternalepc-project .img-fluid {
+//   margin-right: 1rem;
+
+// }
+
+@media (max-width: 991.98px) {
+
+.navbar-expand-lg .navbar-collapse .dropdown-menu .dropdown-item {
+  color: #165ea5;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.navbar-expand-lg .navbar-collapse .nav-link:hover{
+  color: #165ea5 !important;
+}
+
+}
+
+
+figure video {
+  width: 100%;
+  max-width: 100%;
+  height: auto !important;
+}
+
+.rounded video {
+  border-radius: 0.4rem;
+}
+
+.contact-form-iframe{
+  height: 580px;
+}
+
+@media(max-width:"460px"){
+  .contact-form-iframe{
+    height: 690px !important;
+  }
+}
