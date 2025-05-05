@@ -8,7 +8,7 @@ export default function ProjectCard1() {
     <Fragment>
       <section className="wrapper">
         <div className="container pt-10 pt-lg-15 pb-5">
-          <div className="row align-items-center mb-10 ">
+          {/* <div className="row align-items-center mb-10 ">
             <div className="col-md-8 col-lg-9 col-xl-8 col-xxl-7">
               <h2 className="display-3 mb-0">Check out some of my latest projects.</h2>
             </div>
@@ -18,15 +18,15 @@ export default function ProjectCard1() {
               Contact Us <i className="uil uil-arrow-up-right" />
               </Link>
             </div>
-          </div>
+          </div> */}
 
-          {/* <div className="card bg-orange1 mb-10">
+          {/* <div className="card bg-soft-violet mb-10">
             <div className="card-body  py-12">
               <div className="row gy-10 align-items-center">
                 <div className="col-lg-4  offset-lg-1"> */}
                   {/* <div className="post-category mb-3 text-violet">Web Design</div> */}
                   {/* <h3 className="h1 fs-28 post-title mb-3 text-violet">Ground-Mounted Solar Solutions</h3>
-                  <p className="text-white">
+                  <p>
                   Our ground-mounted solar installations are large-scale and provide maximum energy output. They are well suited for industries, commercial spaces and large enterprises that seek reliable, efficient and clean energy.
                   </p> */}
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-violet btn-icon btn-icon-end mb-0" /> */}
