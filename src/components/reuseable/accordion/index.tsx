@@ -13,13 +13,13 @@ interface AccordionProps {
 export default function Accordion({ no, body, heading, expand, type }: AccordionProps) {
   return (
     <div className={clsx({ "card accordion-item": true, [type || ""]: true })}>
-      <div className="card-header" id={`heading${no}`}>
+      <div className="card-header " id={`heading${no}`}>
         <button
           data-bs-toggle="collapse"
           aria-controls={`collapse${no}`}
           data-bs-target={`#collapse${no}`}
           aria-expanded={expand ? "true" : "false"}
-          className={expand ? "accordion-button" : "collapsed"}>
+          className={expand ? "accordion-button text-orange1" : "collapsed text-orange1"}>
           {heading}
         </button>
       </div>

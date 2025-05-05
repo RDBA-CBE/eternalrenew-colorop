@@ -38,7 +38,7 @@ export default function MediaList() {
   return (
     <section className="wrapper bg-white">
       <div className="container pt-5 pt-md-14 pb-10 pb-md-12">
-        <figure className="rounded mt-md-n21 mt-lg-n23 mb-5 mb-md-10" style={slideInDownAnimate("900ms")}>
+        <figure className="rounded mt-md-n21 mt-lg-n23 mb-5 mb-md-10 " style={slideInDownAnimate("900ms")}>
           <img src="/img/Media/image.jpg"  alt="" />
         </figure>
 

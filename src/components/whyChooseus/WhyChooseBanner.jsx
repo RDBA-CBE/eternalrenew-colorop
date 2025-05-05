@@ -6,12 +6,12 @@ export default function WhyChooseBanner() {
       <div className="container pt-10 pt-md-14 pb-14 pb-md-2">
         <div className="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
           <div className="col-lg-6">
-            <h1 className="fs-45 lh-xxs mb-4 text-black">Why <span className="underline-3 style-3 primary">Choose </span>Us</h1>
-            <h4 className="my-3 ">100% success rate in navigating regulations in developing large-scale solar power projects outside the green belt.</h4>
+            <h1 className="fs-45 lh-xxs mb-4 text-white">Why <span className="underline-3 style-3 primary">Choose </span>Us</h1>
+            <h4 className="my-3 text-white">100% success rate in navigating regulations in developing large-scale solar power projects outside the green belt.</h4>
           </div>
 
           <div className="col-lg-6">
-            <p className="lead fs-20 my-3 ">
+            <p className="lead fs-20 my-3 text-white">
             We stay true to our commitments and ensure excellence at each stage of our development and installation process. Our solar development projects are designed with precision, sustainability and long-term value benefitting all stakeholders.
             </p>
             

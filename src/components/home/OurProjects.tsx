@@ -5,12 +5,12 @@ import { portfolioList6 } from "data/portfolio";
 
 export default function OurProjects() {
   return (
-    <section className="wrapper bg-light home-project">
+    <section className="wrapper bg-green1 home-project">
       <div className="container py-10 py-md-12">
         <div className="row">
           <div className="col-lg-11 col-xl-10 mx-auto mb-10">
-            <h2 className="fs-16 text-uppercase text-center mb-3">Empowering Communities with Renewable Energy</h2>
-            <h3 className="display-3 text-center px-lg-5 px-xl-10 px-xxl-16 mb-0">
+            <h2 className="fs-16 text-uppercase text-center mb-3 text-white">Empowering Communities with Renewable Energy</h2>
+            <h3 className="display-3-n text-center px-lg-5 px-xl-10 px-xxl-16 mb-0">
               Our Projects
             </h3>
           </div>
@@ -27,7 +27,7 @@ export default function OurProjects() {
         </div>
 
         <div className="text-center mt-10">
-          <NextLink title="Start a Project" href="/projects" className="btn btn-lg btn-primary rounded-pill" />
+          <NextLink title="Start a Project" href="/projects" className="btn btn-lg btn-soft-primary rounded-pill" />
         </div>
       </div>
     </section>

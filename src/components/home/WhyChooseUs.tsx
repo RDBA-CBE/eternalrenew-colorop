@@ -4,12 +4,12 @@ import VideoPlyr from "components/reuseable/VideoPlyr";
 
 export default function WhyChooseUs() {
   return (
-    <section className="wrapper bg-light">
+    <section className="wrapper bg-orange1">
       <div className="container py-10 py-md-12">
         <div className="row text-center mb-10">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <h2 className="fs-16 text-uppercase mb-3">Trusted partner for green energy </h2>
-            <h3 className="display-3 px-xl-10 mb-0">
+            <h2 className="fs-16 text-uppercase mb-3 text-white">Trusted partner for green energy </h2>
+            <h3 className="display-3-n px-xl-10 mb-0">
               Why Choose Us
             </h3>
           </div>
@@ -81,8 +81,8 @@ const ColumnTwo = ({ title, className = "" }: ColumnTwoProps) => {
 
   return (
     <div className={`col-lg-5 ${className}`}>
-      <h3 className="fs-28 mb-3 text-blue">{title}</h3>
-      <p className="text-dark fw-normal">
+      <h3 className="fs-28 mb-3 text-white">{title}</h3>
+      <p className="text-white fw-normal">
       With the increasing awareness of the need for renewable energy solutions to reduce carbon emissions and ensure energy security, the world is rapidly moving towards clean energy solutions. At Eternal Renewables, we are committed to developing high-quality clean energy and energy storage solutions to help replace fossil fuels and address climate change. We empower communities with reliable, sustainable energy solutions to speed up the transition to a greener future. <br/><br/>We understand that industries often face difficulties in integrating solar, wind and hydropower with a grid for a stable and dependable power supply. This is where we step in. With cutting-edge technology and sustainable development approaches, we have the expertise to create energy solutions that are futuristic and efficient.
       </p>
 

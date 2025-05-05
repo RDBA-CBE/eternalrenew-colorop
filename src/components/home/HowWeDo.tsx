@@ -8,12 +8,12 @@ import animation from "utils/animation";
 
 export default function HowWeDo() {
     return (
-        <section className="wrapper bg-light mt-0">
+        <section className="wrapper bg-orange1 mt-0">
             <div className="container py-10 py-md-12">
                 <div className="row text-center">
                     <div className="col-lg-9 mx-auto">
-                        <h2 className="fs-15 text-uppercase mb-3">Turning Potential into Power</h2>
-                        <h3 className="display-4 mb-0 text-center px-xl-10 px-xxl-15 text-green" >
+                        <h2 className="fs-15 text-uppercase mb-3 text-white">Turning Potential into Power</h2>
+                        <h3 className="display-3-n mb-0 text-center px-xl-10 px-xxl-15 " >
                             How We Do
                         </h3>
 
@@ -22,8 +22,8 @@ export default function HowWeDo() {
                                 <div key={title} className="col-md-3 text-center">
                                     {/* {<Icon className={`icon-svg-md text-${color} mb-3`} />} */}
                                     <img src={icon} alt="icon" />
-                                    <h4 className="mb-1 pt-2">{title}</h4>
-                                    <p className="text-dark fw-normal">{subtitle}</p>
+                                    <h4 className="mb-1 pt-2 text-white">{title}</h4>
+                                    <p className="text-white fw-normal">{subtitle}</p>
                                 </div>
                             ))}
                         </div>

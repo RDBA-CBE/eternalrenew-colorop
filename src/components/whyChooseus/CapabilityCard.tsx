@@ -19,7 +19,7 @@ export default function CapabilityCard({
   title,
   linkUrl,
   hiddenBtn,
-  titleColor="text-blue",
+  titleColor="text-white",
   description,
   iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
 }: ServiceCard2Props) {
@@ -30,7 +30,7 @@ export default function CapabilityCard({
       <img src={icon} alt={title || "Icon"} />
     </div>
     <h4 className={titleColor}>{title}</h4>
-    <p className="mb-3">{description}</p>
+    <p className="mb-3 text-white">{description}</p>
     {/* {hiddenBtn ? null : <NextLink title="Learn More" href={linkUrl} className="more hover" />} */}
   </div>
   

@@ -12,10 +12,10 @@ export default function BlogCard(props: any) {
       <div className="container">
         <div className="row">
           <div className="col-lg-11 col-xl-12 col-xxl-12">
-            <h2 className="fs-16 text-uppercase text-line text-primary mb-3">
+            <h2 className="fs-16 text-uppercase text-line text-green1 mb-3">
               {title}
             </h2>
-            <h3 className="display-3 text-green mb-9">
+            <h3 className="display-3 text-orange1 mb-9">
              {subtitle}
             </h3>
           </div>

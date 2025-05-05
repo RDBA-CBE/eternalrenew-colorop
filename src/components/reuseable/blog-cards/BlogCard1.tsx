@@ -27,25 +27,25 @@ export default function BlogCard1({ date, image, title, category }: BlogCard1Pro
 
       <div className="post-header">
         <h2 className="post-title h3 mb-3 ">
-          <NextLink title={title} className="link-dark text-blue" href="#" />
+          <NextLink title={title} className="link-dark text-orange1" href="#" />
         </h2>
       </div>
 
       <div className="post-footer">
         <ul className="post-meta">
           <li className="post-date">
-            <i className="uil uil-calendar-alt" />
-            <span>{date}</span>
+            <i className="uil uil-calendar-alt text-green1" />
+            <span className="text-green1">{date}</span>
           </li>
 
           <li className="post-comments">
             <NextLink
               href="#"
-              className="link-dark"
+              className="link-dark text-green1"
               title={
                 <>
-                  <i className="uil uil-file-alt fs-15" />
-                  {category}
+                  <i className="uil uil-file-alt fs-15 text-green1" />
+                  <span className="text-green1">{category}</span>
                 </>
               }
             />

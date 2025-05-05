@@ -40,7 +40,7 @@ export default function ProjectDevelopment() {
              
               <div className="row justify-content-center  mb-8">
                 <div className="col-lg-10">
-                  <h2 className="display-3 text-green mb-3">Project Development</h2>
+                  <h2 className="display-3 text-green1 mb-3">Project Development</h2>
                   <p className=" mb-0">
                     At Eternal Renewables, we handle every aspect of sustainable energy project development with a multidisciplinary team which includes technical, commercial and legal professionals to deliver bankable and high-performing Solar PV farms.
                   </p>
@@ -49,7 +49,7 @@ export default function ProjectDevelopment() {
               <div className="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line justify-content-start justify-content-lg-center">
       
                 {processList2.map(({ no, title, subtitle }, i) => {
-                  const iconColor = i === 1 ? "btn-primary" : "btn-soft-primary";
+                  const iconColor = i === 1 ? "bg-green1 text-white" : "bg-green1 text-white";
 
                   return (
                     <div className="col-md-6 col-lg-2 mt-2 pb-0" key={no}>

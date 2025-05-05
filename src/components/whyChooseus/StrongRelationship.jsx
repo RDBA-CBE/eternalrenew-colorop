@@ -11,7 +11,7 @@ export default function StrongRelationship() {
             </div>
 
             <div className="col-lg-5">
-                <h2 className="display-3 mb-3 text-green">Strong Relationship</h2>
+                <h2 className="display-3-n mb-3 text-green1">Strong Relationship</h2>
                 {/* <p className="lead fs-lg">
                 Let’s make something great together. We are trusted by over 5000+ clients. Join them by
                 using our services and grow your business.

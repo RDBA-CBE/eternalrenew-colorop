@@ -53,7 +53,7 @@ export default function WhatWeDoBanner() {
               </h1>
 
               <p
-                className="lead fs-22 lh-sm mb-0 mb-lg-7"
+                className="lead fs-22 lh-sm mb-0 mb-lg-7 text-white"
                 data-cue="slideInDown"
                 data-group="page-title"
                 data-show="true"

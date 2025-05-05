@@ -20,7 +20,7 @@ export default function ProjectBanner() {
               </h1>
 
 
-            <p className="lead fs-22 mb-7" style={slideInDownAnimate("900ms")}>
+            <p className="lead fs-22 mb-7 " style={slideInDownAnimate("900ms")}>
               Explore our diverse portfolio of both turnkey and bespoke sustainable energy solutions that are meticulously engineered with precision to help our clients achieve their business objectives and requirements and realize their dream of cutting down carbon emissions and protecting the ecosystems.
             </p>
 

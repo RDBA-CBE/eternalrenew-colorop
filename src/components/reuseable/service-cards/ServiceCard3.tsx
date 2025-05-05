@@ -13,8 +13,8 @@ export default function ServiceCard3({ Icon, title, description, className = "d-
       <div>{Icon}</div>
 
       <div>
-        <h4 className="mb-1 text-green">{title}</h4>
-        <p className="mb-0 text-dark fw-normal ">{description}</p>
+        <h4 className="mb-1 text-white">{title}</h4>
+        <p className="mb-0 text-white fw-normal ">{description}</p>
       </div>
     </div>
   );

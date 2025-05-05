@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer12() {
   return (
-    <footer className=" text-inverse text-white mt-0"  style={{background:"#165ea5"}}>
+    <footer className=" text-inverse text-white mt-0 bg-orange1">
       <div className="container-fluid py-10 py-md-10">
         <div className="row gy-6 gy-lg-0">
           <div className="col-md-10 mx-auto px-0" >

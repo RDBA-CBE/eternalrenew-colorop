@@ -18,13 +18,13 @@ export default function Tiles3() {
           </div>
 
           <div className="col-md-10">
-            <div className="card bg-pale-primary text-center">
+            <div className="card bg-orange1 text-center">
               <div className="card-body py-11 counter-wrapper">
-                <h3 className="counter text-nowrap">
+                <h3 className="counter text-nowrap text-white">
                   <CountUp end={5000} suffix="+" />
                 </h3>
 
-                <p className="mb-0">Satisfied Customers</p>
+                <p className="mb-0 text-white">Satisfied Customers</p>
               </div>
             </div>
           </div>

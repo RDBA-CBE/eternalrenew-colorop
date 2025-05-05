@@ -85,12 +85,12 @@ export default function OurCapabilities() {
 
   return (
     
-        <section className="wrapper bg-soft-primary mt-5 mt-md-10 mb-5 mb-md-10">
+        <section className="wrapper bg-orange1 mt-5 mt-md-10 mb-5 mb-md-10">
         <div className="container pt-5 pt-md-10 pb-5 pb-md-10">
         <div className="row">
         <div className="col-lg-8 col-xl-7 col-xxl-6">
           {/* <h2 className="fs-16 text-uppercase text-line text-primary mb-3">What We Do?</h2> */}
-          <h3 className="display-3 text-green mb-3">
+          <h3 className="display-3-n text-white mb-3">
           Our Capabilities
           </h3>
         </div>
@@ -101,7 +101,7 @@ export default function OurCapabilities() {
           <CapabilityCard
             {...item}
             key={item.id}
-            iconBoxClassNames="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"
+            iconBoxClassNames="icon btn btn-block btn-lg bg-green1 pe-none mb-6"
           />
         ))}
       </div>

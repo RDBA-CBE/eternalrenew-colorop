@@ -9,7 +9,7 @@ export default function HowWeDoBanner() {
                     <div className="row">
                         <div className="col-xl-11 mx-auto">
                         <h1 className="display-1 mb-4 fs-45">How <span className="underline-3 style-3 primary">We Do</span></h1>
-                        <p className="lead mb-0 fs-22">Our process begins with thorough identification and survey to assess site viability and project scope.<br/>
+                        <p className="lead mb-0 fs-22 text-white">Our process begins with thorough identification and survey to assess site viability and project scope.<br/>
                             We ensure transparency through a detailed consent process aligned with local regulations. <br/>
                             From erection to commissioning and grid connection, we handle every phase with precision and expertise.</p>
                         </div>

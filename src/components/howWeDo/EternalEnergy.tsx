@@ -65,7 +65,7 @@ export default function EternalEnergy() {
 
             <div className="col-lg-6 ">
             {/* <h2 className="fs-16 text-uppercase text-primary mb-3">Who Are We?</h2> */}
-            <h3 className="display-3 mb-3 text-green ">Eternal Energy</h3>
+            <h3 className="display-3 mb-3 text-green1 ">Eternal Energy</h3>
             <p className="mb-2 mb-md-6">
               We meticulously oversee each phase of the development process with precision to ensure efficiency and long-term value across our supply chain. 
             </p>
@@ -78,15 +78,15 @@ export default function EternalEnergy() {
        <div className="row gx-lg-8 gx-xl-12 gy-6 mb-5 mb-md-10">
                     {serviceList2.map(({ id, Icon, title, description }) => (
                       <div className="col-md-6 " key={id}>
-                        <div className="d-flex flex-row bg-soft-yellow py-5 px-3 h-100 rounded">
+                        <div className="d-flex flex-row bg-orange1 py-5 px-3 h-100 rounded">
                           <div>
                             <div className="icon btn btn-block pe-none  me-4 w-10 h-10">
                             <img src={Icon} alt={title} className="mb-3 img-fluid" style={{ maxHeight: '40px' }} />
                             </div>
                           </div>
                           <div>
-                          <h4 className="text-blue">{title}</h4>
-                          <p className="mb-0 text-justify">{description}</p>
+                          <h4 className="text-white">{title}</h4>
+                          <p className="mb-0 text-justify text-white">{description}</p>
                           </div>
                         </div>
                        

@@ -547,8 +547,20 @@ $mark-padding: 0.05rem 0.4rem 0.2rem !default;
 //----------------------------------------------------------//
 //	TYPOGRAPHY
 //----------------------------------------------------------//
-$path-to-fonts: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700" !default;
-$font-family-sans-serif: "Manrope", sans-serif !default;
+// @font-face {
+//   font-family:'Incised 901';
+//   src: url(../fonts/Incised901BT-Roman.woff) format('woff'), url(../fonts/Incised901BT-Roman.woff) format('woff2');
+//   src: url('../../fonts/custom/Incised 901') format('embedded-opentype'),
+//    url('Incised901BT-Roman.woff2') format('woff2'),
+//   url('Incised901BT-Roman.woff') format('woff'),
+//   url('Incised901BT-Roman.svg#Incised901BT-Roman') format('svg');
+//   font-weight: 500;
+//   font-style: normal;
+//   font-stretch: normal;
+//   unicode-range: U+0020-00FE;
+// }
+$path-to-fonts: "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap'" !default;
+$font-family-sans-serif: "Archivo", sans-serif !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-custom-icons: "Custom" !default;
 $font-family-unicons: "Unicons" !default;

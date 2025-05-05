@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   word-spacing: normal !important;
 }
 
 body {
-  font-family: "Manrope", sans-serif;;
+  font-family: "Archivo", sans-serif;
   font-size: 0.85rem;
 }
 
 em {
-  font-family: "Manrope", sans-serif;;
+  font-family: "Archivo", sans-serif;
 }
 
 body,
@@ -147,6 +147,11 @@ blockquote.icon:before {
   line-height: 1.2;
   color:#34a853;
 }
+.display-3-n {
+  line-height: 1.2;
+  color:#fff;
+}
+
 
 .display-4 {
   line-height: 1.25;

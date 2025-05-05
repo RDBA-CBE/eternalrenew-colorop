@@ -6,14 +6,14 @@ import { aboutList4 } from "data/about";
 
 export default function WhatWeDo() {
     return (
-        <section className="wrapper bg-light">
+        <section className="wrapper bg-green1">
             <div className="container py-10 py-md-12">
                 <div className="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center">
 
 
                     <div className="col-lg-6">
-                        <h2 className="fs-16 text-uppercase  mb-3">Clean energy for homes, businesses and beyond</h2>
-                        <h3 className="display-3 mb-8">What We Do</h3>
+                        <h2 className="fs-16 text-uppercase  mb-3 text-white">Clean energy for homes, businesses and beyond</h2>
+                        <h3 className="display-3-n mb-8">What We Do</h3>
                         <div className="row gy-6">
                             {aboutList4.map(({ id, Icon, ...item }) => (
                                 <div className="col-md-6" key={id}>

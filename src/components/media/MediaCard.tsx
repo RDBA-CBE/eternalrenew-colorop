@@ -21,7 +21,7 @@ export default function MediaCard({
   hiddenBtn,
   titleColor,
   description,
-  iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
+  iconBoxClassNames = "icon btn btn-circle btn-lg bg-orange1 pe-none mb-5"
 }: ServiceCard2Props) {
   return (
     <div className="col-md-6 col-lg-3">
@@ -33,9 +33,9 @@ export default function MediaCard({
           style={{ maxHeight: "60px", width: "auto" }}
         />
       </div>
-      <h4 className="text-blue">{title}</h4>
+      <h4 className="text-green1">{title}</h4>
       <p className="mb-3 ">{description}</p>
-       <NextLink title="Learn More" href={linkUrl} className="more hover text-green" />
+       <NextLink title="Learn More" href={linkUrl} className="more hover text-orange1" />
     </div>
   );
 }

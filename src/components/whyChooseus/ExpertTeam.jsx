@@ -18,10 +18,10 @@ export default function ExpertTeam() {
               <div className="icon icon-top fs-lg text-center">
                 <div className="blockquote-details justify-content-center text-center">
                   <div className="info ps-0">
-                    <h2 className="mb-3 display-3 text-green">Expert Team</h2>  
+                    <h2 className="mb-3 display-3 text-white">Expert Team</h2>  
                   </div>
                 </div>
-                <p>We have a strong team of experienced professionals who bring in a wealth of knowledge to devise plans for energy projects, ensuring on-time delivery to maximize success. Additionally, we work in partnership with experienced consultants (lawyers, surveyors and electrical specialists) to ensure the project meets the highest standards of quality.</p>
+                <p className="text-white">We have a strong team of experienced professionals who bring in a wealth of knowledge to devise plans for energy projects, ensuring on-time delivery to maximize success. Additionally, we work in partnership with experienced consultants (lawyers, surveyors and electrical specialists) to ensure the project meets the highest standards of quality.</p>
               </div>
             </div>
           </div>

@@ -29,11 +29,11 @@ export default function ProjectCard3({ link, title, image, category, fullImage }
 
       <div className="project-details d-flex justify-content-center flex-column">
         <div className="post-header">
-          <h2 className="post-title h3 text-blue">
-            <NextLink href={link} title={title} className="link-dark text-blue" />
+          <h2 className="post-title h3 text-white">
+            <NextLink href={link} title={title} className="link-dark text-white" />
           </h2>
 
-          <div className="post-category text-dark">{category}</div>
+          <div className="post-category text-white">{category}</div>
         </div>
       </div>
     </Fragment>

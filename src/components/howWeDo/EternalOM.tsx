@@ -7,9 +7,9 @@ type ItemProps = { no: string; title: string; className?: string ;description:st
 const Item = ({ no, title, className = "" ,description}: ItemProps) => {
   return (
     <div className={className}>
-      <span className="fs-60 lh-1 mb-4 fw-normal text-blue ">{no}</span>
+      <span className="fs-60 lh-1 mb-4 fw-normal text-orange1 ">{no}</span>
       {/* <h4 className="fs-20">{title}</h4> */}
-      <p className="mb-0 px-xl-7 mt-2">
+      <p className="mb-0 px-xl-7 mt-2 text-white">
         {description}
       </p>
     </div>
@@ -40,11 +40,11 @@ export default function EternalOM() {
           /> */}
 
           {/* <h2 className="fs-16 text-uppercase text-muted mb-3">How It Works</h2> */}
-          <h3 className="display-3 mb-3 text-green px-xl-6">
+          <h3 className="display-3 mb-3 text-white px-xl-6">
           Eternal O & M
           </h3>
-          <h4>Maximizing the performance of your photovoltaic systems and increasing your ROI</h4>
-          <p>At Eternal Renewables, we ensure your solar assets sustain long-term efficiency and profitability. Our Operations & Maintenance (O&M) services are designed to safeguard system performance, prevent failures and optimize returns through:</p>
+          <h4 className="text-white">Maximizing the performance of your photovoltaic systems and increasing your ROI</h4>
+          <p className="text-white">At Eternal Renewables, we ensure your solar assets sustain long-term efficiency and profitability. Our Operations & Maintenance (O&M) services are designed to safeguard system performance, prevent failures and optimize returns through:</p>
         </div>
       </div>
 
@@ -69,7 +69,7 @@ export default function EternalOM() {
               <Item no="04" title="Have Total Control" description="Provide stakeholders with real-time insights and detailed reports."/>
             </div>
 
-            <h4>We ensure our partners have stable, high-yield energy production throughout the year with proactive asset management and maintenance.</h4>
+            <h4 className="text-white">We ensure our partners have stable, high-yield energy production throughout the year with proactive asset management and maintenance.</h4>
           </div>
         </div>
         

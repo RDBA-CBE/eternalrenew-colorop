@@ -21,7 +21,7 @@ export default function ApproachCard({
   linkUrl,
   linkType,
   description,
-  cardClassName = "h-100 d-flex flex-column",
+  cardClassName = "h-100 d-flex flex-column bg-orange1",
   iconBoxClassNames = ""
 }: ServiceCard1Props) {
   return (
@@ -31,8 +31,8 @@ export default function ApproachCard({
       <div className={iconBoxClassNames}>
         <img src={icon} alt={title || "Card icon"} />
       </div>
-      <h4 className="text-blue">{title}</h4>
-      <p className="mb-2 flex-grow-1">{description}</p>
+      <h4 className="text-white">{title}</h4>
+      <p className="mb-2 flex-grow-1 text-white">{description}</p>
       {/* <NextLink title="Learn More" href={linkUrl} className={`more hover link-${linkType}`} /> */}
     </div>
   </div>

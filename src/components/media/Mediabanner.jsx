@@ -12,7 +12,7 @@ export default function Mediabanner() {
               Our <span className="underline-3 style-3 primary">Media</span>
             </h1>
 
-            <p className="lead fs-22 lh-sm mb-0 mb-md-3 mx-md-13 mx-lg-10" style={slideInDownAnimate("300ms")}>
+            <p className="lead fs-22 lh-sm mb-0 mb-md-3 mx-md-13 mx-lg-10 text-white" style={slideInDownAnimate("300ms")}>
                Stay tuned to this section for the latest insights and stories on sustainable energy solutions, mindful approaches and our industry leadership.
             </p>
 

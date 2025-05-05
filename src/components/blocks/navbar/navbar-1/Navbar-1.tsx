@@ -52,7 +52,7 @@ export default function NavbarOne({
   search = false,
   language = false,
   stickyBox = true,
-  navOtherClass = "navbar-other w-100 d-flex ms-auto d-lg-none text-blue",
+  navOtherClass = "navbar-other w-100 d-flex ms-auto d-lg-none text-orange1",
   navClassName = "navbar navbar-expand-lg center-nav transparent navbar-light "
 }: NavbarProps) {
   useNestedDropdown();

@@ -16,12 +16,12 @@ interface BlogCard4Props {
 // ======================================================
 
 export default function BlogCard4(props: BlogCard4Props) {
-  const { date, image, title, category, description, className = "card" } = props;
+  const { date, image, title, category, description, className = "card bg-orange1" } = props;
 
   return (
     <article>
       <div className={className}>
-        <figure className="card-img-top overlay overlay-1 hover-scale">
+        <figure className="card-img-top overlay overlay-1 hover-scale ">
           <Link href="#">
             <Image width={560} height={350} src={image} alt={title} className="w-100 h-auto" />
             <span className="bg" />
@@ -34,21 +34,21 @@ export default function BlogCard4(props: BlogCard4Props) {
 
         <div className="card-body">
           <div className="post-header">
-            <h2 className="post-title h3 mt-1 mb-3 text-blue ">
-              <NextLink title={title} className="text-blue " href="#" />
+            <h2 className="post-title h3 mt-1 mb-3 text-white">
+              <NextLink title={title} className="text-white " href="#" />
             </h2>
           </div>
 
-          <div className="post-content text-dark">
-            <p className="text-dark">{description}</p>
+          <div className="post-content text-white">
+            <p className="text-white">{description}</p>
           </div>
         </div>
 
         <div className="card-footer">
           <ul className="post-meta d-flex mb-0">
             <li className="post-date">
-              <i className="uil uil-calendar-alt text-green" />
-              <span className="text-green">{dayjs(date).format("DD MMM YYYY")}</span>
+              <i className="uil uil-calendar-alt text-white" />
+              <span className="text-white">{dayjs(date).format("DD MMM YYYY")}</span>
             </li>
 
             {/* <li className="post-comments">

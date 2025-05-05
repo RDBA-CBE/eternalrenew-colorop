@@ -13,8 +13,8 @@ interface ServiceCard3Props {
         <img src={Icon} alt={title} className="me-3 img-fluid" style={{ maxHeight: '50px', width: 'auto' }} />
   
         <div>
-          <h4 className="mb-1 text-blue">{title}</h4>
-          <p className="mb-0 text-dark fw-normal ">{description}</p>
+          <h4 className="mb-1 text-white">{title}</h4>
+          <p className="mb-0 text-white fw-normal ">{description}</p>
         </div>
       </div>
     );

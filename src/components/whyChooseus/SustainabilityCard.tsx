@@ -12,13 +12,13 @@ interface ProcessList2Props {
       <div className="d-flex flex-row mb-6">
         <div>
           <span className={className}>
-            <span className="number fs-18">{no}</span>
+            <span className="number fs-18 ">{no}</span>
           </span>
         </div>
   
         <div>
-          <h4 className="mb-1 text-blue">{title}</h4>
-          <p className="mb-0">{subtitle}</p>
+          <h4 className="mb-1 text-white">{title}</h4>
+          <p className="mb-0 text-white">{subtitle}</p>
         </div>
       </div>
     );

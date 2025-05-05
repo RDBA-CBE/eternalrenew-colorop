@@ -38,7 +38,7 @@ export default function LongTerm() {
       <div className="col-lg-6">
 
         {/* <h2 className="fs-16 text-uppercase text-muted mb-3">Our Strategy</h2> */}
-        <h3 className="display-3 mb-3 text-green">Long-term Management</h3>
+        <h3 className="display-3-n mb-3 text-green1">Long-term Management</h3>
         
         <div className="col-12 mt-8">
                     <figure className="rounded ">

@@ -53,7 +53,7 @@ export default function OurApproach() {
         <div className="row text-center">
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
             {/* <h2 className="fs-16 text-uppercase text-muted mb-3">What We Do?</h2> */}
-            <h3 className="display-3 mb-3 px-xl-10 text-green">
+            <h3 className="display-3 mb-3 px-xl-10 text-green1">
              Our Approach
             </h3>
             <p>At Eternal Renewables we adopt a holistic and results-driven approach to deliver world-class renewable energy projects. From initial planning to long-term asset optimization, we have the expertise and ensure transparency to deliver innovative and high-impact solutions tailored to your business needs.</p>
@@ -62,7 +62,7 @@ export default function OurApproach() {
 
         <div className="position-relative">
           <div
-            className="shape rounded-circle bg-soft-blue rellax w-16 h-16"
+            className="shape rounded-circle bg-soft-blue rellax w-16 h-16 bg-green1"
             style={{ zIndex: 0, right: "-2.2rem", bottom: "-0.5rem" }}
           />
 

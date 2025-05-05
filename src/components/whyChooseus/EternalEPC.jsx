@@ -11,7 +11,7 @@ export default function EternalEPC() {
             {/* ========== client reviews section ========== */}
            <div className="position-relative ">
                  <div
-                   className="shape rounded-circle bg-line primary rellax w-18 h-18"
+                   className="shape rounded-circle bg-line primary rellax w-18 h-18 "
                    style={{ zIndex: 0, top: "-2rem", right: "-2.7rem" }}
                  />
            
@@ -20,11 +20,11 @@ export default function EternalEPC() {
                    style={{ zIndex: 0, left: "-3rem", bottom: "-1rem" }}
                  />
            
-                   <div className={`card shadow-lg `}>
+                   <div className={`card shadow-lg bg-green1`}>
                        <div className="row gx-0">
                          <div
                            style={{ backgroundImage: "url(/img/photos/external-epc.jpg)" }}
-                           className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start"
+                           className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start "
                          />
                  
                          <div className="col-lg-6">
@@ -33,11 +33,11 @@ export default function EternalEPC() {
                              <div className="icon icon-top fs-17 text-center">
                                 <div className="blockquote-details justify-content-center text-center">
                                     <div className="info ps-0">
-                                    <h2 className="mb-3 display-3 text-green">Eternal EPC</h2>
+                                    <h2 className="mb-3 display-3 text-white">Eternal EPC</h2>
                                     {/* <p className="mb-0">{designation}</p> */}
                                     </div>
                                 </div>
-                                <p>We integrate mindful development approaches and cutting-edge technologies to ensure the timely delivery of end-to-end renewable energy projects that meet the highest standards of quality and are cost-efficient. </p>
+                                <p className="text-white">We integrate mindful development approaches and cutting-edge technologies to ensure the timely delivery of end-to-end renewable energy projects that meet the highest standards of quality and are cost-efficient. </p>
 
                               
                             </div>

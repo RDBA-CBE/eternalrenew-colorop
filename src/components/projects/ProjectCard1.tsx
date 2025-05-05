@@ -20,13 +20,13 @@ export default function ProjectCard1() {
             </div>
           </div>
 
-          {/* <div className="card bg-soft-violet mb-10">
+          {/* <div className="card bg-orange1 mb-10">
             <div className="card-body  py-12">
               <div className="row gy-10 align-items-center">
                 <div className="col-lg-4  offset-lg-1"> */}
                   {/* <div className="post-category mb-3 text-violet">Web Design</div> */}
                   {/* <h3 className="h1 fs-28 post-title mb-3 text-violet">Ground-Mounted Solar Solutions</h3>
-                  <p>
+                  <p className="text-white">
                   Our ground-mounted solar installations are large-scale and provide maximum energy output. They are well suited for industries, commercial spaces and large enterprises that seek reliable, efficient and clean energy.
                   </p> */}
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-violet btn-icon btn-icon-end mb-0" /> */}
@@ -40,12 +40,12 @@ export default function ProjectCard1() {
               </div>
             </div>
           </div> */}
-          <div className="card bg-soft-violet mb-10">
+          <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  <h3 className="h1 fs-28 post-title mb-3 text-violet">Ground-Mounted Solar Solutions</h3>
-                  <p>
+                  <h3 className="h1 fs-28 post-title mb-3 text-white">Ground-Mounted Solar Solutions</h3>
+                  <p className="text-white">
                     Our ground-mounted solar installations are large-scale and provide maximum energy output.
                     They are well suited for industries, commercial spaces and large enterprises that seek
                     reliable, efficient and clean energy.
@@ -61,13 +61,13 @@ export default function ProjectCard1() {
           </div>
 
 
-          <div className="card bg-soft-violet mb-10">
+          <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
                 <div className="col-lg-5 order-lg-2">
-                  {/* <div className="post-category mb-3 text-blue">Mobile Design</div> */}
-                  <h3 className="h1 fs-28 post-title mb-3 text-blue">Rooftop Solar Solutions</h3>
-                  <p>
+                  {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
+                  <h3 className="h1 fs-28 post-title mb-3 text-white">Rooftop Solar Solutions</h3>
+                  <p className="text-white">
                   Our rooftop solar solutions bring down electricity costs and lower the carbon footprint of your business or residential building.
                   </p>
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}
@@ -82,13 +82,13 @@ export default function ProjectCard1() {
             </div>
           </div>
 
-          <div className="card bg-soft-violet mb-10">
+          <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  {/* <div className="post-category mb-3 text-blue">Mobile Design</div> */}
-                  <h3 className="h1 fs-28 post-title mb-3 text-dark">Wind-Solar Hybrid Models</h3>
-                  <p>
+                  {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
+                  <h3 className="h1 fs-28 post-title mb-3 text-white">Wind-Solar Hybrid Models</h3>
+                  <p className="text-white">
                     If you are a business operating in diverse climatic conditions, then our wind-solar hybrid model combines the best of both solar and wind energy. Get consistent and reliable energy for your business, irrespective of the climate. 
                   </p>
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}
@@ -104,13 +104,13 @@ export default function ProjectCard1() {
           </div>
 
 
-          <div className="card bg-soft-violet mb-10">
+          <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
                 <div className="col-lg-5 order-lg-2">
-                  {/* <div className="post-category mb-3 text-blue">Mobile Design</div> */}
-                  <h3 className="h1 fs-28 post-title mb-3 text-violet">Mini Grid</h3>
-                  <p>
+                  {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
+                  <h3 className="h1 fs-28 post-title mb-3 text-white">Mini Grid</h3>
+                  <p className="text-white">
                     Our mini grid solutions combine solar, wind and energy storage systems to provide reliable power to communities, industrial clusters and businesses with limited access to the power grid.
                   </p>
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}
@@ -126,13 +126,13 @@ export default function ProjectCard1() {
           </div>
 
 
-          <div className="card bg-soft-violet mb-10">
+          <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  {/* <div className="post-category mb-3 text-blue">Mobile Design</div> */}
-                  <h3 className="h1 fs-28 post-title mb-3 text-blue">Wind, Solar and BESS</h3>
-                  <p>
+                  {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
+                  <h3 className="h1 fs-28 post-title mb-3 text-white">Wind, Solar and BESS</h3>
+                  <p className="text-white">
                     Our wind-solar-BESS solutions are engineered to store excess energy for peak-time usage and grid stability. They can offer uninterrupted power supply even in challenging environments.
                   </p>
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}
@@ -148,13 +148,13 @@ export default function ProjectCard1() {
           </div>
 
 
-          <div className="card bg-soft-violet mb-10">
+          <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
                 <div className="col-lg-5 order-lg-2">
-                  {/* <div className="post-category mb-3 text-blue">Mobile Design</div> */}
-                  <h3 className="h1 fs-28 post-title mb-3 text-dark">Hydrogen Production</h3>
-                  <p>
+                  {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
+                  <h3 className="h1 fs-28 post-title mb-3 text-white">Hydrogen Production</h3>
+                  <p className="text-white">
                     Our green hydrogen solutions help businesses and industries move towards sustainable fuel alternatives for a low-carbon future.
                   </p>
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}

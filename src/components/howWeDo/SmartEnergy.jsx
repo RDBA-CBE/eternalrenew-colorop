@@ -36,7 +36,7 @@ export default function SmartEnergy() {
 
       <div className="col-lg-6">
         {/* <h2 className="fs-15 text-uppercase text-line text-primary mb-3">How It Works?</h2> */}
-        <h3 className="display-3 mb-3 pe-xxl-5 text-green">Smart Energy</h3>
+        <h3 className="display-3 mb-3 pe-xxl-5 text-green1">Smart Energy</h3>
         <p className="mb-5">At Eternal Renewables, we strive to be at the forefront of smart energy solutions, developing and managing integrated systems to ensure a net-zero carbon future, which include:</p>
 
         {processList7.map(({ id, title, description, Icon }, i) => {
@@ -49,7 +49,7 @@ export default function SmartEnergy() {
               </div>
 
               <div>
-                <h4 className="mb-1 text-blue">{title}</h4>
+                <h4 className="mb-1 text-orange1">{title}</h4>
                 <p className="mb-1">{description}</p>
               </div>
             </div>

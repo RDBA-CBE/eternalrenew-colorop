@@ -40,16 +40,16 @@ export default function EternalEPC() {
         <div className="row text-center  mb-5">
         <div className="col-md-12 offset-md-1 col-lg-10 ">
           {/* <h2 className="fs-15 text-uppercase text-muted mb-3">App Features</h2> */}
-          <h3 className="display-3 px-xxl-11 text-green">
+          <h3 className="display-3 px-xxl-11 text-white">
           Eternal EPC
           </h3>
-          <h4>Adhering to global best practices and using Tier-one equipment for optimal performance and long-term success.</h4>
+          <h4 className="text-white">Adhering to global best practices and using Tier-one equipment for optimal performance and long-term success.</h4>
         </div>
       </div>
 
       <div className="row gx-lg-8 gx-xl-12 gy-8 mb-5">
         {serviceList.map(({ Icon, color, ...item }) => (
-          <div className="col-md-6 col-lg-4" key={item.id}>
+          <div className="col-md-6 col-lg-4 " key={item.id}>
             <EternalEpcCard {...item} Icon={Icon} />
           </div>
         ))}

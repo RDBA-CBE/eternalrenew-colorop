@@ -46,7 +46,7 @@ export default function ServiceList() {
         <div className="row d-flex align-items-start gy-10">
           <div className="col-lg-5 position-lg-sticky" style={{ top: "8rem" }}>
             {/* <h2 className="fs-16 text-uppercase text-muted mb-3">What We Do?</h2> */}
-            <h3 className="display-3 ls-xs mb-3 text-green">
+            <h3 className="display-3 ls-xs mb-3 text-green1">
             From Solar Panels to Smart Grids – We Do It All
             </h3>
             <p className="mb-0 mb-md-7">
@@ -68,14 +68,14 @@ export default function ServiceList() {
           </div>
           <div className="col-lg-6 ms-auto mt-6">
             {services.map((service) => (
-              <div className="card mb-6 bg-yellow1" key={service.id}>
+              <div className="card mb-6 bg-orange1" key={service.id}>
                 <div className="card-body d-flex flex-row ">
                   <div>
                     <img src={service.image} className="w-13 me-5" alt={service.title} />
                   </div>
                   <div>
-                    <h3 className="fs-22 ls-xs mb-2 text-dark">{service.title}</h3>
-                    <p className="mb-0">{service.description}</p>
+                    <h3 className="fs-22 ls-xs mb-2 text-white">{service.title}</h3>
+                    <p className="mb-0 text-white">{service.description}</p>
                   </div>
                 </div>
               </div>
