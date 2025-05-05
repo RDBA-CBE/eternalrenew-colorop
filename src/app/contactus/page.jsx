@@ -46,9 +46,9 @@ export default function ContactUs() {
           className="wrapper image-wrapper bg-image  text-white"
           style={{ backgroundImage: "url(/img/photos/contactus-bg.jpg)" }}
           >
-          <div className="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
+          <div className="container  pt-17 pb-20 pt-md-19 pb-md-21 text-center">
             <div className="row">
-              <div className="col-lg-8 mx-auto">
+              <div className="col-lg-8 mx-auto ">
                 <h1 className="display-1 fs-45 mb-3 text-black">Get in Touch</h1>
                 {/* <Breadcrumb className="text-white" data={breadcrumb} /> */}
               </div>
@@ -77,17 +77,17 @@ export default function ContactUs() {
                       </div>
                     </div>
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 bg-green1">
                       <div className="p-10 p-md-11 p-lg-14">
                         <div className="d-flex flex-row">
                           <div>
-                            <div className="icon text-primary fs-28 me-4 mt-n1">
+                            <div className="icon text-white fs-28 me-4 mt-n1">
                               <i className="uil uil-location-pin-alt" />
                             </div>
                           </div>
                           <div className="align-self-start justify-content-start">
-                            <h5 className="mb-1 text-blue">Address</h5>
-                            <address className="text-dark fs-17">
+                            <h5 className="mb-1 text-white">Address</h5>
+                            <address className="text-white fs-17">
                             Eternal Renewables Private Limited,<br className="d-none d-md-block" /> No. 118, Nehru Street, Rathinasabapathipuram,<br className="d-none d-md-block" /> T.Kottampatty, Mahalingapuram,<br className="d-none d-md-block" /> Pollachi, Tamilnadu, <br className="d-none d-md-block" />Coimbatore - 642 002, India.
       
                             </address>
@@ -110,14 +110,14 @@ export default function ContactUs() {
 
                         <div className="d-flex flex-row">
                           <div>
-                            <div className="icon text-primary fs-28 me-4 mt-n1">
+                            <div className="icon text-white fs-28 me-4 mt-n1">
                               <i className="uil uil-envelope" />
                             </div>
                           </div>
                           <div>
-                            <h5 className="mb-1 text-blue">E-mail</h5>
+                            <h5 className="mb-1 text-white">E-mail</h5>
                             <p className="mb-0">
-                              <a href="mailto:ceo@eternalrenewables.com" className="link-body text-dark">
+                              <a href="mailto:ceo@eternalrenewables.com" className="link-body text-white">
                               ceo@eternalrenewables.com
                               </a>
                             </p>
@@ -138,7 +138,7 @@ export default function ContactUs() {
             {/* ========== contact form section ========== */}
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 className="display-3 mb-3 text-center text-green">Get in Touch</h2>
+                <h2 className="display-3 mb-3 text-center text-green1">Get in Touch</h2>
                 <p className="lead text-center mb-10 fs-17">
                   To better serve you and get your questions to the right people,Fill up the Form :
                 </p>
@@ -167,14 +167,14 @@ export default function ContactUs() {
           <div className="container">
             <div className="row text-center">
               <div className="col-xl-11 col-xxl-9 mx-auto">
-                <h2 className="display-3  text-green mb-3">Service &amp; Support</h2>
+                <h2 className="display-3  text-green1 mb-3">Service &amp; Support</h2>
                 <p className=" mb-7 px-lg-17">We provide 24/7 to provide expert guidance, technical assistance, and maintenance solutions, ensuring your renewable energy systems perform at their best all through the year.</p>
               </div>
             </div>
 
             <div className="d-flex justify-content-center">
               <span>
-                <a className="btn btn-lg btn-primary rounded-pill py-2">Get Started</a>
+                <a className="btn btn-lg btn-soft-primary rounded-pill py-2">Get Started</a>
               </span>
             </div>
           </div>
