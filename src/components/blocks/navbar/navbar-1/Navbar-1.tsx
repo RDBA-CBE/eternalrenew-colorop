@@ -24,6 +24,7 @@ import ProjectsNavItem from "../components/projects-nav-item";
 import DocumentationNavItem from "../components/documentation-nav-item";
 import LetsConnect from "../components/LetsConnect"
 import MediaNavItem from "../components/media-nav-item";
+import WhyChooseUsNavItem from "../components/why-choose-us-nav-item";
 import Link from "next/link";
 
 // ===================================================================
@@ -91,11 +92,12 @@ export default function NavbarOne({
               </Link>
             </li>
 
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
             <a href="whychooseus"  className="nav-link text-blue" >
             Why Choose Us
               </a>
-            </li>
+            </li> */}
+            <WhyChooseUsNavItem/>
 
             <li className="nav-item ">
             <a href="whatwedo"  className="nav-link text-blue" >

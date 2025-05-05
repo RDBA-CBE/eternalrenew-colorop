@@ -19,22 +19,23 @@ export default function HeroBanner() {
     {
       title:"Reliable and sustainable growth",
       description:"Over 25 years of experience driving India’s clean energy transition",
-      src:"/img/home/wind-solar-hybrid.jpg",
+      src:"/img/home/banner-2.jpg",
       // src:"media/banner-vid1.mp4"
 
     },
-    {
-      title:"Educating and inspiring communities",
-      description:"Making sustainable energy solutions easy and affordable",
-      src:"/img/home/ground-mounted-banner.jpg"
-
-    },
+    
     {
       title:"Reducing dependence on fossil fuels ",
       description:"Driving India’s renewable energy targets with high-quality, reliable and impactful assets",
-      src:"/img/home/rooftop-solar-banner.jpg"
+      src:"/img/home/banner-4.jpg"
 
-    }
+    },
+    {
+      // title:"Educating and inspiring communities",
+      // description:"Making sustainable energy solutions easy and affordable",
+      src:"/img/home/banner-3.jpg"
+
+    },
   ]
   return (
     <div className="swiper-container blog grid-view mb-13">

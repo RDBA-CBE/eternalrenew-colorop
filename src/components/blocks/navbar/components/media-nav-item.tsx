@@ -9,6 +9,7 @@ export default function MediaNavItem() {
         { id: 2, url: "/testimonials", title: "Testimonials" },
         { id: 3, url: "/casestudies", title: "Case Studies" },
         { id: 4, url: "/blogs", title: "Blogs" },
+        { id: 5, url: "#", title: "Download" },
       ];
 
       const mediaMblNavigation = [
@@ -17,6 +18,7 @@ export default function MediaNavItem() {
         { id: 3, url: "/testimonials", title: "Testimonials" },
         { id: 4, url: "/casestudies", title: "Case Studies" },
         { id: 5, url: "/blogs", title: "Blogs" },
+        { id: 6, url: "#", title: "Download" },
       ];
   return (
     <li className="nav-item dropdown">
