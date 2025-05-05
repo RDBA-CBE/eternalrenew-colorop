@@ -66,7 +66,7 @@ export default function ContactUs() {
                     <div className="col-lg-6 align-self-stretch">
                       <div className="map map-full rounded-top rounded-lg-start">
                         <iframe 
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.854393695361!2d77.01295023006428!3d10.668408012332982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba837847551d481%3A0xbf64260fa08ceb00!2sState%20Bank%20Colony%2C%20Mahalakshmi%20Nagar%2C%20Pollachi%2C%20Tamil%20Nadu%20642002!5e0!3m2!1sen!2sin!4v1744885380001!5m2!1sen!2sin"
+                          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3920.8745273781806!2d77.01946287504033!3d10.666846089475307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDQwJzAwLjciTiA3N8KwMDEnMTkuMyJF!5e0!3m2!1sen!2sin!4v1745992742863!5m2!1sen!2sin"
                   
                           style={{ border: 0 ,width:"100%",height:"100%"}}
                           allowFullScreen
@@ -88,13 +88,13 @@ export default function ContactUs() {
                           <div className="align-self-start justify-content-start">
                             <h5 className="mb-1 text-blue">Address</h5>
                             <address className="text-dark fs-17">
-                              #25,1st Floor,State Bank Colony,<br className="d-none d-md-block" />Mahalingapuram Post, Pollachi,<br className="d-none d-md-block" />Coimbatore - 642 002.
+                            Eternal Renewables Private Limited,<br className="d-none d-md-block" /> No. 118, Nehru Street, Rathinasabapathipuram,<br className="d-none d-md-block" /> T.Kottampatty, Mahalingapuram,<br className="d-none d-md-block" /> Pollachi, Tamilnadu, <br className="d-none d-md-block" />Coimbatore - 642 002, India.
       
                             </address>
                           </div>
                         </div>
 
-                        <div className="d-flex flex-row">
+                        {/* <div className="d-flex flex-row">
                           <div>
                             <div className="icon text-primary fs-28 me-4 mt-n1">
                               <i className="uil uil-phone-volume" />
@@ -106,7 +106,7 @@ export default function ContactUs() {
                               +91 99761 89999 
                             </p>
                           </div>
-                        </div>
+                        </div> */}
 
                         <div className="d-flex flex-row">
                           <div>
