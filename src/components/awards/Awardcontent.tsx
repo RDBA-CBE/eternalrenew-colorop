@@ -23,7 +23,7 @@ export default function Awardcontent({ image, title, }: ProjectCard4Props) {
       <div className="card-body p-7">
         <div className="post-header">
           
-          <h3 className="mb-0">{title}</h3>
+          <h3 className="mb-0 text-green1">{title}</h3>
         </div>
       </div>
     </div>
