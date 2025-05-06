@@ -57,7 +57,7 @@ export default function EternalEnergy() {
 
                 <div className="col-12">
                     <figure className="rounded mx-md-5">
-                    <img src="/img/how-we-do/External-energy/image.jpg"  alt="G 11" />
+                    <img src="/img/how-we-do/External-energy/external-enegry.jpg"  alt="G 11" />
                     </figure>
                 </div>
                 </div>

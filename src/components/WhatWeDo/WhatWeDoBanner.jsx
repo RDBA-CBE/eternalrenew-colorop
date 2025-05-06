@@ -7,7 +7,7 @@ export default function WhatWeDoBanner() {
     <section className="wrapper bg-soft-primary position-relative min-vh-60 d-lg-flex align-items-center">
       <div
         className="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100"
-        style={{ backgroundImage: "url(/img/photos/what-we-do-img.jpg)" }}>
+        style={{ backgroundImage: "url(img/what-we-do/what-we-do.jpg)" }}>
         {/* <a
           data-glightbox=""
           href="/media/movie3.mp4"

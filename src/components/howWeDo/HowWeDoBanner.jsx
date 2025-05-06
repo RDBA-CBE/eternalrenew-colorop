@@ -23,14 +23,14 @@ export default function HowWeDoBanner() {
                 <div className="row text-center mb-5 mb-md-10">
                     <div className="col-12 mt-n18 mt-md-n22">
                     <figure>
-                        {/* <img
+                        <img
                         alt=""
                         className="w-auto rounded"
-                        src="/img/how-we-do/image.jpg"
-                        
-                        /> */}
+                        src="/img/how-we-do/header-image.jpg"
 
-                        <video loop muted autoPlay playsInline className="w-auto rounded" id="1187841"  src="/media/how-we-do.mp4" />
+                        />
+
+                        {/* <video loop muted autoPlay playsInline className="w-auto rounded" id="1187841"  src="/media/how-we-do.mp4" /> */}
                     </figure>
                     
                     </div>
