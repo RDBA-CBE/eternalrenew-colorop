@@ -25,9 +25,9 @@ export default function Blog2() {
         <div className="shape  rellax w-17 h-20" style={{ top: 0, left: "-1.7rem" }} />
 
         <div className="swiper-container dots-closer blog grid-view mb-6 ">
-          <Carousel grabCursor spaceBetween={0} navigation={false} breakpoints={carouselBreakpoints}>
+          <Carousel grabCursor spaceBetween={40} navigation={false} breakpoints={carouselBreakpoints}>
             {blogList.map((item) => (
-              <div className="item-inner " key={item.id}>
+              <div className="item-inner px-0" key={item.id}>
                 <BlogCard4 {...item} />
               </div>
             ))}
