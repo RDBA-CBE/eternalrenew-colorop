@@ -43,7 +43,7 @@ export default function WhatWeDo() {
                     <div className="col-lg-6 position-relative">
                         {/* <Banner4 hideShape btnColor="white" /> */}
                         <figure className="rounded">
-                            <img src={`/img/what-we-do/what-we-do-img.jpg`} srcSet={`/img/home/what-we-do.jpg 2x`} alt="what we do "  />
+                            <img src={`/img/home/Our-project/ground-solar-system.jpg`}  alt="what we do "  />
                         </figure>
                     </div>
                 </div>
