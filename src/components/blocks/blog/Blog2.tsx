@@ -16,7 +16,7 @@ export default function Blog2() {
         <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
           <h2 className="fs-15 text-uppercase mb-3 text-white">Stay updated on the latest trends</h2>
           <h3 className="display-3-n mb-6 ">
-            Events and Media
+            Events and Mediaa
           </h3>
         </div>
       </div>
