@@ -24,8 +24,8 @@ export default function HowWeDo() {
                 }
                 `}
             </style>
-        <section className="wrapper  mt-0 hm-HowWeDo" style={{position:"relative",zIndex:"100",paddingTop:"400px"}}>
-            <div className="container pb-10 pb-md-12 h-auto" >
+        <section className="wrapper  mt-0 hm-HowWeDo" style={{position:"relative",zIndex:"100",paddingTop:"500px"}}>
+            <div className="container  h-auto" >
                 <div className="row text-center h-auto" >
                     <div className="col-lg-12 mx-auto h-auto" style={{position:"relative", top:"-100px"}}>
                         <h2 className="fs-15 text-uppercase mb-3 text-white">Turning Potential into Power</h2>
