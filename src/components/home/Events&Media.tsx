@@ -28,7 +28,7 @@ export default function EventsAndMedia() {
             </style>
 
         <section className="wrapper hm-eventsAndmedia" style={{position:"relative",zIndex:"100"}}>
-            <div className="container  py-10 py-md-12">
+            <div className="container  pt-10 pt-md-12">
                 <Blog2 />
             </div>
         </section>

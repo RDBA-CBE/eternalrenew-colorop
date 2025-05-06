@@ -38,7 +38,7 @@ export default function WhatWeDo() {
                                 </div>
                             ))}
                         </div>
-                        <NextLink title="know More" href="/whatwedo" className="btn btn-soft-primary rounded-pill mt-2 mb-0" />
+                        <NextLink title="Know More" href="/whatwedo" className="btn btn-soft-primary rounded-pill mt-6 mb-0" />
                     </div>
                     <div className="col-lg-6 position-relative">
                         {/* <Banner4 hideShape btnColor="white" /> */}

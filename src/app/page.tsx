@@ -45,25 +45,26 @@ export default function Demo20() {
       {/* ========== what We Do section ========== */}
       <WhatWeDo />
 
+      {/* ========== How We Do section ========== */}
       <HowWeDo />
+
+
+      {/* ========== Our Projects section ========== */}
       <OurProjects />
 
+      {/* ========== Sustainability section ========== */}
+
       <Sustainability />
+
+
+      {/* ========== Events And Media section ========== */}
 
       <EventsAndMedia />
 
 
-      <div className="page-frame bg-pale-primary">
-        {/* ========== How We Do section ========== */}
-        
-
-        {/* ========== Our Projects section ========== */}
-        
-
-        {/* ========== Sustainability section ========== */}
-        
-      </div>
-      {/* ========== Events And Media section ========== */}
+      {/* <div className="page-frame bg-pale-primary">
+      </div> */}
+      
       
 
       {/* </main> */}

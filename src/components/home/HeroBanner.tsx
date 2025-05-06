@@ -39,16 +39,16 @@ export default function HeroBanner() {
   ]
 
   return (
-    <div className="swiper-container blog grid-view mb-13">
+    <div className="swiper-container blog grid-view mb-5 home-ban">
     <Carousel  navigation={false} breakpoints={carouselBreakpoints}
     autoplay={{ delay: 3000, disableOnInteraction: false }}
     slidesPerView={1}
     loop
-
+    // pagination={false}
     >
 
     {bannerContent.map((item:any,index:any)=>(
-      <section key={index} className="video-wrapper px-0 mt-0 min-vh-80">
+      <section key={index} className="video-wrapper px-0 mt-0 min-vh-80 ">
       <video loop muted autoPlay playsInline id="1187841" poster={item?.src} src={item?.src} />
 
       <div className="video-content">

@@ -9,10 +9,10 @@ export default function Footer12() {
     <footer className=" text-inverse text-white mt-0 bg-orange1">
       <div className="container-fluid py-10 py-md-10">
         <div className="row gy-6 gy-lg-0">
-          <div className="col-md-10 mx-auto px-0" >
-            <div className="container-fluid">
+          <div className="col-12 col-lg-10 col-xl-12 mx-auto px-0 " >
+            <div className="container">
               <div className="row">
-              <div className="col-md-12 col-lg-6 col-xl-3">
+              <div className="col-md-12 col-lg-6 col-xl-3 ps-0">
             <div className="widget">
               <Link href="/"><img className="mb-4 footer-img" src="/img/sandbox-logo/Footer-logo-white.png" srcSet="/img/sandbox-logo/Footer-logo-white @2x.png 2x" alt="" style={{width:"auto", objectFit:"contain"}}/></Link>
               
@@ -27,7 +27,7 @@ export default function Footer12() {
             </div>
           </div>
 
-          <div className="col-md-12 col-lg-3 col-xl-3 text-white pt-md-2 fw-normal pt-5">
+          <div className="col-md-12 col-lg-3 col-xl-3 text-white pt-md-2 fw-normal pt-5 ">
             <div className="widget">
               <h4 className="widget-title text-white mb-3 ">Get in Touch</h4>
               <address className="mb-2">Eternal Renewables Private Limited,<br /> No. 118, Nehru Street, Rathinasabapathipuram,<br /> T.Kottampatty, Mahalingapuram,<br /> Pollachi, Tamilnadu, <br />Coimbatore - 642 002, India.</address>
