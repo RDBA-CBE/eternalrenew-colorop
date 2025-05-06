@@ -4,8 +4,26 @@ import { ProjectCard3 } from "components/reuseable/project-cards";
 import { portfolioList6 } from "data/portfolio";
 
 export default function OurProjects() {
+
   return (
-    <section className="wrapper bg-green1 home-project">
+    <>
+    <style>
+                {`
+                .home-project::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: url(img/home/our-projects.png) #004233 no-repeat center center;
+                   
+                    z-index: -1;
+                }
+                `}
+            </style>
+  
+    <section className="wrapper bg-green1 home-project" style={{position:"relative",zIndex:"100"}}>
       <div className="container py-10 py-md-12">
         <div className="row">
           <div className="col-lg-11 col-xl-10 mx-auto mb-10">
@@ -31,5 +49,7 @@ export default function OurProjects() {
         </div>
       </div>
     </section>
+
+    </>
   );
 }

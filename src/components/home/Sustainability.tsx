@@ -7,7 +7,25 @@ import { processList10 } from "data/process";
 
 export default function Sustainability() {
     return (
-        <section className="wrapper " style={{background:"url('/img/home/Substainability/bg.jpg')"}}>
+        <>
+        
+            <style>
+                {`
+                .hm-sustainability::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: url(img/home/substainability.png) #004233 no-repeat center center;
+                   
+                    z-index: -1;
+                }
+                `}
+            </style>
+     
+        <section className="wrapper hm-sustainability" style={{position:"relative",zIndex:"100"}}>
             <div className="container py-10 py-md-12">
 
 
@@ -32,5 +50,7 @@ export default function Sustainability() {
 
             </div>
         </section>
+
+        </>
     );
 }

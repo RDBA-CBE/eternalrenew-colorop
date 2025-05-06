@@ -6,7 +6,24 @@ import { aboutList4 } from "data/about";
 
 export default function WhatWeDo() {
     return (
-        <section className="wrapper bg-green1">
+        <>
+        <style>
+                {`
+                .hm-whatwedosec::before {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: url(img/home/what-we-do.png) #004233 no-repeat center center;
+                    z-index: -1;
+                    overflow:hidden
+                }
+                `}
+            </style>
+        
+        <section className="wrapper hm-whatwedosec bg-green1" style={{position:"relative",zIndex:"100"}}>
             <div className="container py-10 py-md-12">
                 <div className="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center">
 
@@ -32,5 +49,6 @@ export default function WhatWeDo() {
                 </div>
             </div>
         </section>
+        </>
     );
 }

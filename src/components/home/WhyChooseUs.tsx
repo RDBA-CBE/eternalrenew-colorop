@@ -4,7 +4,24 @@ import VideoPlyr from "components/reuseable/VideoPlyr";
 
 export default function WhyChooseUs() {
   return (
-    <section className="wrapper bg-orange1">
+    <>
+    <style>
+                {`
+                .hm-WhyChooseUs::before {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: url(img/home/why-choose-us.png) #004233 no-repeat center center;
+                    z-index: -1;
+                    
+                }
+                `}
+            </style>
+   
+    <section className="wrapper hm-WhyChooseUs" style={{position:"relative",zIndex:"100"}}>
       <div className="container py-10 py-md-12">
         <div className="row text-center mb-10">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
@@ -66,6 +83,8 @@ export default function WhyChooseUs() {
         </div> */}
       </div>
     </section>
+
+    </>
   );
 }
 

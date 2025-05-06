@@ -106,56 +106,56 @@ export const processList5 = [
     color: "red",
     title: "Eternal Energy",
     subtitle: "Ensuring Efficiency and Value Across Every Step of the Supply Chain.",
-    icon:"/img/home/How-We-Do/eternal-energy.png"
+    icon:"/img/home/How-We-Do/icon-1.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Eternal EPC",
     subtitle: "Driving Success with Tier-one Equipment and global best practices.",
-     icon:"/img/home/How-We-Do/eternal-epc.png"
+     icon:"/img/home/How-We-Do/icon-2.png"
   },
   {
     Icon: Loading,
     color: "yellow",
     title: "Risk Management",
     subtitle: "Adopting smart, mindful risk and WHS strategies for smooth execution.",
-     icon:"/img/home/How-We-Do/risk-management.png"
+     icon:"/img/home/How-We-Do/icon-3.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Project Development",
     subtitle: "Adopting a multi-disciplinary approach, addressing every detail in our solar projects.",
-     icon:"/img/home/How-We-Do/project-development.png"
+     icon:"/img/home/How-We-Do/icon-4.png"
   },
   {
     Icon: Loading,
     color: "yellow",
     title: "Eternal O&M",
     subtitle: "Ensuring consistent performance of your solar assets, with real-time monitoring.",
-     icon:"/img/home/How-We-Do/eternal-o-m.png"
+     icon:"/img/home/How-We-Do/icon-5.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Long-term Management",
     subtitle: "Advanced analytics and proactive strategies for reliable, long-term performance.",
-     icon:"/img/home/How-We-Do/long-term-management.png"
+     icon:"/img/home/How-We-Do/icon-6.png"
   },
   {
     Icon: Loading,
     color: "yellow",
     title: "Operation & Maintenance",
     subtitle: "End-to-end support for uninterrupted, high-performance renewable energy.",
-     icon:"/img/home/How-We-Do/operation-maintenance.png"
+     icon:"/img/home/How-We-Do/icon-7.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Smart Energy",
     subtitle: "Decentralized solar, advanced storage and clean hydrogen to power the future.",
-     icon:"/img/home/How-We-Do/smart-energy.png"
+     icon:"/img/home/How-We-Do/icon-8.png"
   }
 ];
 

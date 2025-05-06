@@ -38,24 +38,33 @@ export default function Demo20() {
         <HeroBanner />
 
         {/* ========== Why Choose Us section ========== */}
-        <WhyChooseUs />
+        
       </div>
+      <WhyChooseUs />
 
       {/* ========== what We Do section ========== */}
       <WhatWeDo />
 
+      <HowWeDo />
+      <OurProjects />
+
+      <Sustainability />
+
+      <EventsAndMedia />
+
+
       <div className="page-frame bg-pale-primary">
         {/* ========== How We Do section ========== */}
-        <HowWeDo />
+        
 
         {/* ========== Our Projects section ========== */}
-        <OurProjects />
+        
 
         {/* ========== Sustainability section ========== */}
-        <Sustainability />
+        
       </div>
       {/* ========== Events And Media section ========== */}
-      <EventsAndMedia />
+      
 
       {/* </main> */}
       <div className="page-frame bg-pale-primary">

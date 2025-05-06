@@ -8,10 +8,26 @@ import animation from "utils/animation";
 
 export default function HowWeDo() {
     return (
-        <section className="wrapper bg-orange1 mt-0">
-            <div className="container py-10 py-md-12">
+        <>
+            <style>
+                {`
+                .hm-HowWeDo::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: url(img/home/how-we-do.png) #004233 no-repeat center center;
+                   
+                    z-index: -1;
+                }
+                `}
+            </style>
+        <section className="wrapper  mt-0 hm-HowWeDo" style={{position:"relative",zIndex:"100",paddingTop:"400px"}}>
+            <div className="container pb-10 pb-md-12" >
                 <div className="row text-center">
-                    <div className="col-lg-9 mx-auto">
+                    <div className="col-lg-9 mx-auto" style={{position:"relative", top:"-100px"}}>
                         <h2 className="fs-15 text-uppercase mb-3 text-white">Turning Potential into Power</h2>
                         <h3 className="display-3-n mb-0 text-center px-xl-10 px-xxl-15 " >
                             How We Do
@@ -33,5 +49,6 @@ export default function HowWeDo() {
 
             </div>
         </section>
+        </>
     );
 }
