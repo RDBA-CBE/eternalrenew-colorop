@@ -233,3 +233,11 @@ figure video {
   color: #004233 !important;
   border: 1px solid #004233 !important;
 }
+
+.progress-wrap:after{
+  color: #fff !important;
+}
+
+.progress-wrap svg.progress-circle path{
+  stroke: #fff !important;
+}
