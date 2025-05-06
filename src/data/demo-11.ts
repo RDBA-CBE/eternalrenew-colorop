@@ -14,7 +14,7 @@ const blogList = [
   {
     id: 1,
     category: 'Coding',
-    date: '14 Apr 2022',
+    date: '14 Apr 2025',
     image: '/img/home/News-&-Events/1.jpg',
     title: 'Ligula tristique quis risus',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
@@ -22,7 +22,7 @@ const blogList = [
   {
     id: 2,
     category: 'Workspace',
-    date: '29 Mar 2022',
+    date: '29 May 2025',
     image: '/img/home/News-&-Events/2.jpg',
     title: 'ullam id dolor elit id nibh',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
@@ -30,7 +30,7 @@ const blogList = [
   {
     id: 3,
     category: 'Meeting',
-    date: '26 Feb 2022',
+    date: '26 Apr 2025',
     image: '/img/home/News-&-Events/3.jpg',
     title: 'Ultricies fusce porta elit',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
@@ -38,7 +38,7 @@ const blogList = [
   {
     id: 4,
     category: 'Business Tips',
-    date: '7 Jan 2022',
+    date: '7 Apr 2025',
     image: '/img/home/News-&-Events/1.jpg',
     title: 'Morbi leo risus porta eget',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
