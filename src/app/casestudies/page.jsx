@@ -68,7 +68,7 @@ export default function Demo10() {
         {/* ========== services section ========== */}
         {/* <MediaList /> */}
 
-        <Blog title="Case Studies" subtitle="Tangible Results. Meaningful Change.Explore how Eternal Renewables is powering change. Our case studies showcase real-world success stories across residential, commercial, and industrial sectors." blogList1={blogList1}/>
+        <Blog title="Case Studies" subtitle="Tangible Results. Meaningful Change. Explore how Eternal Renewables is powering change. Our case studies showcase real-world success stories across residential, commercial, and industrial sectors." blogList1={blogList1}/>
 
 
     

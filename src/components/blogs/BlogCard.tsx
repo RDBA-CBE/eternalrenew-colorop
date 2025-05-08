@@ -15,7 +15,7 @@ export default function BlogCard(props: any) {
             <h2 className="fs-16 text-uppercase text-line text-green1 mb-3">
               {title}
             </h2>
-            <h3 className="display-3 text-orange1 mb-9">
+            <h3 className="display-6 text-orange1 mb-9">
              {subtitle}
             </h3>
           </div>

@@ -41,28 +41,28 @@ export const aboutList3 = [
 export const aboutList4 = [
   {
     id: 1,
-    Icon: "/img/home/plants.png",
+    Icon: "/img/home/icon-9.gif",
     color: 'fuchsia',
     title: 'Quality Plants',
     description: 'Surpassing expectations with energy-efficient, reliable and durable renewable energy plants.'
   },
   {
     id: 2,
-    Icon: "/img/home/holistic.png",
+    Icon: "/img/home/icon-10.gif",
     color: 'violet',
     title: 'Holistic Approach',
     description: 'Sustainable, profitable energy solutions with a 360° approach to every project detail.'
   },
   {
     id: 3,
-    Icon: "/img/home/business.png",
+    Icon: "/img/home/icon-11.gif",
     color: 'orange',
     title: 'Business Relationship',
     description: 'Building trust by delivering customized energy solutions that meet your unique goals.'
   },
   {
     id: 4,
-    Icon:"/img/home/knowledge.png",
+    Icon:"/img/home/icon-12.gif",
     color: 'green',
     title: 'Market Knowledge',
     description: 'Expertise in identifying the best opportunities and maximizing performance and ROI.'
