@@ -1,7 +1,7 @@
 // GLOBAL CUSTOM COMPONENTS
 import Navbar from "components/blocks/navbar/navbar-1";
 import { Hero20 } from "components/blocks/hero";
-import { Facts14 } from "components/blocks/facts";
+import { Facts14, Facts7 } from "components/blocks/facts";
 import { About21 } from "components/blocks/about";
 import { Footer12 } from "components/blocks/footer";
 import { Clients5 } from "components/blocks/clients";
@@ -15,6 +15,7 @@ import HowWeDo from "components/home/HowWeDo";
 import OurProjects from "components/home/OurProjects";
 import Sustainability from "components/home/Sustainability";
 import EventsAndMedia from "components/home/Events&Media";
+import HomeCounter from "components/home/HomeCounter";
 
 export default function Demo20() {
   return (
@@ -36,6 +37,8 @@ export default function Demo20() {
         {/* <main className="content-wrapper"> */}
         {/* ========== hero section ========== */}
         <HeroBanner />
+
+        <HomeCounter />
 
         {/* ========== Why Choose Us section ========== */}
         
@@ -59,7 +62,7 @@ export default function Demo20() {
 
       {/* ========== Events And Media section ========== */}
 
-      <EventsAndMedia />
+      {/* <EventsAndMedia /> */}
 
 
       {/* <div className="page-frame bg-pale-primary">

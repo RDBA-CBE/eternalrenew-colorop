@@ -15,7 +15,7 @@ export default function Counter1({ title, number, titleColor = "" }: CounterProp
         <CountUp end={number} suffix="+" />
       </h3>
 
-      <p>{title}</p>
+      <p className="text-white">{title}</p>
     </div>
   );
 }

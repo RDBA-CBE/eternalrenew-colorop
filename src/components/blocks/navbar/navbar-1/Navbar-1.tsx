@@ -92,12 +92,13 @@ export default function NavbarOne({
               </Link>
             </li>
 
-            {/* <li className="nav-item ">
-            <a href="whychooseus"  className="nav-link text-blue" >
-            Why Choose Us
+            
+            <li className="nav-item ">
+            <a href="projects"  className="nav-link text-blue" >
+            Projects
               </a>
-            </li> */}
-            <WhyChooseUsNavItem/>
+            </li>
+            
 
             <li className="nav-item ">
             <a href="whatwedo"  className="nav-link text-blue" >
@@ -112,18 +113,19 @@ export default function NavbarOne({
             </li>
 
             <li className="nav-item ">
-            <a href="projects"  className="nav-link text-blue" >
-            Projects
+            <a href="whychooseus"  className="nav-link text-blue" >
+            Why Choose Us
               </a>
             </li>
+            {/* <WhyChooseUsNavItem/> */}
 
-            {/* <li className="nav-item ">
+            <li className="nav-item ">
             <a href="media"  className="nav-link text-blue" >
            Media
               </a>
-            </li> */}
+            </li>
             
-            <MediaNavItem/>
+            {/* <MediaNavItem/> */}
 
             <li className="nav-item ">
             <a href="contactus"  className="nav-link text-blue" >
