@@ -1,4 +1,5 @@
 // GLOBAL CUSTOM COMPONENTS
+"use client"
 import Navbar from "components/blocks/navbar/navbar-1";
 import { Hero20 } from "components/blocks/hero";
 import { Facts14 } from "components/blocks/facts";
@@ -17,12 +18,30 @@ import Sustainability from "components/home/Sustainability";
 import EventsAndMedia from "components/home/Events&Media";
 import Breadcrumb from "components/reuseable/Breadcrumb";
 import ContactForm from "components/common/ContactForm";
+import { useEffect, useState } from "react";
 
 export default function ContactUs() {
   const breadcrumb = [
     { id: 1, title: "Home", url: "/" },
     { id: 2, title: "Contact", url: "#" }
   ];
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth <= 375);
+    };
+
+    // Initial check
+    checkScreenSize();
+
+    // Update on resize
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
+
   return (
     <>
       <div className=" bg-pale-primary">
@@ -160,7 +179,8 @@ export default function ContactUs() {
                 width="100%"
                 className="contact-form-iframe"
                  style={{ border: "none" }}
-                  scrolling="yes"
+                  scrolling={isMobile ?"yes":"no"}
+                  
                 ></iframe>
                 
 

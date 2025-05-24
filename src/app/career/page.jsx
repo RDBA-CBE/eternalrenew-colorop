@@ -1,5 +1,7 @@
-import { Fragment } from "react";
+"use client"
+import { Fragment, useEffect, useState } from "react";
 // GLOBAL CUSTOM COMPONENTS
+
 import MasonryGrid from "components/MasonryGrid";
 import { FAQ2 } from "components/blocks/faq";
 import { JobPostCard1 } from "components/reuseable/job-cards";
@@ -42,6 +44,21 @@ export default function Career() {
       },
      
     ];
+    const [isMobile, setIsMobile] = useState(false);
+    
+      useEffect(() => {
+        const checkScreenSize = () => {
+          setIsMobile(window.innerWidth <= 375);
+        };
+    
+        // Initial check
+        checkScreenSize();
+    
+        // Update on resize
+        window.addEventListener('resize', checkScreenSize);
+    
+        return () => window.removeEventListener('resize', checkScreenSize);
+      }, []);
   return (
 
     <Fragment>
@@ -128,14 +145,15 @@ export default function Career() {
               <p className="lead text-center mb-10 fs-17">
                 Reach out to us from our contact form and we will get back to you shortly.
               </p>
-               <iframe
+              <iframe
                 src="https://connect.irepute.in/file/eternal-renewables-contactus/"
                 
 
                 width="100%"
                 className="contact-form-iframe"
                  style={{ border: "none" }}
-                  scrolling="yes"
+                  scrolling={isMobile ?"yes":"no"}
+                  
                 ></iframe>
               {/* <CareerForm/> */}
             </div>
