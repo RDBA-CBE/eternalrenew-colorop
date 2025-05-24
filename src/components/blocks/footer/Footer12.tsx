@@ -12,7 +12,7 @@ export default function Footer12() {
           <div className="col-12 col-lg-10 col-xl-12 mx-auto px-0 " >
             <div className="container">
               <div className="row">
-              <div className="col-md-12 col-lg-6 col-xl-3 ps-0">
+              <div className="col-md-12 col-lg-6 col-xl-3 ps-lg-0">
             <div className="widget">
               <Link href="/"><img className="mb-4 footer-img" src="/img/sandbox-logo/Footer-logo-white.png" srcSet="/img/sandbox-logo/Footer-logo-white @2x.png 2x" alt="" style={{width:"auto", objectFit:"contain"}}/></Link>
               
