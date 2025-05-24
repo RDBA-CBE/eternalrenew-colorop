@@ -92,7 +92,7 @@ export default function Career() {
               </div>
 
               <figure className="rounded">
-                <img src="/img/photos/career-bg.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="" />
+                <img src="/img/career-bg.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="" />
               </figure>
             </div>
           </div>
