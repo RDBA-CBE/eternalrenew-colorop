@@ -23,7 +23,7 @@ export default function Safety() {
 
       <div className="col-lg-5">
         {/* <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Why Choose Us?</h2> */}
-        <h3 className="display-3 mb-3 text-green1">Safety</h3>
+        <h3 className="display-3-n mb-3 text-green1">Safety</h3>
         <p>We adopt high safety protocols to protect people, prevent harm, and ensure zero leaks across all our operations.</p>
         <SafetyAccordianList />
       </div>

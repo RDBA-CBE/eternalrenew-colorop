@@ -101,7 +101,7 @@ export default function OurCapabilities() {
           <CapabilityCard
             {...item}
             key={item.id}
-            iconBoxClassNames="icon btn btn-block btn-lg bg-green1 pe-none mb-6"
+            iconBoxClassNames="icon btn btn-block btn-lg border pe-none mb-6"
           />
         ))}
       </div>

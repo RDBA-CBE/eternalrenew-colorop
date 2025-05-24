@@ -21,8 +21,8 @@ export default function Demo14() {
       {/* ========== header ========== */}
       <header className="wrapper bg-soft-primary">
         <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          // language
+          // button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
         />
       </header>
 

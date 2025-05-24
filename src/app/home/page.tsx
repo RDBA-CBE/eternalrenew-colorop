@@ -21,11 +21,11 @@ export default function Home() {
       <header className="position-absolute w-100">
         <Navbar
           navClassName="navbar navbar-expand-lg center-nav transparent navbar-light"
-          button={
-            <a href="https://cutt.ly/P4rW6e4" className="btn btn-primary rounded-xl" target="_blank">
-              Purchase Now
-            </a>
-          }
+          // button={
+          //   <a href="https://cutt.ly/P4rW6e4" className="btn btn-primary rounded-xl" target="_blank">
+          //     Purchase Now
+          //   </a>
+          // }
         />
       </header>
 

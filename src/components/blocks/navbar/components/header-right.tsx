@@ -61,7 +61,7 @@ export default function HeaderRight({ info, cart, button, social, search, langua
 
         {/* ============= hamburger button for small device ============= */}
         <li className="nav-item d-lg-none">
-          <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" className="hamburger offcanvas-nav-btn text-blue">
+          <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" className="hamburger offcanvas-nav-btn text-orange1">
             <span />
           </button>
         </li>

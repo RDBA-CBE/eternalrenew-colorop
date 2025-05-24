@@ -19,15 +19,15 @@ export default function Demo34() {
       <header className="wrapper bg-soft-primary">
         <Navbar
           logoAlt="logo-purple"
-          button={
-            <a
-              href="https://1.envato.market/Ea4VxK"
-              className="btn btn-primary rounded-pill"
-              target="_blank"
-              rel="noreferrer">
-              Purchase Now
-            </a>
-          }
+          // button={
+          //   <a
+          //     href="https://1.envato.market/Ea4VxK"
+          //     className="btn btn-primary rounded-pill"
+          //     target="_blank"
+          //     rel="noreferrer">
+          //     Purchase Now
+          //   </a>
+          // }
         />
       </header>
 

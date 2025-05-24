@@ -159,7 +159,7 @@ p{
 
 
   .text-inverse a:not(.btn):hover{
-    color: #34a853;
+    color: #004233;
   }
 
   .navbar-expand-lg .navbar-collapse .nav-link{
@@ -197,7 +197,7 @@ p{
   padding-bottom: 0.3rem;
 }
 .navbar-expand-lg .navbar-collapse .nav-link:hover{
-  color: #165ea5 !important;
+  color: #fff !important;
 }
 
 }
@@ -260,4 +260,11 @@ figure video {
 
 .progress-wrap svg.progress-circle path{
   stroke: #fff !important;
+}
+
+.accordion-wrapper .card-header button{
+  color: #bd7142;
+}
+.accordion-wrapper .card-header button:before{
+  color: #bd7142;
 }

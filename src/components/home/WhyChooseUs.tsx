@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(img/home/why-choose-us.png) #004233 no-repeat center center;
+                    background: url(img/home/why-choose-us.png) #004233 no-repeat ;
                     z-index: -1;
                     
                 }

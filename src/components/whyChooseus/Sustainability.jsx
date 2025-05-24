@@ -43,7 +43,7 @@ export default function Sustainability() {
 
       <div className="col-12 col-lg-6 offset-lg-1">
         {/* <h2 className="fs-16 text-uppercase text-line text-primary mb-3">How It Works?</h2> */}
-        <h3 className="display-3 mb-3 text-white">Sustainabilty</h3>
+        <h3 className="display-3-n mb-3 text-white">Sustainabilty</h3>
         <p className="text-white">At Eternal Renewables, we focus on sustainability and aim to achieve net-zero emissions with our business model by 2050. We strive to create value across our supply chain, stakeholders and the communities we operate in. Sustainability is deeply integrated into our business strategy, driving our innovation and long-term growth while lowering our impact on the environment.</p>
 
         

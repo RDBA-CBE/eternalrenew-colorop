@@ -19,12 +19,12 @@ export default function Demo34() {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-blue pb-2">
         <Navbar
-          language
-          button={
-            <Link href="#" className="btn btn-sm btn-primary rounded">
-              Contact
-            </Link>
-          }
+          // language
+          // button={
+          //   <Link href="#" className="btn btn-sm btn-primary rounded">
+          //     Contact
+          //   </Link>
+          // }
         />
       </header>
 

@@ -33,7 +33,7 @@ export default function EternalEPC() {
                              <div className="icon icon-top fs-17 text-center">
                                 <div className="blockquote-details justify-content-center text-center">
                                     <div className="info ps-0">
-                                    <h2 className="mb-3 display-3 text-white">Eternal EPC</h2>
+                                    <h2 className="mb-3 display-3-n text-white">Eternal EPC</h2>
                                     {/* <p className="mb-0">{designation}</p> */}
                                     </div>
                                 </div>

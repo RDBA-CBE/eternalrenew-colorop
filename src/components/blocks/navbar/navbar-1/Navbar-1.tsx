@@ -79,7 +79,7 @@ export default function NavbarOne({
             type="button"
             aria-label="Close"
             data-bs-dismiss="offcanvas"
-            className="btn-close text-blue ms-auto"
+            className="btn-close text-orange1 ms-auto"
           />
         </div>
 
