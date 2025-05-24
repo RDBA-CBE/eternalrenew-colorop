@@ -143,13 +143,24 @@ export default function ContactUs() {
                   To better serve you and get your questions to the right people,Fill up the Form :
                 </p>
 
-                <iframe
+                {/* <iframe
                 src="https://connect.irepute.in/file/eternal-renewables-contactus/"
+                
+
                 width="100%"
                 className="contact-form-iframe"
                 // style="border: none;"
                 
               scrolling="no"
+                ></iframe> */}
+                <iframe
+                src="https://connect.irepute.in/file/eternal-renewables-contactus/"
+                
+
+                width="100%"
+                className="contact-form-iframe"
+                 style={{ border: "none" }}
+                  scrolling="yes"
                 ></iframe>
                 
 

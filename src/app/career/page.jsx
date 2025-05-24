@@ -128,7 +128,16 @@ export default function Career() {
               <p className="lead text-center mb-10 fs-17">
                 Reach out to us from our contact form and we will get back to you shortly.
               </p>
-              <CareerForm/>
+               <iframe
+                src="https://connect.irepute.in/file/eternal-renewables-contactus/"
+                
+
+                width="100%"
+                className="contact-form-iframe"
+                 style={{ border: "none" }}
+                  scrolling="yes"
+                ></iframe>
+              {/* <CareerForm/> */}
             </div>
           </div>
         </div>
