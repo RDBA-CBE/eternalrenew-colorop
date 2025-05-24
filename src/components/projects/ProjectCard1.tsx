@@ -53,7 +53,7 @@ export default function ProjectCard1() {
                 </div>
                 <div className="col-lg-7">
                   <figure>
-                    <img className="img-fluid" src="/img/photos/ground-mounted-solar.jpg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/ground-mounted-solar.jpg"  alt="" />
                   </figure>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function ProjectCard1() {
 
                 <div className="col-lg-7">
                   <figure>
-                    <img className="img-fluid" src="/img/photos/roof-top-solar.jpg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/roof-top-solar.jpg"  alt="" />
                   </figure>
                 </div>
               </div>
@@ -96,7 +96,7 @@ export default function ProjectCard1() {
 
                 <div className="col-lg-7">
                   <figure>
-                    <img className="img-fluid" src="/img/photos/wind-solar-hybrid.jpg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/wind-solar-hybrid.jpg"  alt="" />
                   </figure>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function ProjectCard1() {
                 <div className="col-lg-5 order-lg-2">
                   {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
                   <h3 className="h1 fs-28 post-title mb-3 text-white">Mini Grid</h3>
-                  <p className="text-white">
+                  <p className="text-white ">
                     Our mini grid solutions combine solar, wind and energy storage systems to provide reliable power to communities, industrial clusters and businesses with limited access to the power grid.
                   </p>
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}
@@ -118,7 +118,7 @@ export default function ProjectCard1() {
   
                 <div className="col-lg-7">
                   <figure>
-                    <img className="img-fluid" src="/img/photos/mini-grid.jpg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/mini-grid.jpg"  alt="" />
                   </figure>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function ProjectCard1() {
 
                 <div className="col-lg-7">
                   <figure>
-                    <img className="img-fluid" src="/img/photos/wind-solar-bess.jpg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/wind-solar-bess.jpg"  alt="" />
                   </figure>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function ProjectCard1() {
    
                 <div className="col-lg-7">
                   <figure>
-                    <img className="img-fluid" src="/img/photos/hydron-production.jpg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/hydron-production.jpg"  alt="" />
                   </figure>
                 </div>
               </div>

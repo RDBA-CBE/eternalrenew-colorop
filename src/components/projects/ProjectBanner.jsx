@@ -34,8 +34,8 @@ export default function ProjectBanner() {
           </div>
 
           <div className="col-lg-6 ms-auto position-relative">
-            <div className="row g-4">
-            <img className="img-fluid " src="/img/photos/ground-mounted-solar .jpg"  alt="" />
+            <div className="row g-4 rounded">
+            <img className="img-fluid rounded p-0" src="/img/photos/ground-mounted-solar .jpg"  alt="" />
               {/* <div className="col-4 d-flex flex-column ms-auto">
                 <div className="ms-auto mt-6" style={fadeInAnimate("900ms")}>
                   <img

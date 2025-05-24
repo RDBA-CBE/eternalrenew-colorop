@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
             </style>
    
     <section className="wrapper hm-WhyChooseUs" style={{position:"relative",zIndex:"100"}}>
-      <div className="container  py-10 py-md-12">
+      <div className="container  py-10 pb-xl-18 pt-md-12">
         <div className="row text-center mb-10">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
             <h2 className="fs-16 text-uppercase mb-3 text-white">Trusted partner for green energy </h2>
