@@ -16,7 +16,7 @@ export default function OurProjects() {
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(img/home/our-projects.png) #004233 no-repeat center center;
+                    background: url(img/home/our-projects.png) #0a1905 no-repeat center center;
                    
                     z-index: -1;
                 }

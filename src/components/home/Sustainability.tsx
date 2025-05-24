@@ -18,7 +18,7 @@ export default function Sustainability() {
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(img/home/substainability.png) #004233 no-repeat center center;
+                    background: url(img/home/substainability.png) #0a1905 no-repeat  center;
                    
                     z-index: -1;
                 }

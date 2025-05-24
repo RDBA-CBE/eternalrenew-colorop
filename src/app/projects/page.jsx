@@ -31,7 +31,7 @@ export default function Demo34() {
         />
       </header>
 
-      <main className="content-wrapper">
+      <main className="content-wrapper bg-green1">
         {/* ========== hero section ========== */}
         <ProjectBanner />
 

@@ -57,7 +57,7 @@ export default function ContactUs() {
         </section>
 
         <div className="wrapper bg-light angled upper-end">
-          <div className="container pb-6 ">
+          <div className="container ">
             {/* ========== contact info section ========== */}
             <div className="row mb-8 mb-md-12 ">
               <div className="col-xl-10 mx-auto mt-n19">
@@ -136,7 +136,7 @@ export default function ContactUs() {
             </div>
 
             {/* ========== contact form section ========== */}
-            <div className="row">
+            <div className="row pt-6 ">
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <h2 className="display-3 mb-3 text-center text-green1">Get in Touch</h2>
                 <p className="lead text-center mb-10 fs-17">

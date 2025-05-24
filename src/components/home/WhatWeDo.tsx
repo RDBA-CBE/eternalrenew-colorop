@@ -16,7 +16,7 @@ export default function WhatWeDo() {
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(img/home/what-we-do.png) #004233 no-repeat center center;
+                    background: url(img/home/what-we-do.png) #0a1905 no-repeat center center;
                     z-index: -1;
                     overflow:hidden
                 }

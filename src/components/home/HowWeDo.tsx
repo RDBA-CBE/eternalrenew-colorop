@@ -18,13 +18,13 @@ export default function HowWeDo() {
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(img/home/how-we-do.png) #004233 no-repeat center center;
+                    background: url(img/home/how-we-do.png) #0a1905 no-repeat center center;
                    
                     z-index: -1;
                 }
                 `}
             </style>
-        <section className="wrapper  mt-0 hm-HowWeDo" style={{position:"relative",zIndex:"100",paddingTop:"500px"}}>
+        <section className="wrapper bg-green1  mt-0 hm-HowWeDo" style={{position:"relative",zIndex:"100",paddingTop:"500px"}}>
             <div className="container  h-auto" >
                 <div className="row text-center h-auto" >
                     <div className="col-lg-12 mx-auto h-auto" style={{position:"relative", top:"-100px"}}>

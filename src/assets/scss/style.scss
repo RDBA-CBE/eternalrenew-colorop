@@ -45,33 +45,33 @@ Author URI:	https://ui-lib.com
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 :root,
 [data-bs-theme=light] {
-  --bs-pale-primary: #004233 !important;
-  --bs-pale-blue: #004233 !important;
-  --bg-soft-primary: #004233 !important;
+  --bs-pale-primary: #0a1905 !important;
+  --bs-pale-blue: #0a1905 !important;
+  --bg-soft-primary: #0a1905 !important;
 }
 
 .bg-soft-primary{
- background-color:#004233 !important ; 
+ background-color:#0a1905 !important ; 
 }
 .bg-soft-blue{
-  background-color:#004233 !important ; 
+  background-color:#0a1905 !important ; 
 }
 .bg-green1{
-  background: #004233 !important;
+  background: #0a1905 !important;
 }
 .bg-gradient-primary {
-  background: linear-gradient(180deg, #004233, rgba(var(--bs-white-rgb), 0) 100%) !important;
+  background: linear-gradient(180deg, #0a1905, rgba(var(--bs-white-rgb), 0) 100%) !important;
 }
 .bg-orange1{
-  background: #bd7142;
+  background: #b15720;
 }
 
 .text-green1{
-  color: #004233;
+  color: #0a1905;
 }
 
 .text-orange1{
-  color: #bd7142 ;
+  color: #b15720 ;
 }
 
 .bg-orange2{
@@ -98,7 +98,7 @@ p, div, li, a{
 }
 
 .btn-soft-primary {
-  --bs-btn-color: #bd7142 !important;
+  --bs-btn-color: #b15720 !important;
   --bs-btn-hover-color: var(--bs-primary);
   --bs-btn-bg: #fff;
   --bs-btn-border-color: #fff;
@@ -159,15 +159,15 @@ p{
 
 
   .text-inverse a:not(.btn):hover{
-    color: #004233;
+    color: #0a1905;
   }
 
   .navbar-expand-lg .navbar-collapse .nav-link{
-    color: #bd7142 !important;
+    color: #b15720 !important;
   }
 
   .navbar-expand-lg.navbar-light .dropdown:not(.dropdown-submenu)>.dropdown-toggle:after{
-    color: #bd7142 !important;
+    color: #b15720 !important;
   }
 
   .blog-banner.wrapper.angled.upper-end:before {
@@ -214,17 +214,17 @@ figure video {
 }
 
 .contact-form-iframe{
-  height: 280px;
+  height: 350px;
 }
 
 @media(max-width:"460px"){
   .contact-form-iframe{
-    height: 690px !important;
+    height: 380px !important;
   }
 }
 
 .post-meta li:before{
-  background-color: #004233 !important;
+  background-color: #0a1905 !important;
 }
 
 
@@ -241,12 +241,12 @@ figure video {
 }
 
 .btn-soft-primary:hover{
-  color: #bd7142 !important;
-  border: 1px solid #bd7142 !important;
+  color: #b15720 !important;
+  border: 1px solid #b15720 !important;
 }
 
 .career-page .btn-soft-primary{
-  border: 1px solid #bd7142;
+  border: 1px solid #b15720;
 }
 
 .career-page .btn-soft-primary:hover{
@@ -263,8 +263,31 @@ figure video {
 }
 
 .accordion-wrapper .card-header button{
-  color: #bd7142;
+  color: #b15720;
 }
 .accordion-wrapper .card-header button:before{
-  color: #bd7142;
+  color: #b15720;
+}
+
+button.hamburger:before, button.hamburger span, button.hamburger:after{
+    background: #b15720;
+}
+
+@media (max-width:1440px){
+.hm-HowWeDo{
+padding-top: 380px !important;
+}
+}
+
+@media (max-width:1100px){
+.hm-HowWeDo{
+padding-top: 200px !important;
+}
+}
+
+
+@media (max-width:700px){
+.hm-HowWeDo::before {
+top: 380px !important;
+}
 }
