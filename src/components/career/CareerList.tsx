@@ -13,7 +13,7 @@ interface ServiceCard3Props {
         <div>{Icon}</div>
   
         <div>
-          <h4 className="mb-1 text-blue">{title}</h4>
+          <h4 className="mb-1 text-green1">{title}</h4>
           <p className="mb-0 text-dark fw-normal ">{description}</p>
         </div>
       </div>

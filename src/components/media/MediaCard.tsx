@@ -35,7 +35,7 @@ export default function MediaCard({
       </div>
       <h4 className="text-green1">{title}</h4>
       <p className="mb-3 ">{description}</p>
-       <NextLink title="Learn More" href={linkUrl} className="more hover text-orange1" />
+       {/* <NextLink title="Learn More" href={linkUrl} className="more hover text-orange1" /> */}
     </div>
   );
 }

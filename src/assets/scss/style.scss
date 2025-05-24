@@ -78,12 +78,23 @@ Author URI:	https://ui-lib.com
   background: #dea05c ;
 }
 
+// h1, h2, h3, h4, h5, h6 {
+//   font-family:'Incised 901', sans-serif;
+// }
+
+
+// p, div, li, a{
+//   font-family: "Archivo", sans-serif !important;
+// }
+
+
 h1, h2, h3, h4, h5, h6 {
-  font-family:'Incised 901', sans-serif;
+  font-family:'Monrope', sans-serif;
 }
 
+
 p, div, li, a{
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Monrope", sans-serif !important;
 }
 
 .btn-soft-primary {
@@ -232,6 +243,15 @@ figure video {
 .btn-soft-primary:hover{
   color: #bd7142 !important;
   border: 1px solid #bd7142 !important;
+}
+
+.career-page .btn-soft-primary{
+  border: 1px solid #bd7142;
+}
+
+.career-page .btn-soft-primary:hover{
+  color: #fff !important;
+  border: 1px solid #fff !important;
 }
 
 .progress-wrap:after{

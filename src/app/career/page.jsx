@@ -61,13 +61,13 @@ export default function Career() {
               </div>
       {/* ========== page title section ========== */}
 
-      <main className="content-wrapper contactUs">
+      <main className="content-wrapper contactUs career-page">
       <section className="wrapper bg-soft-primary">
         <div className="container pt-17 pb-20 pt-md-19 pb-md-21  text-center">
           <div className="row">
             <div className="col-lg-12 mx-auto mb-11">
-              <h1 className="fs-15 text-uppercase text-primary mb-3">Join Our Team</h1>
-              <h3 >We are looking for passionate individuals eager to make an impact in the renewable energy sector. Become a part of a dynamic team committed to creating a net-zero carbon future.</h3>
+              <h1 className="fs-15 text-uppercase text-white mb-3">Join Our Team</h1>
+              <h3 className="text-white">We are looking for passionate individuals eager to make an impact in the renewable energy sector. Become a part of a dynamic team committed to creating a net-zero carbon future.</h3>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Career() {
           </div>
 
           <div className="text-center mt-10">
-            <NextLink title="Join Our Team" href="#" className="btn btn-primary rounded-pill" />
+            <NextLink title="Join Our Team" href="#" className="btn btn-lg btn-soft-primary rounded-pill" />
           </div>
         </div>
       </section>
@@ -124,7 +124,7 @@ export default function Career() {
         <div className="container py-5 py-md-10">
           <div className="row">
             <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-              <h2 className="display-3 mb-3 text-center text-green">Join Us</h2>
+              <h2 className="display-3 mb-3 text-center text-green1">Join Us</h2>
               <p className="lead text-center mb-10 fs-17">
                 Reach out to us from our contact form and we will get back to you shortly.
               </p>

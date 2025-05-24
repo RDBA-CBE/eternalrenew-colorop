@@ -71,7 +71,7 @@ export default function CareerForm() {
           </div>
   
           <div className="col-12 text-center">
-            <input type="submit" value="Send message" className="btn btn-primary rounded-pill btn-send mb-3 fs-17" />
+            <input type="submit" value="Send message" className="btn btn-lg btn-soft-primary rounded-pill btn-send mb-3 fs-17" />
             <p className="text-muted">
               <strong>*</strong> These fields are required.
             </p>
