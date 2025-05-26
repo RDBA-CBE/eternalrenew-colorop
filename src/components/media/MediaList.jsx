@@ -50,11 +50,11 @@ export default function MediaList() {
           </div>
         </div> */}
 
-        <div className="row gx-md-8 gy-8 text-center text-white">
+        {/* <div className="row gx-md-8 gy-8 text-center text-white">
           {mediaList.map((item) => (
             <MediaCard {...item} key={item.id} titleColor="text-white" hiddenBtn />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
