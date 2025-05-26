@@ -13,7 +13,7 @@ export default function OurApproach() {
       {
         id: 1,
         link: '#',
-        icon: '/img/why-choose-us/icon-1.png',
+        icon: '/img/why-choose-us/approach/1.png',
         title: 'Business Strategy',
         linkText: 'Learn More',
         linkType: LinkType.yellow,
@@ -22,7 +22,7 @@ export default function OurApproach() {
       {
         id: 2,
         link: '#',
-        icon: '/img/why-choose-us/icon-2.png',
+        icon: '/img/why-choose-us/approach/2.png',
         title: 'Development, Planning & Design',
         linkText: 'Learn More',
         linkType: LinkType.red,
@@ -31,7 +31,7 @@ export default function OurApproach() {
       {
         id: 3,
         link: '#',
-        icon: '/img/why-choose-us/icon-3.png',
+        icon: '/img/why-choose-us/approach/3.png',
         linkType: LinkType.green,
         title: 'Construction Excellence',
         linkText: 'Learn More',
@@ -40,7 +40,7 @@ export default function OurApproach() {
       {
         id: 4,
         link: '#',
-        icon: '/img/why-choose-us/icon-4.png',
+         icon: '/img/why-choose-us/approach/4.png',
         linkType: LinkType.blue,
         title: 'Optimization of Assets',
         linkText: 'Learn More',

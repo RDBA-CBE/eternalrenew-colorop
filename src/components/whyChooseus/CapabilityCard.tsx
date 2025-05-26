@@ -27,7 +27,7 @@ export default function CapabilityCard({
     <div className="col-md-6 col-lg-3">
     {/* <IconBox icon={icon} className={iconBoxClassNames} /> */}
     <div className={iconBoxClassNames}>
-      <img src={icon} alt={title || "Icon"} style={{width:"32px"}} />
+      <img src={icon} alt={title || "Icon"} />
     </div>
     <h4 className={titleColor}>{title}</h4>
     <p className="mb-3 text-white">{description}</p>
