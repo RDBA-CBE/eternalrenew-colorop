@@ -26,19 +26,19 @@ export default function Career() {
     const facilities = [
       {
         id: 1,
-        icon: "/img/photos/munting-partner.png",
+        icon: "/img/career/partner.png",
         title: 'Mounting Partner',
         description: `Collaborate with us to integrate high-quality sustainable development equipment and innovative solutions.`
       },
       {
         id: 2,
-        icon: "/img/photos/vendor-portal.png",
+        icon: "/img/career/vendor.png",
         title: 'Vendor Portal',
         description: `Stay connected with us to streamline processes and maintain transparent communication.`
       },
       {
         id: 3,
-        icon: "/img/photos/customer-login.png",
+        icon: "/img/career/login.png",
         title: 'Customer Login',
         description: `Existing customers can log in to gain real-time insights, manage their accounts and for personalized support from our team.`
       },
