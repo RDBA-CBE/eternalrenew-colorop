@@ -106,56 +106,56 @@ export const processList5 = [
     color: "red",
     title: "Eternal Energy",
     subtitle: "Ensuring Efficiency and Value Across Every Step of the Supply Chain.",
-    icon:"/img/home/How-We-Do/icon-1.png"
+    icon:"/img/home/How-We-Do/eternal-energy-icon.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Eternal EPC",
     subtitle: "Driving Success with Tier-one Equipment and global best practices.",
-     icon:"/img/home/How-We-Do/icon-2.png"
+     icon:"/img/home/How-We-Do/epc.png"
   },
   {
     Icon: Loading,
     color: "yellow",
     title: "Risk Management",
     subtitle: "Adopting smart, mindful risk and WHS strategies for smooth execution.",
-     icon:"/img/home/How-We-Do/icon-3.png"
+     icon:"/img/home/How-We-Do/risk-man.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Project Development",
     subtitle: "Adopting a multi-disciplinary approach, addressing every detail in our solar projects.",
-     icon:"/img/home/How-We-Do/icon-4.png"
+     icon:"/img/home/How-We-Do/project.png"
   },
   {
     Icon: Loading,
     color: "yellow",
     title: "Eternal O&M",
     subtitle: "Ensuring consistent performance of your solar assets, with real-time monitoring.",
-     icon:"/img/home/How-We-Do/icon-5.png"
+     icon:"/img/home/How-We-Do/o&m.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Long-term Management",
     subtitle: "Advanced analytics and proactive strategies for reliable, long-term performance.",
-     icon:"/img/home/How-We-Do/icon-6.png"
+     icon:"/img/home/How-We-Do/long-term.png"
   },
   {
     Icon: Loading,
     color: "yellow",
     title: "Operation & Maintenance",
     subtitle: "End-to-end support for uninterrupted, high-performance renewable energy.",
-     icon:"/img/home/How-We-Do/icon-7.png"
+     icon:"/img/home/How-We-Do/opertion-manag.png"
   },
   {
     Icon: Savings,
     color: "green",
     title: "Smart Energy",
     subtitle: "Decentralized solar, advanced storage and clean hydrogen to power the future.",
-     icon:"/img/home/How-We-Do/icon-8.png"
+     icon:"/img/home/How-We-Do/smart-eng.png"
   }
 ];
 
@@ -266,35 +266,35 @@ export const processList10 = [
     Icon: Bulb,
     title: "Environmental Compliance",
     description: "Protecting natural resources and reducing emissions through sustainable project practices",
-    icon:"/img/home/Substainability/icon-1.png"
+    icon:"/img/home/Substainability/environmental-icon.png"
   },
   {
     id: 2,
     Icon: Compare,
     title: "CSR",
     description: "Creating jobs and supporting local development for a sustainable and prosperous future.",
-    icon:"/img/home/Substainability/icon-2.png"
+    icon:"/img/home/Substainability/csr.png"
   },
   {
     id: 3,
     Icon: DeliveryBox,
     title: "Health",
     description: "Adopting strict safety protocols and mindful practices to ensure zero harm.",
-    icon:"/img/home/Substainability/icon-3.png"
+    icon:"/img/home/Substainability/health.png"
   },
   {
     id: 4,
     Icon: Compare,
     title: "Green Hydrogen",
     description: "Empowering industries with sustainable hydrogen solutions for a cleaner world.",
-    icon:"/img/home/Substainability/icon-4.png"
+    icon:"/img/home/Substainability/green-hy.png"
   },
   {
     id: 5,
     Icon: DeliveryBox,
     title: "Safety & Environment",
     description: "Commitment to health, safety and environmental stewardship in every project.",
-    icon:"/img/home/Substainability/icon-5.png"
+    icon:"/img/home/Substainability/saftey.png"
   }
 ];
 
