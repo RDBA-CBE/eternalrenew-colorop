@@ -15,24 +15,24 @@ export default function EternalEnergy() {
           {
             id: 1,
             title: "Identify and Survey",
-            Icon: '/img/how-we-do/External-energy/icon-1.png',
+            Icon: '/img/how-we-do/External-energy/survey.png',
             description: `We carefully select low-grade farmland, conduct feasibility studies and site assessments and engage with landowners to identify the most suitable locations for our energy projects.`
           },
           {
             id: 2,
             title: "Consent Process",
-            Icon: '/img/how-we-do/External-energy/icon-2.png',
+            Icon: '/img/how-we-do/External-energy/constent-process.png',
             description: `We work closely with the local authorities, planning departments and community representatives and consider environmental impact while fine-tuning our project plans to gain necessary approvals.`
           },
           {
             id: 3,
             title: "Erection Process",
-            Icon:'/img/how-we-do/External-energy/icon-3.png',
+            Icon:'/img/how-we-do/External-energy/erection-process.png',
             description: `We meticulously oversee every aspect of the construction phase, ensuring the infrastructure is built to meet the highest standards of quality. Our team has the expertise to handle engineering, procurement and construction with precision, delivering cost-effective, durable, and high-performance renewable energy farms.`
           },
           {
             id: 4,
-            Icon: '/img/how-we-do/External-energy/icon-4.png',
+            Icon: '/img/how-we-do/External-energy/grid.png',
             title: "Commissioning and Grid Connection",
             description: `Once construction is completed, we rigorously test and commission our solar plants as per regulatory and performance standards. We also provide grid connections to integrate renewable energy into power supply lines to deliver clean, reliable electricity to industries and communities.`
           }

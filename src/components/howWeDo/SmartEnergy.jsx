@@ -7,19 +7,19 @@ export default function SmartEnergy() {
      const processList7 = [
       {
         id: 1,
-        Icon: '/img/how-we-do/smart-enegry/icon-1.png',
+        Icon: '/img/how-we-do/smart-enegry/gren.png',
         title: "Green Hydrogen",
         description: "Advancing hydrogen-based energy solutions to support decarbonization."
       },
       {
         id: 2,
-        Icon: '/img/how-we-do/smart-enegry/icon-2.png',
+        Icon: '/img/how-we-do/smart-enegry/battery.png',
         title: "Battery Energy Storage Systems (BESS)",
         description: "Deploying next-generation storage technologies to enhance energy reliability and grid stability."
       },
       {
         id: 3,
-        Icon: '/img/how-we-do/smart-enegry/icon-3.png',
+        Icon: '/img/how-we-do/smart-enegry/solar-grid.png',
         title: "Solar Microgrids",
         description: "Providing off-grid and decentralized solar solutions for rural and industrial applications."
       }

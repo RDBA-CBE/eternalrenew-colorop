@@ -12,21 +12,21 @@ export default function EternalEPC() {
      const serviceList = [
       {
         id: 1,
-        Icon: '/img/how-we-do/Eternal-EPC/icon-1.png',
+        Icon: '/img/how-we-do/Eternal-EPC/engineering.png',
         color: color.aqua,
         title: 'Engineering Best Practice',
         description: `Our engineering team consider climatic conditions, terrain, and safety regulations and adopts best practices as per Indian and global standards to ensure resilient infrastructure for optimal energy outcomes. Additionally, we guarantee the design safety of our projects through peer review and compliance with ISO 9001 regulations.`
       },
       {
         id: 2,
-        Icon: '/img/how-we-do/Eternal-EPC/icon-2.png',
+        Icon: '/img/how-we-do/Eternal-EPC/track.png',
         color: color.yellow,
         title: 'Outstanding Track Record',
         description: `With over a decade of experience, we have proven expertise in delivering turnkey and bespoke sustainable energy solutions, which includes engineering, design, procurement and construction. We focus on clear technology-driven execution, clear risk allocation and prudent risk management to ensure cost efficiency, reliability and on-time delivery of projects.`
       },
       {
         id: 3,
-        Icon: '/img/how-we-do/Eternal-EPC/icon-3.png',
+        Icon: '/img/how-we-do/Eternal-EPC/positive.png',
         color: color.red,
         title: 'Positive Impact',
         description: `We focus on creating a positive impact on our ecosystem and promoting biodiversity and work closely with planning authorities, landowners and environmental specialists, prioritizing environmental stewardship. We have successfully increased the biodiversity across our solar farms by 24%.`
