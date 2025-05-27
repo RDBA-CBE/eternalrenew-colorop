@@ -26,7 +26,7 @@ export default function HowWeDo() {
         <section className="wrapper bg-green1  mt-0 hm-HowWeDo" style={{position:"relative",zIndex:"100",paddingTop:"500px"}}>
             <div className="container  h-auto" >
                 <div className="row text-center h-auto" >
-                    <div className="col-lg-12 mx-auto h-auto" style={{position:"relative", top:"-300px"}}>
+                    <div className="col-lg-12 mx-auto h-auto" style={{position:"relative", top:"-220px"}}>
                         <h2 className="fs-15 text-uppercase mb-3 text-white">Turning Potential into Power</h2>
                         <h3 className="display-3-n mb-0 text-center px-xl-10 px-xxl-15 " >
                             How We Do

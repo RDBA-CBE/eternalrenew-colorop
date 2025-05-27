@@ -68,7 +68,7 @@ export default function ContactUs() {
           <div className="container  pt-17 pb-20 pt-md-19 pb-md-21 text-center">
             <div className="row">
               <div className="col-lg-8 mx-auto ">
-                <h1 className=" fs-45 mb-3 text-black">Get in Touch</h1>
+                <h1 className=" fs-45 mb-3 text-white">Get in Touch</h1>
                 {/* <Breadcrumb className="text-white" data={breadcrumb} /> */}
               </div>
             </div>

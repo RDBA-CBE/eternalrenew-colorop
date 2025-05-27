@@ -7,7 +7,7 @@ export default function Safety() {
         <div className="row gy-10 gy-md-0 align-items-center">
       <div className="col-md-8 col-lg-6 mb-0 mb-sm-12 mb-lg-0 offset-lg-1 order-lg-2 position-relative mx-auto">
         <div
-          className="shape rounded-circle bg-line primary rellax w-18 h-18"
+          className="shape rounded-circle rellax w-18 h-18"
           style={{ top: "-2rem", right: "-1.9rem" }}
         />
 
