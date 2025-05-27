@@ -24,7 +24,7 @@ export default function WhatWeDo() {
             </style>
         
         <section className="wrapper hm-whatwedosec bg-green1" style={{position:"relative",zIndex:"100"}}>
-            <div className="container py-10 py-md-12">
+            <div className="container py-10">
                 <div className="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center">
 
 
