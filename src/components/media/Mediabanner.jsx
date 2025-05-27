@@ -9,7 +9,7 @@ export default function Mediabanner() {
         <div className="row">
           <div className="col-lg-12 col-xl-11 col-xxl-10 mx-auto">
             <h1 className="display-1 fs-45 mb-4 px-md-15 px-lg-0" style={slideInDownAnimate("0ms")}>
-              Our <span className="underline-3 style-3 primary">Media</span>
+              Our <span className="underline-3 style-3 yellow">Media</span>
             </h1>
 
             <p className="lead fs-22 lh-sm mb-0 mb-md-3 mx-md-13 mx-lg-10 text-white" style={slideInDownAnimate("300ms")}>

@@ -6,7 +6,7 @@ export default function WhyChooseBanner() {
       <div className="container pt-10 pt-md-14 pb-14 pb-md-2">
         <div className="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
           <div className="col-lg-6">
-            <h1 className="fs-45 lh-xxs mb-4 text-white">Why <span className="underline-3 style-3 primary">Choose </span>Us</h1>
+            <h1 className="fs-45 lh-xxs mb-4 text-white">Why <span className="underline-3 style-3 yellow">Choose </span>Us</h1>
             <h4 className="my-3 text-white">100% success rate in navigating regulations in developing large-scale solar power projects outside the green belt.</h4>
           </div>
 
