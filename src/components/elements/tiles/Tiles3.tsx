@@ -21,7 +21,7 @@ export default function Tiles3() {
             <div className="card bg-orange1 text-center">
               <div className="card-body py-11 counter-wrapper">
                 <h3 className="counter text-nowrap text-white">
-                  <CountUp end={5000} suffix="+" />
+                  <CountUp end={100} suffix="+" />
                 </h3>
 
                 <p className="mb-0 text-white">Satisfied Customers</p>

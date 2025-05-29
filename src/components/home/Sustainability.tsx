@@ -26,7 +26,7 @@ export default function Sustainability() {
             </style>
      
         <section className="wrapper hm-sustainability" style={{position:"relative",zIndex:"100"}}>
-            <div className="container py-10 py-md-12">
+            <div className="container py-10 py-md-10">
 
 
                 <div className="row text-center">

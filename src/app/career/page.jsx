@@ -80,7 +80,7 @@ export default function Career() {
 
       <main className="content-wrapper contactUs career-page">
       <section className="wrapper bg-soft-primary">
-        <div className="container pt-17 pb-20 pt-md-19 pb-md-21  text-center">
+        <div className="container pt-17 pb-16 pt-md-19 pb-md-21  text-center">
           <div className="row">
             <div className="col-lg-12 mx-auto mb-11">
               <h1 className="fs-15 text-uppercase text-white mb-3">Join Our Team</h1>
@@ -93,7 +93,7 @@ export default function Career() {
       {/* ========== features section ========== */}
       <section className="wrapper bg-light">
         <div className="container pb-5 pb-md-10">
-          <div className="row mb-14">
+          <div className="row mb-9">
             <div className="col-12 mt-n18 mt-md-n20 mt-lg-n21 position-relative">
               <div className="shape bg-dot red rellax w-16 h-18" style={{ top: "1rem", left: "-3.2rem" }} />
               <div className="shape pale-primary w-19 h-19 rellax" style={{ bottom: "2rem", right: "-3rem" }}>
@@ -109,7 +109,7 @@ export default function Career() {
               </div>
 
               <figure className="rounded">
-                <img src="/img/career-bg.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="" />
+                <img src="/img/career-bg.jpg" srcSet="/img/career-bg.jpg" alt="" />
               </figure>
             </div>
           </div>
