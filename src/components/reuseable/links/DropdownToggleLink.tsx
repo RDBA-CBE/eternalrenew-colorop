@@ -9,7 +9,7 @@ interface DropdownToggleLinkProps
 
 export default function DropdownToggleLink({ title, className, ...others }: DropdownToggleLinkProps) {
   return (
-    <a href="/media" data-bs-toggle="dropdown" className={className || "dropdown-item dropdown-toggle"} {...others}>
+    <a href="/whatwedo" data-bs-toggle="dropdown" className={className || "dropdown-item dropdown-toggle"} {...others}>
       {title}
     </a>
   //   <a href="about" data-bs-toggle="dropdown" className={className } {...others}>

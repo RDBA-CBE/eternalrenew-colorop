@@ -26,6 +26,7 @@ import LetsConnect from "../components/LetsConnect"
 import MediaNavItem from "../components/media-nav-item";
 import WhyChooseUsNavItem from "../components/why-choose-us-nav-item";
 import Link from "next/link";
+import WhatWeDoNavItem from "../components/what-we-do-item";
 
 // ===================================================================
 interface NavbarProps {
@@ -93,18 +94,19 @@ export default function NavbarOne({
             </li>
 
             
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
             <a href="projects"  className="nav-link text-blue" >
             Projects
               </a>
             </li>
-            
+             */}
 
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
             <a href="whatwedo"  className="nav-link text-blue" >
             What We Do
               </a>
-            </li>
+            </li> */}
+            <WhatWeDoNavItem/> 
 
             <li className="nav-item ">
             <a href="howwedo"  className="nav-link text-blue" >

@@ -16,7 +16,7 @@ export default function ProjectBanner() {
                 data-group="page-title"
                 data-show="true"
                 style={slideInDownAnimate("0ms")}>
-                Our <span className="underline-3 style-2 yellow">Projects</span> 
+                Where <span className="underline-3 style-2 yellow">We Lead</span> 
               </h1>
 
 
