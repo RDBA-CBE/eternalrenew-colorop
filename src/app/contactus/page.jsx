@@ -192,7 +192,7 @@ export default function ContactUs() {
 
         <div className="container-card">
       <div
-        className="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mb-12"
+        className="card image-wrapper bg-full bg-image mb-12"
         style={{ backgroundImage: "url(/img/photos/bg22.png)" }}>
         <div className="card-body py-14 px-0">
           <div className="container">
