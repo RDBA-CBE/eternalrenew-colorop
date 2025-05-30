@@ -12,7 +12,7 @@ export default function RiskManagement() {
           <div className="col-lg-10 mx-auto">
             <div className="mt-lg-n20 mt-xl-n24 position-relative">
 
-              <div className="shape bg-dot red rellax w-16 h-18 d-none d-lg-block" style={{ zIndex: 0, top: "1rem", left: "-3.9rem" }} />
+              {/* <div className="shape bg-dot red rellax w-16 h-18 d-none d-lg-block" style={{ zIndex: 0, top: "1rem", left: "-3.9rem" }} /> */}
               <div
                 className="shape rounded-circle bg-line primary rellax w-18 h-18 d-none d-lg-block"
                 style={{ zIndex: 0, bottom: "0rem", right: "-3rem" }}

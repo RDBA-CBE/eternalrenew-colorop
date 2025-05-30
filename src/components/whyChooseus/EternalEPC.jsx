@@ -10,10 +10,10 @@ export default function EternalEPC() {
           <div className="container pt-5 pt-md-10 pb-5 pb-md-10 position-relative">
             {/* ========== client reviews section ========== */}
            <div className="position-relative ">
-                 <div
+                 {/* <div
                    className="shape rounded-circle bg-line primary rellax w-18 h-18 "
                    style={{ zIndex: 0, top: "-2rem", right: "-2.7rem" }}
-                 />
+                 /> */}
            
                  <div
                    className="shape rounded-circle bg-soft-primary rellax w-18 h-18"

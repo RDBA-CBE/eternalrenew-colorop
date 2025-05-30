@@ -26,10 +26,10 @@ export default function Sustainability() {
     <div className="container pt-5  pb-5 ">
     <div className="row gy-10 gy-sm-13 gx-lg-3   align-items-center">
       <div className="col-md-8 col-lg-5 position-relative  mx-auto">
-        <div
+        {/* <div
           className="shape bg-dot primary rellax w-17 h-21"
           style={{ top: "-2rem", left: "-1.9rem" }}
-        />
+        /> */}
 
         <div
           className="shape rounded bg-soft-primary rellax d-md-block"

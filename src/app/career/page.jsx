@@ -95,7 +95,7 @@ export default function Career() {
         <div className="container pb-5 pb-md-10">
           <div className="row mb-9">
             <div className="col-12 mt-n18 mt-md-n20 mt-lg-n21 position-relative">
-              <div className="shape bg-dot red rellax w-16 h-18" style={{ top: "1rem", left: "-3.2rem" }} />
+              {/* <div className="shape bg-dot red rellax w-16 h-18" style={{ top: "1rem", left: "-3.2rem" }} /> */}
               <div className="shape pale-primary w-19 h-19 rellax" style={{ bottom: "2rem", right: "-3rem" }}>
                 <svg
                   viewBox="0 0 500 549.53"

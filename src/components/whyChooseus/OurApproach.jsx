@@ -66,10 +66,10 @@ export default function OurApproach() {
             style={{ zIndex: 0, right: "-2.2rem", bottom: "-0.5rem" }}
           />
 
-          <div
+          {/* <div
             className="shape bg-dot primary rellax w-16 h-17"
             style={{ zIndex: 0, top: "-0.5rem", left: "-2.2rem" }}
-          />
+          /> */}
 
           <div className="row gx-md-5 gy-5 text-center approach-project">
             {ApproachList.map((item) => (

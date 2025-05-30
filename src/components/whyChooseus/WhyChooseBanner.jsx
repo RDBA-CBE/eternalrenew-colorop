@@ -19,7 +19,7 @@ export default function WhyChooseBanner() {
         </div>
 
         <div className="position-relative">
-          <div className="shape bg-dot primary rellax w-17 h-21" style={{ top: "-2.5rem", right: "-2.7rem" }} />
+          {/* <div className="shape bg-dot primary rellax w-17 h-21" style={{ top: "-2.5rem", right: "-2.7rem" }} /> */}
 
           <figure className="rounded mb-md-n20">
             {/* <img src="/img/photos/why-choose-us-bg.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="About" /> */}
