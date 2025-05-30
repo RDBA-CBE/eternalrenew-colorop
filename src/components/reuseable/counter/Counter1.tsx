@@ -5,7 +5,7 @@ interface CounterProps {
   title: string;
   number: number;
   titleColor?: string;
-  image: string;
+  image?: any;
 }
 // ====================================================
 
