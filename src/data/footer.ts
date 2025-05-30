@@ -1,13 +1,14 @@
 const footerNav = [
-  { title: 'What We Do', url: '/whatwedo' },
-  { title: 'Projects', url: '/projects' },
-  { title: 'How We Do', url: '/howwedo' },
+  // { title: 'What We Do', url: '/whatwedo' },
+  // { title: 'Projects', url: '/projects' },
+  // { title: 'How We Do', url: '/howwedo' },
 ];
 
 export const helps = [
   // { id: 1, title: 'Social Media', url: '#' },
-  { id: 2, title: 'Reach Us', url: '/contactus' },
-  { id: 3, title: 'Service and Support', url: '/contactus' },
+  { id: 1, title: 'What We Do', url: '/whatwedo' },
+  { id: 2, title: 'Projects', url: '/projects' },
+  { id: 3, title: 'How We Do', url: '/howwedo' },
   { id: 4, title: 'Career', url: '/career' },
 
 
@@ -34,4 +35,4 @@ export const categories = [
   { id: 3, post: 16, title: 'Journal', url: '#' }
 ];
 
-export default footerNav;
+export default helps;

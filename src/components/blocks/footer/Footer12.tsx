@@ -27,16 +27,16 @@ export default function Footer12() {
             </div>
           </div>
 
-          <div className="col-md-12 col-lg-3 col-xl-3 text-white pt-md-2 fw-normal pt-5 ">
+          <div className="col-md-12 col-lg-6 col-xl-5 text-white pt-md-2 fw-normal pt-5 ">
             <div className="widget">
               <h4 className="widget-title text-white mb-3 ">Get in Touch</h4>
-              <address className="mb-2">Eternal Renewables Private Limited,<br /> No. 118, Nehru Street, Rathinasabapathipuram,<br /> T.Kottampatty, Mahalingapuram,<br /> Pollachi, Tamilnadu, <br />Coimbatore - 642 002, India.</address>
+              <address className="mb-2">Eternal Renewables Private Limited, No. 118, Nehru Street,<br /> Rathinasabapathipuram, T.Kottampatty, Mahalingapuram,<br /> Pollachi, Tamilnadu, Coimbatore - 642 002, India.</address>
               <a href="mailto:ceo@eternalrenewables.com">ceo@eternalrenewables.com</a>
               {/* <br /> +91 99761 89999 */}
             </div>
           </div>
 
-          <div className="col-md-6  col-lg-3  col-xl-2 pt-md-2 pt-5">
+          {/* <div className="col-md-6  col-lg-3  col-xl-2 pt-md-2 pt-5">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Information </h4>
               <ul className="list-unstyled text-white mb-0">
@@ -47,7 +47,7 @@ export default function Footer12() {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-6 col-lg-3  col-xl-2 pt-md-2 pt-5">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Quick Links</h4>
