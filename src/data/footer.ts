@@ -7,7 +7,7 @@ const footerNav = [
 export const helps = [
   // { id: 1, title: 'Social Media', url: '#' },
   { id: 1, title: 'What We Do', url: '/whatwedo' },
-  { id: 2, title: 'Projects', url: '/projects' },
+  { id: 2, title: 'Where We Lead', url: '/wherewelead' },
   { id: 3, title: 'How We Do', url: '/howwedo' },
   { id: 4, title: 'Career', url: '/career' },
 
