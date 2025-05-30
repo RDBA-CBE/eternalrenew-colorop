@@ -20,7 +20,7 @@ export default function WhatWeDoNavItem() {
     <li className="nav-item dropdown">
       {/* Mobile Toggle Link */}
       <DropdownToggleLink
-        title="whatwedo"
+        title="What We Do"
         className="nav-link text-blue dropdown-toggle d-block d-lg-none"
         onClick={() => setToggle(!toggle)}
       />
