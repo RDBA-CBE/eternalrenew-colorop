@@ -15,9 +15,13 @@ export default function Footer12() {
               <div className="col-md-12 col-lg-6 col-xl-3 ps-lg-0">
             <div className="widget">
               <Link href="/"><img className="mb-4 footer-img" src="/img/sandbox-logo/Footer-logo-white.png" srcSet="/img/sandbox-logo/Footer-logo-white @2x.png 2x" alt="" style={{width:"auto", objectFit:"contain"}}/></Link>
-              
+              <p className="mb-0  mb-md-2 text-white fs-16">
+                Eternal Renewables is a fast-growing Indian EPCM company providing integrated solutions for renewable energy projects. <br className="d-none d-lg-block" />
+                
 
-              <p className="mb-0  mb-md-4 text-white fw-normal">
+              </p>
+
+              <p className="mb-0  mb-md-2 text-white fw-normal">
                 Copyrights 2025 ©  Eternal Renewables. <br className="d-none d-lg-block" />
                 
 
