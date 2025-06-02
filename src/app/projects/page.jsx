@@ -62,7 +62,7 @@ export default function Demo34() {
       </main>
       </div>
 
-      <div className="page-frame bg-green1   py-10 py-md-0 bottom-sec">
+      {/* <div className="page-frame bg-green1   py-10 py-md-0 bottom-sec">
         <div className="container-fluid solar-projects-container ">
 
        <div className="row px-3 px-md-0 mt-5">
@@ -86,7 +86,7 @@ export default function Demo34() {
       </div>
 
     </div>
-      </div>
+      </div> */}
 
        
 

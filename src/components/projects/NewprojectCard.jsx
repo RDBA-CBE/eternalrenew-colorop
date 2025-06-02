@@ -97,7 +97,7 @@ const projects2 = [
 const NewProjectCard = () => {
   return (
     <>
-    <div className="container solar-projects-container pb-5">
+    <div className="container solar-projects-container pb-10 pb-md-0">
       <div className="row px-3 px-md-0 mt-10 mt-md-10">
         {projects.map((project, index) => (
           <div className={`col-12  col-md-4 bg-white  p-0 ${project.class ? project.class : ""} `} key={index}>
