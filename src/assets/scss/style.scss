@@ -346,6 +346,9 @@ top: 380px !important;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
+.bottom-sec .pad{
+  padding-right: 1px !important;
+}
 
 .card-padding{
   padding: 0 1px !important;
@@ -361,6 +364,7 @@ top: 380px !important;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 
 
 
@@ -396,6 +400,7 @@ top: 380px !important;
   text-transform: uppercase;
   font-weight: 500;
       letter-spacing: -0.2px;
+      color: #fbbc05;
 }
 
 .solar-project-title {
@@ -409,7 +414,7 @@ top: 380px !important;
   font-size: 18px;
   font-weight: 500;
   color: #d8d8d8;
-  text-decoration: underline #b15720;
+  text-decoration: underline #fbbc05;
    text-underline-offset: 4px;
 }
 .pro-detail .img-con img{
@@ -485,14 +490,22 @@ top: 380px !important;
   padding: 1px 0  !important;
 }
 
+.bottom-sec .pad{
+  padding-right: 0 !important;
+  padding-bottom: 1px !important;
+}
+
 .border-radius{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px !important;
+  
 }
 
 .border-radius-left{
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px !important;
 }
 .pro-detail .content-con{
   width: 100% !important;

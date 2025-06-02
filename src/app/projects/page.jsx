@@ -12,6 +12,24 @@ import { Footer12 } from "components/blocks/footer";
 import { demos } from "data/demo-34";
 
 export default function Demo34() {
+    const projects4 = [
+  {
+    location: "consectetur",
+    title: "Amet consectetur",
+    subtitle: "Read more",
+    image:"/img/home/banner-1.jpg",
+    class:"border-radius pad"
+, 
+  },
+  {
+    location: "consectetur",
+    title: "consectetur",
+    subtitle: "Read more",
+    image: "/img/home/banner-1.jpg",
+    class:" border-radius-left"
+  },
+  
+];
   return (
     <Fragment>
       {/* ========== topbar alert section ========== */}
@@ -38,9 +56,39 @@ export default function Demo34() {
 
         <NewProjectCard/>
 
+
+
       {/* <ProjectCard1/> */}
       </main>
       </div>
+
+      <div className="page-frame bg-green1   py-10 py-md-0 bottom-sec">
+        <div className="container-fluid solar-projects-container ">
+
+       <div className="row px-3 px-md-0 mt-5">
+        {projects4.map((project, index) => (
+          <div className={`col-12  col-md-6 bg-white   p-0 ${project.class !== "card-padding" ? project.class : " "  } `} key={index} >
+            <div
+              className={`solar-project-card ${project.class !== "card-padding" ? project.class : " "  }    `}
+              style={{ backgroundImage: `url(${project.image})`, }}
+            >
+              <div className="solar-project-overlay">
+                <div>
+                    <p className="solar-project-location  w-100">{project.location}</p>
+                <h3 className="solar-project-title text-white" dangerouslySetInnerHTML={{__html:project.title}}></h3>
+                <p className="solar-project-subtitle text-white w-100" ><a href="project-detail" className="text-white">{project.subtitle}</a></p>
+                </div> 
+                
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </div>
+      </div>
+
+       
 
       {/* ========== footer section ========== */}
        <div className="page-frame bg-pale-primary">
