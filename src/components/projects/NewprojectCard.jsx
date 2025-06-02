@@ -3,7 +3,7 @@ import React from "react";
 const projects = [
   {
     location: "consectetur",
-    title: "Amet  consect",
+    title: "Amet <br/>  consectetur",
     subtitle: "Read more",
     image:"/img/home/banner-1.jpg",
      class:"border-radius"
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     location: "consectetur",
-    title: "Amet <br/>  consect",
+    title: "Amet <br/>  consectetur",
     subtitle: "Read more",
     image:"/img/home/banner-1.jpg",
     class:"border-radius-left"
@@ -28,7 +28,7 @@ const projects = [
 const projects2 = [
   {
     location: "consectetur",
-    title: "Amet consect",
+    title: "Amet <br/>  consectetur",
     subtitle: "Read more",
     image:"/img/home/banner-1.jpg",
     class:"border-radius"
@@ -43,7 +43,7 @@ const projects2 = [
   },
   {
     location: "consectetur",
-    title: "Amet <br/>  consect",
+    title: "Amet <br/>  consectetur",
     subtitle: "Read more",
     
     image:"/img/home/banner-1.jpg",
@@ -65,7 +65,7 @@ const NewProjectCard = () => {
                 <div>
                     <p className="solar-project-location text-orange1 w-100">{project.location}</p>
                 <h3 className="solar-project-title text-white" dangerouslySetInnerHTML={{__html:project.title}}></h3>
-                <p className="solar-project-subtitle text-white w-100">{project.subtitle}</p>
+                <p className="solar-project-subtitle text-white w-100" ><a href="project-detail" className="text-white">{project.subtitle}</a></p>
                 </div> 
                 
               </div>
@@ -85,7 +85,7 @@ const NewProjectCard = () => {
                 <div>
                     <p className="solar-project-location text-orange1 w-100">{project.location}</p>
                 <h3 className="solar-project-title text-white" dangerouslySetInnerHTML={{__html:project.title}}></h3>
-                <p className="solar-project-subtitle text-white w-100">{project.subtitle}</p>
+                <p className="solar-project-subtitle text-white w-100"><a href="project-detail" className="text-white">{project.subtitle}</a></p>
                 </div>
                 
               </div>

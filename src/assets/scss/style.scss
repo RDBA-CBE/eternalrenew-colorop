@@ -365,7 +365,7 @@ top: 380px !important;
 
 
 .solar-project-overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: #00000061;
   color: white;
   position: absolute;
   bottom: 0;
@@ -378,6 +378,16 @@ top: 380px !important;
   align-items: center;
   text-align: left;
 }
+
+// .solar-project-overlay::before{
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   left: 0;
+//   background-image: linear-gradient(180deg, var(--tw-gradient-stops));
+// }
 
 .solar-project-location {
 
@@ -456,6 +466,8 @@ top: 380px !important;
 
 
 
+
+
 /* Media Query */
 @media (max-width: 768px) {
   .solar-project-card {
@@ -473,12 +485,12 @@ top: 380px !important;
   padding: 1px 0  !important;
 }
 
-.solar-project-container .border-radius{
+.border-radius{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.solar-project-container .border-radius-left{
+.border-radius-left{
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }

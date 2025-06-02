@@ -6,13 +6,13 @@ export default function ProjectDetailMain({banner}) {
    <section className="pro-detail p-0 mt-10">
     <div className="container-fluid">
         <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 p-0">
                  <div className="img-con">
                      <img src="img/what-we-do/what-we-do.jpg" alt="" />
                  </div>
                
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 p-0">
                 <div className="content-con">
                     <p className="text-white ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, autem ducimus dolores quam aspernatur aliquam ab quisquam corporis necessitatibus quod maxime! Animi alias a tempora pariatur modi quaerat voluptas dicta!
