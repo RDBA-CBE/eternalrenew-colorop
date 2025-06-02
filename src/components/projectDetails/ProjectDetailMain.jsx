@@ -26,12 +26,7 @@ export default function ProjectDetailMain({banner}) {
       <div className="row justify-content-center text-center">
         <div className="col-lg-12">
           <p className="battery-quote text-white">
-            “This facility is extremely significant as it represents one of the
-            larger battery storage facilities in the country. The site will
-            produce 40MW of power for the grid for one hour's duration. It will
-            provide essential balancing and network management services to the
-            grid. The grid has a specific need for these services because it is
-            transforming itself into a sustainable grid powered by renewables.”
+            “ Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, autem ducimus dolores quam aspernatur aliquam ab quisquam corporis necessitatibus quod maxime! Animi alias a tempora pariatur modi quaerat voluptas dicta! Tempore, autem ducimus dolores quam aspernatur aliquam ab quisquam corporis necessitatibus quod maxime! Animi alias a tempora pariatur modi quaerat voluptas dicta!”
           </p>
         </div>
       </div>
@@ -40,16 +35,16 @@ export default function ProjectDetailMain({banner}) {
         <div className="col-11 col-md-10 col-lg-9 col-xl-6">
           <div className="battery-details">
             <div className="battery-detail-row d-flex justify-content-between border-bottom py-2 row">
-              <strong className="text-white col-5 px-0 ">Installed battery storage</strong>
-              <span className=" text-orange1 col-7 px-0">12 x 3.727MWhr battery units on the site</span>
+              <strong className="text-white col-5 px-0 ">Lorem ipsum dolor sit amet</strong>
+              <span className=" text-orange1 col-7 px-0">Lorem ipsum dolor sit amet sit amet</span>
             </div>
             <div className="battery-detail-row d-flex justify-content-between border-bottom py-2 row">
-              <strong className="text-white col-5 px-0">Technology</strong>
-              <span className="text-orange1 col-7 px-0">Sungrow ESS</span>
+              <strong className="text-white col-5 px-0">Loremipsum </strong>
+              <span className="text-orange1 col-7 px-0">Ipsum dolor sit</span>
             </div>
             <div className="battery-detail-row d-flex justify-content-between py-2 row">
-              <strong className="text-white col-5 px-0">Services</strong>
-              <span className="text-orange1 col-7 px-0">Dynamic Containment, NIV Chasing, Arbitrage</span>
+              <strong className="text-white col-5 px-0">Sitamet </strong>
+              <span className="text-orange1 col-7 px-0">Lorem ipsum dolor sit amet sit amet</span>
             </div>
           </div>
         </div>

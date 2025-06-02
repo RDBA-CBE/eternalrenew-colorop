@@ -20,7 +20,7 @@ export default function NewProjectBanner() {
       <div className="video-content">
         <div className="container text-center">
           <div className="row">
-            <div className="col-lg-8 col-xl-6 text-center text-white mx-auto">
+            <div className="col-lg-8 text-center text-white mx-auto">
               <h1 className="display-1 fs-45 text-white mb-5">
                 Projects
                 {/* <ReplaceMe  key={index} className="rotator-zoom">{item?.title}</ReplaceMe> */}
