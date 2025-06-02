@@ -41,7 +41,7 @@ export default function HeroBanner() {
   return (
     <div className="swiper-container blog grid-view mb-5 home-ban">
     <Carousel  navigation={false} breakpoints={carouselBreakpoints}
-    autoplay={{ delay: 3000, disableOnInteraction: false }}
+    // autoplay={{ delay: 3000, disableOnInteraction: false }}
     slidesPerView={1}
     loop
     // pagination={false}
