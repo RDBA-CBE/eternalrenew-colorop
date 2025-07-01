@@ -1,6 +1,6 @@
 'use client';
 
-export default function KarurProjectOneBanner({ banner }) {
+export default function NamakkalProjectOneBanner({ banner }) {
   return (
     <section className='video-wrapper px-0 mt-0 min-vh-80 '>
       <video

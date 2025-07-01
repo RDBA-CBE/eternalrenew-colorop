@@ -1,6 +1,6 @@
 'use client';
 
-export default function KarurProjectDetailOneMain({ banner }) {
+export default function NamakkalProjectDetailTwoMain({ banner }) {
   return (
     <section className='pro-detail p-0 mt-10'>
       <div className='container-fluid'>
@@ -10,18 +10,17 @@ export default function KarurProjectDetailOneMain({ banner }) {
               <img src='img/what-we-do/what-we-do.jpg' alt='' />
             </div>
           </div>
-          <div className='col-md-6 pt-5'>
+          <div className='col-md-6  pt-5'>
             <div className='content-con' style={{ width: '100%' }}>
               <p className='text-white fs-16'>
-                Karur Solar Park I is located in Hiranyamangalam and Sivayam
-                Villages of Kulithalai Taluk, Karur District, Tamilnadu near
-                Ayyermalai , India. The solar farm is connected with 110/33 KV
-                Ayyermalai Grid Substation via 33/11 KV Panikkampatty Substation
-                through the 33 KV dedicated single circuit transmission overhead
+                Namakkal Solar Park- II is located in Paruthipally Village of
+                Tiruchengode Taluk, Namakkal District, Tamilnadu , India. The
+                solar farm is connected with 110/22 KV Paruthipally Substation
+                through the 22 KV dedicated single circuit transmission overhead
                 line by using ACSR Dog conductor under section 10(1) of
-                Electricity act 2003. Mono Perc photovoltaic (PV) modules with
-                each capacity of 500 wp * 39000 Nos. are installed, creating a
-                DC capacity of 19.5MWp.
+                Electricity act 2003. Bi Facial photovoltaic (PV) modules are
+                installed ( with different capacities of 590Wp and 600 Wp),
+                creating a DC capacity of 5.2 MWp
               </p>
             </div>
           </div>
@@ -36,11 +35,11 @@ export default function KarurProjectDetailOneMain({ banner }) {
               className='text-orange1 fs-45 fw-bold d-block battery-detail-item'
               style={{ borderBottom: '1px solid #fbbc05' }}
             >
-              3,00,00,000
+              40,00,000
             </span>
             <p className='text-white battery-detail-item mt-4'>
-              The approximate amount of renewable energy generated from Karur
-              solar park I annually (in KWhrs)
+              The approximate amount of renewable energy generated from Namakkal
+              Solar Park annually (in KWhrs)
             </p>
           </div>
 
@@ -50,7 +49,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
               className='text-orange1 fs-45 fw-bold d-block battery-detail-item'
               style={{ borderBottom: '1px solid #fbbc05' }}
             >
-              21,330
+              2,844
             </span>
             <p className='text-white battery-detail-item mt-4'>
               Tonnes CO2 emissions avoided per Annum
@@ -63,7 +62,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
               className='text-orange1 fs-45 fw-bold d-block battery-detail-item'
               style={{ borderBottom: '1px solid #fbbc05' }}
             >
-              21,505
+              2,868
             </span>
             <p className='text-white battery-detail-item mt-4'>
               Avg. domestic households served each year
@@ -76,7 +75,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
               className='text-orange1 fs-45 fw-bold d-block battery-detail-item'
               style={{ borderBottom: '1px solid #fbbc05' }}
             >
-              60
+              14
             </span>
             <p className='text-white battery-detail-item mt-4'>
               Approx. Acres of land protected by the solar park
@@ -88,12 +87,13 @@ export default function KarurProjectDetailOneMain({ banner }) {
           <div className='col-lg-12'>
             <h2 className='mb-3 display-3-n text-white '>Project Summery</h2>
             <p className='text-white'>
-              Karur Solar Park I utilises highly accurate forecasting to predict
-              the plant’s variation in output due to changes in irradiance to
-              provide clean electricity while maintaining system security. The
-              solar farm has a variety of weather sensors installed throughout
-              the park to accurately capture weather conditions to ensure the
-              plant’s export is maximised without impacting grid stability.
+              Namakkal Solar Park-II utilises highly accurate forecasting to
+              predict the plant’s variation in output due to changes in
+              irradiance to provide clean electricity while maintaining system
+              security. The solar farm has a variety of weather sensors
+              installed throughout the park to accurately capture weather
+              conditions to ensure the plant’s export is maximised without
+              impacting grid stability.
             </p>
           </div>
         </div>
@@ -105,39 +105,41 @@ export default function KarurProjectDetailOneMain({ banner }) {
               </h2>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>DC Capacity:</strong>
-                <span className=' text-orange1 col-7 px-0'>19MWp</span>
+                <span className=' text-orange1 col-7 px-0'>5.2 MWp</span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>AC Capacity:</strong>
-                <span className='text-orange1 col-7 px-0'>15MW</span>
+                <span className='text-orange1 col-7 px-0'> 4 MW</span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>Land Area:</strong>
-                <span className='text-orange1 col-7 px-0'>60 Acres</span>
+                <span className='text-orange1 col-7 px-0'> 14 Acres</span>
               </div>
-              <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
+              {/* <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>
                   No. of Panels Installed:
                 </strong>
-                <span className=' text-orange1 col-7 px-0'>39000</span>
-              </div>
+                <span className=' text-orange1 col-7 px-0'>
+                  500Wp, 540 Wp, 550 Wp and 600 Wp Monofacial, Trina Solar, JA
+                  Solar, Canadian Solar and Goldi Solar
+                </span>
+              </div> */}
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>
                   Panel Type & Make :
                 </strong>
                 <span className='text-orange1 col-7 px-0'>
-                  500Wp Monofacial, Trina Solar
+                  : 590Wp and 600 Wp Bi Facial, Trina Solar and Canadian Solar
                 </span>
               </div>
-              <div className='battery-detail-row d-flex justify-content-between py-2 border-bottom row'>
+              <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>Inverters:</strong>
                 <span className='text-orange1 col-7 px-0'>
                   {' '}
-                  ABB ( Central Inverter) , Fimer ( Central Inverter) & Sungrow
-                  ( String Inverter) Tilting System: Fixed Tilt
+                  Fimer ( Central Inverter) & Sungrow ( String Inverter)
                 </span>
               </div>
-              <div className='battery-detail-row d-flex justify-content-between  py-2 row'>
+              <div className='battery-detail-row d-flex justify-content-between py-2 row'>
                 <strong className='text-white col-5 px-0'>
                   Tilting System:
                 </strong>
@@ -147,7 +149,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
           </div>
         </div>
 
-        <div className='row justify-content-center'>
+        {/* <div className='row justify-content-center'>
           <div className='col-lg-6'>
             <div className='img-con h-100'>
               <img
@@ -158,7 +160,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
             </div>
           </div>
 
-          <div className='col-lg-6 col-md-12 pt-5'>
+          <div className='col-lg-6'>
             <h2 className='mb-3 display-3-n text-white '>
               Community & Culture
             </h2>
@@ -178,9 +180,9 @@ export default function KarurProjectDetailOneMain({ banner }) {
               no waste and minimal carbon footprint .
             </p>
           </div>
-        </div>
+        </div> */}
 
-        {/* <div className='row justify-content-center pb-0'>
+        <div className='row justify-content-center pb-0'>
           <div className='col-md-8 col-lg-10 col-xl-8 text-center'>
             <img
               src='img/what-we-do/what-we-do.jpg'
@@ -188,7 +190,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
               className='img-fluid battery-info-image'
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

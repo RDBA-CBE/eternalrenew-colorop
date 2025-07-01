@@ -19,7 +19,7 @@ import { demos } from "data/demo-34";
 export default function Demo34() {
 
   const banner ={
-    title:"Karur Solar Park I",
+    title:"KARUR SOLAR PARK I",
     description:"Location: Ayyermalai, Kulithalai Taluk, Karur District, Tamilnadu",
     img:"/img/home/banner-1.jpg"
   }

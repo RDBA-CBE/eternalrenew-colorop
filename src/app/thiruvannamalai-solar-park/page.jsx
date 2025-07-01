@@ -6,8 +6,8 @@ import ProjectBanner from "components/projects/ProjectBanner"
 import NewProjectBanner from "components/projects/NewProjectBanner"
 import NewProjectCard from "components/projects/NewprojectCard"
 import ProjectCard1 from "components/projects/ProjectCard1"
-import ProjectDetailBanner from "components/projectDetails/ProjectDetailBanner"
-import ProjectDetailMain from "components/projectDetails/ProjectDetailMain"
+import ThiruvannamalaiProjectBanner from "components/thiruvannamalai-solar-park/thiruvannamalaiprojectbanner"
+import ThiruvannamalaiProjectDetailMain from "components/thiruvannamalai-solar-park/thiruvannamalaiprojectdetails"
 
 
 import { Footer12 } from "components/blocks/footer";
@@ -18,8 +18,8 @@ import { demos } from "data/demo-34";
 export default function Demo34() {
 
   const banner ={
-    title:"Projects",
-    description:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec id elit ut felis elementum consectetur.",
+    title:"THIRUVANNAMALAI SOLAR PARK",
+    description:"Location: Gingee, Melmalayanur Taluk, Villupuram District, Tamilnadu",
     img:"/img/home/banner-1.jpg"
   }
   return (
@@ -43,9 +43,9 @@ export default function Demo34() {
 
       <main className="content-wrapper bg-green1">
         {/* ========== hero section ========== */}
-       <ProjectDetailBanner banner={banner}/>
+       <ThiruvannamalaiProjectBanner banner={banner}/>
 
-       <ProjectDetailMain/>
+       <ThiruvannamalaiProjectDetailMain/>
        
         
       {/* <ProjectCard1/> */}

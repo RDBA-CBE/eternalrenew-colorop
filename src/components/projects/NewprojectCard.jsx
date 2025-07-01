@@ -5,7 +5,7 @@ const projects = [
     location: 'Ayyermalai',
     title: 'Karur Solar Park I',
     subtitle: 'Read more',
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/karur-solar-park-I.jpg',
     class: 'border-radius',
     slug: 'karur-solar-park-i',
   },
@@ -13,16 +13,17 @@ const projects = [
     location: 'Aravakurichi Taluk',
     title: 'Karur Solar Park II',
     subtitle: 'Read more',
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/karur-solar-park-II.jpg',
     class: 'card-padding',
-    slug: 'karur-solar-park-ii',
+    slug: 'karur-solar-park-II',
   },
   {
     location: 'Vengaimandalam',
     title: ' Trichy Solar Park',
     subtitle: 'Read more',
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/trichy-solar-park.jpg',
     class: 'border-radius-left',
+    slug: 'trichy-solar-park',
   },
 ];
 
@@ -31,23 +32,25 @@ const projects2 = [
     location: 'Erumapatty',
     title: 'Namakkal Solar Park I',
     subtitle: 'Read more',
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/namakkal-solar-park-I.jpg',
     class: 'border-radius',
+    slug: 'namakkal-solar-park-I',
   },
   {
     location: 'Paruthipally',
     title: 'Namakkal Solar Park II',
     subtitle: 'Read more',
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/namakkal-solar-park-II.jpg',
     class: 'card-padding',
+    slug: 'namakkal-solar-park-II',
   },
   {
     location: 'Gingee',
     title: 'Thiruvannamalai Solar Park',
     subtitle: 'Read more',
-
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/thiruvannamalai-solar-park.jpg',
     class: 'border-radius-left',
+    slug: 'thiruvannamalai-solar-park',
   },
 ];
 const projects3 = [
@@ -55,8 +58,9 @@ const projects3 = [
     location: 'Chatrapatty',
     title: 'Pazhani Solar Park',
     subtitle: 'Read more',
-    image: '/img/home/banner-1.jpg',
+    image: '/img/home/Projects/pazhani-solar-park.jpg',
     class: 'border-radius',
+    slug: 'pazhani-solar-park',
   },
   // {
   //   location: "consectetur",
@@ -154,11 +158,8 @@ const NewProjectCard = () => {
                       className='solar-project-title text-white'
                       dangerouslySetInnerHTML={{ __html: project.title }}
                     ></h3>
-                    <p className='solar-project-subtitle text-white w-100'>
-                      <a
-                        href={`/project-detail/${project.slug}`}
-                        className='text-white'
-                      >
+                     <p className='solar-project-subtitle text-white w-100'>
+                      <a href={`/${project.slug}`} className='text-white'>
                         {project.subtitle}
                       </a>
                     </p>
@@ -192,8 +193,8 @@ const NewProjectCard = () => {
                       className='solar-project-title text-white'
                       dangerouslySetInnerHTML={{ __html: project.title }}
                     ></h3>
-                    <p className='solar-project-subtitle text-white w-100'>
-                      <a href='project-detail' className='text-white'>
+                     <p className='solar-project-subtitle text-white w-100'>
+                      <a href={`/${project.slug}`} className='text-white'>
                         {project.subtitle}
                       </a>
                     </p>
