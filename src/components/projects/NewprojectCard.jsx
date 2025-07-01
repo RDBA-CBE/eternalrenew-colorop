@@ -7,7 +7,7 @@ const projects = [
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-I.jpg',
     class: 'border-radius',
-    slug: 'karur-solar-park-i',
+    slug: 'karur-solar-park-1',
   },
   {
     location: 'Aravakurichi Taluk',
@@ -15,7 +15,7 @@ const projects = [
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-II.jpg',
     class: 'card-padding',
-    slug: 'karur-solar-park-ii',
+    slug: 'karur-solar-park-2',
   },
   {
     location: 'Vengaimandalam',
@@ -34,7 +34,7 @@ const projects2 = [
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-I.jpg',
     class: 'border-radius',
-    slug: 'namakkal-solar-park-i',
+    slug: 'namakkal-solar-park-1',
   },
   {
     location: 'Paruthipally',
@@ -42,7 +42,7 @@ const projects2 = [
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-II.jpg',
     class: 'card-padding',
-    slug: 'namakkal-solar-park-ii',
+    slug: 'namakkal-solar-park-2',
   },
   {
     location: 'Gingee',
