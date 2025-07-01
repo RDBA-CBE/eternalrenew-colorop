@@ -1,168 +1,210 @@
-import React from "react";
+import React from 'react';
 
 const projects = [
   {
-    location: "consectetur",
-    title: "Consectetur <br/>  amettur",
-    subtitle: "Read more",
-    image:"/img/home/banner-1.jpg",
-     class:"border-radius"
-, 
+    location: 'Ayyermalai',
+    title: 'Karur Solar Park I',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'border-radius',
+    slug: 'karur-solar-park-i',
   },
   {
-    location: "consectetur",
-    title: "consectetur",
-    subtitle: "Read more",
-    image: "/img/home/banner-1.jpg",
-    class:"card-padding"
+    location: 'Aravakurichi Taluk',
+    title: 'Karur Solar Park II',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'card-padding',
+    slug: 'karur-solar-park-ii',
   },
   {
-    location: "consectetur",
-    title:  "Consectetur <br/>  amettur",
-    subtitle: "Read more",
-    image:"/img/home/banner-1.jpg",
-    class:"border-radius-left"
+    location: 'Vengaimandalam',
+    title: ' Trichy Solar Park',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'border-radius-left',
   },
 ];
 
 const projects2 = [
   {
-    location: "consectetur",
-    title:  "Consectetur <br/>  amettur",
-    subtitle: "Read more",
-    image:"/img/home/banner-1.jpg",
-    class:"border-radius"
-, 
+    location: 'Erumapatty',
+    title: 'Namakkal Solar Park I',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'border-radius',
   },
   {
-    location: "consectetur",
-    title: "consectetur",
-    subtitle: "Read more",
-    image: "/img/home/banner-1.jpg",
-    class:"card-padding"
+    location: 'Paruthipally',
+    title: 'Namakkal Solar Park II',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'card-padding',
   },
   {
-    location: "consectetur",
-    title:  "Consectetur <br/>  amettur",
-    subtitle: "Read more",
-    
-    image:"/img/home/banner-1.jpg",
-    class:"border-radius-left"
+    location: 'Gingee',
+    title: 'Thiruvannamalai Solar Park',
+    subtitle: 'Read more',
+
+    image: '/img/home/banner-1.jpg',
+    class: 'border-radius-left',
   },
-]
-  const projects3 = [
+];
+const projects3 = [
   {
-    location: "consectetur",
-    title:  "Consectetur <br/>  amettur",
-    subtitle: "Read more",
-    image:"/img/home/banner-1.jpg",
-    class:"border-radius"
-, 
+    location: 'Chatrapatty',
+    title: 'Pazhani Solar Park',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'border-radius',
   },
+  // {
+  //   location: "consectetur",
+  //   title: "consectetur",
+  //   subtitle: "Read more",
+  //   image: "/img/home/banner-1.jpg",
+  //   class:"card-padding"
+  // },
+  // {
+  //   location: "consectetur",
+  //   title:  "Consectetur <br/>  amettur",
+  //   subtitle: "Read more",
+
+  //   image:"/img/home/banner-1.jpg",
+  //   class:"border-radius-left"
+  // },
+];
+const projects4 = [
   {
-    location: "consectetur",
-    title: "consectetur",
-    subtitle: "Read more",
-    image: "/img/home/banner-1.jpg",
-    class:"card-padding"
-  },
-  {
-    location: "consectetur",
-    title:  "Consectetur <br/>  amettur",
-    subtitle: "Read more",
-    
-    image:"/img/home/banner-1.jpg",
-    class:"border-radius-left"
-  },
-]
-  const projects4 = [
-  {
-    location: "consectetur",
-    title: "Amet <br/>  consectetur",
-    subtitle: "Read more",
-    image:"/img/home/banner-1.jpg",
-    class:"border-radius"
-, 
+    location: 'consectetur',
+    title: 'Amet <br/>  consectetur',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: 'border-radius',
   },
   {
-    location: "consectetur",
-    title: "consectetur",
-    subtitle: "Read more",
-    image: "/img/home/banner-1.jpg",
-    class:" border-radius-left"
+    location: 'consectetur',
+    title: 'consectetur',
+    subtitle: 'Read more',
+    image: '/img/home/banner-1.jpg',
+    class: ' border-radius-left',
   },
-  
 ];
 
 const NewProjectCard = () => {
   return (
     <>
-    <div className="container solar-projects-container pb-10 pb-md-0">
-      <div className="row px-3 px-md-0 mt-10 mt-md-10">
-        {projects.map((project, index) => (
-          <div className={`col-12  col-md-4 bg-white  p-0 ${project.class ? project.class : ""} `} key={index}>
+      <div className='container solar-projects-container pb-10 pb-md-0'>
+        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
+          {projects.map((project, index) => (
             <div
-              className={`solar-project-card ${project.class !== "card-padding" ? project.class : " "  }    `}
-              style={{ backgroundImage: `url(${project.image})`, }}
+              className={`col-12  col-md-4 bg-white  p-0 ${
+                project.class ? project.class : ''
+              } `}
+              key={index}
             >
-              <div className="solar-project-overlay">
-                <div>
-                    <p className="solar-project-location  w-100">{project.location}</p>
-                <h3 className="solar-project-title text-white" dangerouslySetInnerHTML={{__html:project.title}}></h3>
-                <p className="solar-project-subtitle text-white w-100" ><a href="project-detail" className="text-white">{project.subtitle}</a></p>
-                </div> 
-                
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-       <div className="row px-3 px-md-0 mt-10 mt-md-10">
-        {projects2.map((project, index) => (
-          <div className={`col-12  col-md-4 bg-white  p-0 ${project.class ? project.class : ""} `} key={index}>
-           <div
-              className={`solar-project-card ${project.class !== "card-padding" ? project.class : " "  }    `}
-              style={{ backgroundImage: `url(${project.image})`, }}
-            >
-              <div className="solar-project-overlay">
-                <div>
-                    <p className="solar-project-location  w-100">{project.location}</p>
-                <h3 className="solar-project-title text-white" dangerouslySetInnerHTML={{__html:project.title}}></h3>
-                <p className="solar-project-subtitle text-white w-100"><a href="project-detail" className="text-white">{project.subtitle}</a></p>
+              <div
+                className={`solar-project-card ${
+                  project.class !== 'card-padding' ? project.class : ' '
+                }    `}
+                style={{ backgroundImage: `url(${project.image})` }}
+              >
+                <div className='solar-project-overlay'>
+                  <div>
+                    <p
+                      className='solar-project-location  w-100'
+                      dangerouslySetInnerHTML={{ __html: project.location }}
+                    ></p>
+                    <h3
+                      className='solar-project-title text-white'
+                      dangerouslySetInnerHTML={{ __html: project.title }}
+                    ></h3>
+                    <p className='solar-project-subtitle text-white w-100'>
+                      <a href={`/${project.slug}`} className='text-white'>
+                        {project.subtitle}
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
-       <div className="row px-3 px-md-0 mt-10 mt-md-10">
-        {projects3.map((project, index) => (
-          <div className={`col-12  col-md-4 bg-white  p-0 ${project.class ? project.class : ""} `} key={index}>
-           <div
-              className={`solar-project-card ${project.class !== "card-padding" ? project.class : " "  }    `}
-              style={{ backgroundImage: `url(${project.image})`, }}
+        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
+          {projects2.map((project, index) => (
+            <div
+              className={`col-12  col-md-4 bg-white  p-0 ${
+                project.class ? project.class : ''
+              } `}
+              key={index}
             >
-              <div className="solar-project-overlay">
-                <div>
-                    <p className="solar-project-location  w-100">{project.location}</p>
-                <h3 className="solar-project-title text-white" dangerouslySetInnerHTML={{__html:project.title}}></h3>
-                <p className="solar-project-subtitle text-white w-100"><a href="project-detail" className="text-white">{project.subtitle}</a></p>
+              <div
+                className={`solar-project-card ${
+                  project.class !== 'card-padding' ? project.class : ' '
+                }    `}
+                style={{ backgroundImage: `url(${project.image})` }}
+              >
+                <div className='solar-project-overlay'>
+                  <div>
+                    <p className='solar-project-location w-100'>
+                      {project.location}
+                    </p>
+                    <h3
+                      className='solar-project-title text-white'
+                      dangerouslySetInnerHTML={{ __html: project.title }}
+                    ></h3>
+                    <p className='solar-project-subtitle text-white w-100'>
+                      <a
+                        href={`/project-detail/${project.slug}`}
+                        className='text-white'
+                      >
+                        {project.subtitle}
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+
+        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
+          {projects3.map((project, index) => (
+            <div
+              className={`col-12  col-md-4 bg-white  p-0 ${
+                project.class ? project.class : ''
+              } `}
+              key={index}
+            >
+              <div
+                className={`solar-project-card ${
+                  project.class !== 'card-padding' ? project.class : ' '
+                }    `}
+                style={{ backgroundImage: `url(${project.image})` }}
+              >
+                <div className='solar-project-overlay'>
+                  <div>
+                    <p className='solar-project-location  w-100'>
+                      {project.location}
+                    </p>
+                    <h3
+                      className='solar-project-title text-white'
+                      dangerouslySetInnerHTML={{ __html: project.title }}
+                    ></h3>
+                    <p className='solar-project-subtitle text-white w-100'>
+                      <a href='project-detail' className='text-white'>
+                        {project.subtitle}
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-
-    </div>
-
-   
     </>
-    
   );
 };
 

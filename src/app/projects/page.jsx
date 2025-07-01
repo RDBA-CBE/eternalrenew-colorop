@@ -14,7 +14,7 @@ import { demos } from "data/demo-34";
 export default function Demo34() {
     const projects4 = [
   {
-    location: "consectetur",
+    location: "Ayyermalai, Kulithalai Taluk, Karur District, Tamilnadu",
     title: "Amet consectetur",
     subtitle: "Read more",
     image:"/img/home/banner-1.jpg",
