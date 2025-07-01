@@ -15,7 +15,7 @@ const projects = [
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-II.jpg',
     class: 'card-padding',
-    slug: 'karur-solar-park-II',
+    slug: 'karur-solar-park-ii',
   },
   {
     location: 'Vengaimandalam',
