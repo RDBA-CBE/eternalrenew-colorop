@@ -20,7 +20,7 @@ export default function Demo34() {
   const banner ={
     title:"THIRUVANNAMALAI SOLAR PARK",
     description:"Location: Gingee, Melmalayanur Taluk, Villupuram District, Tamilnadu",
-    img:"/img/home/banner-1.jpg"
+    img:"/img/home/Projects/thiruvannamali-solar-park/banner-img.jpg"
   }
   return (
     <Fragment>

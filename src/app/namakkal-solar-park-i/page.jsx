@@ -21,7 +21,7 @@ export default function Demo34() {
   const banner ={
     title:"NAMAKKAL SOLAR PARK I",
     description:"Location: Erumapatty, Sendhamangalam Taluk, Namakkal District, Tamilnadu",
-    img:"/img/home/banner-1.jpg"
+    img:"/img/home/Projects/namakkal-solar-park-i/banner-img.jpg"
   }
   return (
     <Fragment>

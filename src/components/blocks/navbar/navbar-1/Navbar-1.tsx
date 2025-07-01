@@ -107,6 +107,11 @@ export default function NavbarOne({
               </a>
             </li> */}
             <WhatWeDoNavItem/> 
+             <li className="nav-item ">
+            <a href="projects"  className="nav-link text-blue" >
+           Projects
+              </a>
+            </li>
 
             <li className="nav-item ">
             <a href="howwedo"  className="nav-link text-blue" >
@@ -120,6 +125,7 @@ export default function NavbarOne({
               </a>
             </li>
             {/* <WhyChooseUsNavItem/> */}
+           
 
             <li className="nav-item ">
             <a href="media"  className="nav-link text-blue" >

@@ -20,7 +20,7 @@ export default function Demo34() {
   const banner ={
     title:"PAZHANI SOLAR PARK ",
     description:"Location: Chatrapatty, Oddenchatram Taluk, Dindigul District, Tamilnadu",
-    img:"/img/home/banner-1.jpg"
+    img:"/img/home/Projects/pazhani-solar-park/banner-img.jpg"
   }
   return (
     <Fragment>

@@ -7,7 +7,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
         <div className='row'>
           <div className='col-md-6'>
             <div className='img-con'>
-              <img src='img/what-we-do/what-we-do.jpg' alt='' />
+              <img src='/img/home/Projects/karur-solar-park-ii/down-img.jpg' alt='' />
             </div>
           </div>
           <div className='col-md-6 pt-5'>
@@ -186,7 +186,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
         <div className='row justify-content-center pb-0'>
           <div className='col-md-8 col-lg-10 col-xl-8 text-center'>
             <img
-              src='img/what-we-do/what-we-do.jpg'
+              src='/img/home/Projects/karur-solar-park-ii/left-img.jpg'
               alt=''
               className='img-fluid battery-info-image'
             />

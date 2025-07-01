@@ -18,7 +18,7 @@ export default function Demo34() {
   const banner ={
     title:"KARUR SOLAR PARK II",
     description:"Location: Aravakurichi Taluk, Karur District, Tamilnadu",
-    img:"/img/home/banner-1.jpg"
+    img:"/img/home/Projects/karur-solar-park-ii/banner-img.jpg"
   }
   return (
     <Fragment>
