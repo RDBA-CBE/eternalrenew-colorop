@@ -34,7 +34,7 @@ const projects2 = [
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-I.jpg',
     class: 'border-radius',
-    slug: 'namakkal-solar-park-I',
+    slug: 'namakkal-solar-park-i',
   },
   {
     location: 'Paruthipally',
@@ -42,7 +42,7 @@ const projects2 = [
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-II.jpg',
     class: 'card-padding',
-    slug: 'namakkal-solar-park-II',
+    slug: 'namakkal-solar-park-ii',
   },
   {
     location: 'Gingee',
