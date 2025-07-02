@@ -133,7 +133,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
                   500Wp Monofacial, Trina Solar
                 </span>
               </div> */}
-              <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
+              <div className='battery-detail-row d-flex justify-content-between py-2 row'>
                 <strong className='text-white col-5 px-0'>Inverters:</strong>
                 <span className='text-orange1 col-7 px-0'>
                   {' '}
