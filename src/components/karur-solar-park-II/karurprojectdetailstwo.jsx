@@ -118,7 +118,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>
-                  No. of Panels Installed:
+                   Panel Type & Make:
                 </strong>
                 <span className=' text-orange1 col-7 px-0'>
                   500Wp, 540 Wp, 550 Wp and 600 Wp Monofacial, Trina Solar, JA
@@ -140,12 +140,12 @@ export default function KarurProjectDetailTwoMain({ banner }) {
                   Fimer ( Central Inverter) & Sungrow ( String Inverter)
                 </span>
               </div>
-              <div className='battery-detail-row d-flex justify-content-between py-2 row'>
+              {/* <div className='battery-detail-row d-flex justify-content-between py-2 row'>
                 <strong className='text-white col-5 px-0'>
                   Tilting System:
                 </strong>
                 <span className='text-orange1 col-7 px-0'>Fixed Tilt</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
