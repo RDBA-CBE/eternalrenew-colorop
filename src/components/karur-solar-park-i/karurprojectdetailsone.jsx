@@ -134,7 +134,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
                 <span className='text-orange1 col-7 px-0'>
                   {' '}
                   ABB ( Central Inverter) , Fimer ( Central Inverter) & Sungrow
-                  ( String Inverter) Tilting System: Fixed Tilt
+                  ( String Inverter)
                 </span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between  py-2 row'>
