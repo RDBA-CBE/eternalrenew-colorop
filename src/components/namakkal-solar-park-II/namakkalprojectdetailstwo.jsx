@@ -129,7 +129,7 @@ export default function NamakkalProjectDetailTwoMain({ banner }) {
                   Panel Type & Make :
                 </strong>
                 <span className='text-orange1 col-7 px-0'>
-                  : 590Wp and 600 Wp Bi Facial, Trina Solar and Canadian Solar
+                  590Wp and 600 Wp Bi Facial, Trina Solar and Canadian Solar
                 </span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
