@@ -7,13 +7,23 @@ export default function TrichyProjectDetailMain({ banner }) {
         <div className='row'>
           <div className='col-md-6'>
             <div className='img-con'>
-              <img src='/img/home/Projects/trichy-solar-park/down-img.jpg' alt='' />
+              <img
+                src='/img/home/Projects/trichy-solar-park/down-img.jpg'
+                alt=''
+              />
             </div>
           </div>
           <div className='col-md-6 pt-5'>
             <div className='content-con' style={{ width: '100%' }}>
               <p className='text-white fs-16'>
-                Trichy Solar Park is located in Vengaimandalam Village of Moovanur Taluk, Trichy District, Tamilnadu  , India. The solar farm is connected with 110/33-22-11 KV Vengaimandalam Substation through the 11 KV dedicated single circuit transmission overhead line by using ACSR Panther conductor under section 10(1) of Electricity act 2003.  Bi Facial photovoltaic (PV) modules with each capacity of 590 wp * 22034 Nos.  are installed, creating a DC capacity of 13 MWp. 
+                Trichy Solar Park is located in Vengaimandalam Village of
+                Moovanur Taluk, Trichy District, Tamilnadu , India. The solar
+                farm is connected with 110/33-22-11 KV Vengaimandalam Substation
+                through the 11 KV dedicated single circuit transmission overhead
+                line by using ACSR Panther conductor under section 10(1) of
+                Electricity act 2003. Bi Facial photovoltaic (PV) modules with
+                each capacity of 590 wp * 22034 Nos. are installed, creating a
+                DC capacity of 13 MWp.
               </p>
             </div>
           </div>
@@ -31,7 +41,8 @@ export default function TrichyProjectDetailMain({ banner }) {
               2,00,00,000
             </span>
             <p className='text-white battery-detail-item mt-4'>
-              The approximate amount of renewable energy generated from Trichy Solar Park annually (in KWhrs)
+              The approximate amount of renewable energy generated from Trichy
+              Solar Park annually (in KWhrs)
             </p>
           </div>
 
@@ -41,7 +52,7 @@ export default function TrichyProjectDetailMain({ banner }) {
               className='text-orange1 fs-45 fw-bold d-block battery-detail-item'
               style={{ borderBottom: '1px solid #fbbc05' }}
             >
-             14,220
+              14,220
             </span>
             <p className='text-white battery-detail-item mt-4'>
               Tonnes CO2 emissions avoided per Annum
@@ -77,9 +88,14 @@ export default function TrichyProjectDetailMain({ banner }) {
 
         <div className='row justify-content-center text-center'>
           <div className='col-lg-12'>
-            <h2 className='mb-3 display-3-n text-white '>Project Summery</h2>
+            <h2 className='mb-3 display-3-n text-white '>Project Summary</h2>
             <p className='text-white'>
-              Trichy Solar Park utilises highly accurate forecasting to predict the plant’s variation in output due to changes in irradiance to provide clean electricity while maintaining system security. The solar farm has a variety of weather sensors installed throughout the park to accurately capture weather conditions to ensure the plant’s export is maximised without impacting grid stability.
+              Trichy Solar Park utilises highly accurate forecasting to predict
+              the plant’s variation in output due to changes in irradiance to
+              provide clean electricity while maintaining system security. The
+              solar farm has a variety of weather sensors installed throughout
+              the park to accurately capture weather conditions to ensure the
+              plant’s export is maximised without impacting grid stability.
             </p>
           </div>
         </div>
@@ -119,7 +135,7 @@ export default function TrichyProjectDetailMain({ banner }) {
                 <strong className='text-white col-5 px-0'>Inverters:</strong>
                 <span className='text-orange1 col-7 px-0'>
                   {' '}
-                  Fimer ( Central Inverter) 
+                  Fimer ( Central Inverter)
                 </span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between py-2 row'>

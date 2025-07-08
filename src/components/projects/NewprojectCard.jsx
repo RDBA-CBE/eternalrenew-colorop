@@ -10,7 +10,7 @@ const projects = [
     slug: 'karur-solar-park-1',
   },
   {
-    location: 'Aravakurichi Taluk',
+    location: 'Aravakurichi',
     title: 'Karur Solar Park II',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-II.jpg',

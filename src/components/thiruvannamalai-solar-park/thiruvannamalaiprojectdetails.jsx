@@ -7,7 +7,10 @@ export default function ThiruvannamalaiProjectDetailMain({ banner }) {
         <div className='row'>
           <div className='col-md-6'>
             <div className='img-con'>
-              <img src='/img/home/Projects/thiruvannamali-solar-park/down-img.jpg' alt='' />
+              <img
+                src='/img/home/Projects/thiruvannamali-solar-park/down-img.jpg'
+                alt=''
+              />
             </div>
           </div>
           <div className='col-md-6 pt-5'>
@@ -21,7 +24,7 @@ export default function ThiruvannamalaiProjectDetailMain({ banner }) {
                 circuit transmission overhead line by using ACSR Dog conductor
                 under section 10(1) of Electricity act 2003. Bi-Facial
                 photovoltaic (PV) modules with each capacity of 550 wp * 35454
-                Nos. are installed, creating a DC capacity of 19.5MWp.
+                Nos. are installed, creating a DC capacity of 19.5 Mwp.
               </p>
             </div>
           </div>
@@ -86,7 +89,7 @@ export default function ThiruvannamalaiProjectDetailMain({ banner }) {
 
         <div className='row justify-content-center text-center'>
           <div className='col-lg-12'>
-            <h2 className='mb-3 display-3-n text-white '>Project Summery</h2>
+            <h2 className='mb-3 display-3-n text-white '>Project Summary</h2>
             <p className='text-white'>
               Tiruvannamalai Solar Park utilises highly accurate forecasting to
               predict the plant’s variation in output due to changes in
@@ -106,7 +109,7 @@ export default function ThiruvannamalaiProjectDetailMain({ banner }) {
               </h2>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>DC Capacity:</strong>
-                <span className=' text-orange1 col-7 px-0'>19MWp</span>
+                <span className=' text-orange1 col-7 px-0'>19.5 Mwp</span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>AC Capacity:</strong>

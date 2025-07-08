@@ -17,7 +17,7 @@ export default function Demo34() {
 
   const banner ={
     title:"NAMAKKAL SOLAR PARK II",
-    description:"Location: Paruthipally, Tiruchengode Taluk, Namakkal District, Tamilnadu",
+    description:"Namakkal solar park II -5.6Mwp<br/>Location: Paruthipally, Tiruchengode Taluk, Namakkal District, Tamilnadu",
     img:"/img/home/Projects/namakkal-solar-park-ii/banner-img.jpg"
   }
   return (

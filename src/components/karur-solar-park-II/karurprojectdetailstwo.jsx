@@ -86,7 +86,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
 
         <div className='row justify-content-center text-center'>
           <div className='col-lg-12'>
-            <h2 className='mb-3 display-3-n text-white '>Project Summery</h2>
+            <h2 className='mb-3 display-3-n text-white '>Project Summary</h2>
             <p className='text-white'>
               Karur Solar Park II utilises highly accurate forecasting to
               predict the plant’s variation in output due to changes in

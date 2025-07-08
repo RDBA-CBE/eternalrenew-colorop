@@ -127,7 +127,7 @@ export default function ContactUs() {
                           </div>
                         </div> */}
 
-                        <div className="d-flex flex-row">
+                        <div className="d-flex flex-row mb-4">
                           <div>
                             <div className="icon text-white fs-28 me-4 mt-n1">
                               <i className="uil uil-envelope" />
@@ -138,6 +138,26 @@ export default function ContactUs() {
                             <p className="mb-0">
                               <a href="mailto:ceo@eternalrenewables.com" className="link-body text-white">
                               ceo@eternalrenewables.com
+                              </a>
+                            </p>
+                            {/* <p className="mb-0 text-blue">
+                              <a href="mailto:help@sandbox.com" className="link-body  text-dark">
+                                help@sandbox.com
+                              </a>
+                            </p> */}
+                          </div>
+                        </div>
+                        <div className="d-flex flex-row">
+                          <div>
+                            <div className="icon text-white fs-28 me-4 mt-n1">
+                              <i className="uil uil-phone" />
+                            </div>
+                          </div>
+                          <div>
+                            <h5 className="mb-1 text-white">Contact No:</h5>
+                            <p className="mb-0">
+                              <a href="tel:+919597788792" className="link-body text-white">
+                              +91 95977 88792
                               </a>
                             </p>
                             {/* <p className="mb-0 text-blue">

@@ -7,7 +7,10 @@ export default function KarurProjectDetailOneMain({ banner }) {
         <div className='row'>
           <div className='col-md-6'>
             <div className='img-con'>
-              <img src='/img/home/Projects/karur-solar-park-i/down-img.jpg' alt='' />
+              <img
+                src='/img/home/Projects/karur-solar-park-i/down-img.jpg'
+                alt=''
+              />
             </div>
           </div>
           <div className='col-md-6 pt-5'>
@@ -86,7 +89,7 @@ export default function KarurProjectDetailOneMain({ banner }) {
 
         <div className='row justify-content-center text-center'>
           <div className='col-lg-12'>
-            <h2 className='mb-3 display-3-n text-white '>Project Summery</h2>
+            <h2 className='mb-3 display-3-n text-white '>Project Summary</h2>
             <p className='text-white'>
               Karur Solar Park I utilises highly accurate forecasting to predict
               the plant’s variation in output due to changes in irradiance to

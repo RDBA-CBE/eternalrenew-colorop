@@ -7,7 +7,10 @@ export default function NamakkalProjectDetailTwoMain({ banner }) {
         <div className='row'>
           <div className='col-md-6'>
             <div className='img-con'>
-              <img src='/img/home/Projects/namakkal-solar-park-ii/down-img.jpg' alt='' />
+              <img
+                src='/img/home/Projects/namakkal-solar-park-ii/down-img.jpg'
+                alt=''
+              />
             </div>
           </div>
           <div className='col-md-6  pt-5'>
@@ -20,7 +23,7 @@ export default function NamakkalProjectDetailTwoMain({ banner }) {
                 line by using ACSR Dog conductor under section 10(1) of
                 Electricity act 2003. Bi Facial photovoltaic (PV) modules are
                 installed ( with different capacities of 590Wp and 600 Wp),
-                creating a DC capacity of 5.2 MWp
+                creating a DC capacity of 5.6 MWp
               </p>
             </div>
           </div>
@@ -85,7 +88,7 @@ export default function NamakkalProjectDetailTwoMain({ banner }) {
 
         <div className='row justify-content-center text-center'>
           <div className='col-lg-12'>
-            <h2 className='mb-3 display-3-n text-white '>Project Summery</h2>
+            <h2 className='mb-3 display-3-n text-white '>Project Summary</h2>
             <p className='text-white'>
               Namakkal Solar Park-II utilises highly accurate forecasting to
               predict the plant’s variation in output due to changes in
@@ -105,7 +108,7 @@ export default function NamakkalProjectDetailTwoMain({ banner }) {
               </h2>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>DC Capacity:</strong>
-                <span className=' text-orange1 col-7 px-0'>5.2 MWp</span>
+                <span className=' text-orange1 col-7 px-0'>5.6 MWp</span>
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>AC Capacity:</strong>

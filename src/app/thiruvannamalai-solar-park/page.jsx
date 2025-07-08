@@ -19,7 +19,7 @@ export default function Demo34() {
 
   const banner ={
     title:"THIRUVANNAMALAI SOLAR PARK",
-    description:"Location: Gingee, Melmalayanur Taluk, Villupuram District, Tamilnadu",
+    description:"Tiruvannamalai Solar Park- 19.5 Mwp<br/>Location: Gingee, Melmalayanur Taluk, Villupuram District, Tamilnadu",
     img:"/img/home/Projects/thiruvannamali-solar-park/banner-img.jpg"
   }
   return (

@@ -22,9 +22,10 @@ export default function TrichyProjectBanner({ banner }) {
                 {/* <ReplaceMe  key={index} className="rotator-zoom">{item?.title}</ReplaceMe> */}
               </h1>
 
-              <p className='lead fs-22 mb-0 mx-xxl-8 fw-medium text-white'>
-                {banner?.description}
-              </p>
+             <p
+                className='lead fs-22 mb-0 mx-xxl-8 fw-medium text-white'
+                dangerouslySetInnerHTML={{ __html: banner?.description }}
+              ></p>
             </div>
           </div>
         </div>
