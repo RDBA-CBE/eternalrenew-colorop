@@ -168,7 +168,7 @@ export default function TrichyProjectDetailMain({ banner }) {
         <div className='row justify-content-center pb-0'>
           <div className='col-md-8 col-lg-10 col-xl-8 text-center'>
             <img
-              src='/img/home/Projects/trichy-solar-park/left-img.jpg'
+              src='/img/home/Projects/project-f5.jpg'
               alt=''
               className='img-fluid battery-info-image'
             />

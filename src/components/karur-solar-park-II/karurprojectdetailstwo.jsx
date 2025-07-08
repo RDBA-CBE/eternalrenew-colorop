@@ -186,7 +186,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
         <div className='row justify-content-center pb-0'>
           <div className='col-md-8 col-lg-10 col-xl-8 text-center'>
             <img
-              src='/img/home/Projects/karur-solar-park-ii/left-img.jpg'
+              src='/img/home/Projects/project-f3.jpg'
               alt=''
               className='img-fluid battery-info-image'
             />
