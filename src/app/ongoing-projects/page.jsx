@@ -2,13 +2,16 @@ import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
 
 import Navbar from 'components/blocks/navbar/navbar-1';
-import OngoingProjectBanner from 'components/ongoing-projects/OngoingProjectBanner';
-import OngoingProjectDetailMain from 'components/ongoing-projects/Ongoingprojectdetails';
+// import OngoingProjectBanner from 'components/ongoing-projects/OngoingProjectBanner';
+// import OngoingProjectDetailMain from 'components/ongoing-projects/Ongoingprojectdetails';
+import OngoingProjectDetailMain from 'components/ongoing-projects/Ongoingprojectdetails'
+import OngoingProjectBanner from 'components/ongoing-projects/Ongoingprojectbanner'
 
 import { Footer12 } from 'components/blocks/footer';
 
 // CUSTOM DATA
 import { demos } from 'data/demo-34';
+
 
 export default function Demo34() {
   const banner = {
