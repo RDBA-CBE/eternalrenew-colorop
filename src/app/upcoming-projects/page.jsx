@@ -2,8 +2,8 @@ import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 
 import Navbar from "components/blocks/navbar/navbar-1";
-import UpcomingProjectBanner from "components/upcoming-projects/UpcomingProjectBanner"
-import UpcomingProjectDetailMain from "components/upcoming-projects/upcomingprojectdetails"
+import UpcomingProjectBanner from "components/upcoming-projects/Upcomingprojectbanner"
+import UpcomingProjectDetailMain from "components/upcoming-projects/Upcomingprojectdetails"
 
 
 import { Footer12 } from "components/blocks/footer";
