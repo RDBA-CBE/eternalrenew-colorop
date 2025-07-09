@@ -13,7 +13,7 @@ export default function HeroBanner() {
     {
       title:"Sustainable Energy , <br/> Infinite Possibilities ",
       // description:"Developing solar farms to meet India’s green energy goals",
-      src:"/img/home/banner-12.jpg"
+      src:"/img/home/banner-12-1.jpg"
 
     },
     {

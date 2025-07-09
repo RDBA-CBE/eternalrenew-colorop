@@ -3,7 +3,7 @@ import React from 'react';
 const projects = [
   {
     location: 'Ayyermalai',
-    title: 'Karur Solar Park I',
+    title: 'Karur Solar Park I - 19.5 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-I.jpg',
     class: 'border-radius',
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     location: 'Aravakurichi',
-    title: 'Karur Solar Park II',
+    title: 'Karur Solar Park II - 19.5 MWp',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-II.jpg',
     class: 'card-padding',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     location: 'Vengaimandalam',
-    title: ' Trichy Solar Park',
+    title: ' Trichy Solar Park - 13 MWp',
     subtitle: 'Read more',
     image: '/img/home/Projects/trichy-solar-park.jpg',
     class: 'border-radius-left',
@@ -30,7 +30,7 @@ const projects = [
 const projects2 = [
   {
     location: 'Erumapatty',
-    title: 'Namakkal Solar Park I',
+    title: 'Namakkal Solar Park I - 42.3 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-I.jpg',
     class: 'border-radius',
@@ -38,7 +38,7 @@ const projects2 = [
   },
   {
     location: 'Paruthipally',
-    title: 'Namakkal Solar Park II',
+    title: 'Namakkal Solar Park II - 5.6 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-II.jpg',
     class: 'card-padding',
@@ -46,7 +46,7 @@ const projects2 = [
   },
   {
     location: 'Gingee',
-    title: 'Thiruvannamalai Solar Park',
+    title: 'Thiruvannamalai Solar Park - 19.5 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/thiruvannamalai-solar-park.jpg',
     class: 'border-radius-left',
@@ -56,7 +56,7 @@ const projects2 = [
 const projects3 = [
   {
     location: 'Chatrapatty',
-    title: 'Pazhani Solar Park',
+    title: 'Pazhani Solar Park - 41.9 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/pazhani-solar-park.jpg',
     class: 'border-radius',
