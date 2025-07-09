@@ -2,8 +2,8 @@
 
 export default function UpcomingProjectDetailMain({ banner }) {
   return (
-    <section className='pro-detail p-0 mt-10'>
-      <div className='container battery-info-section py-5 pt-10'>
+    <section className='pro-detail p-0 '>
+      <div className='container battery-info-section py-5 '>
         <div className='row justify-content-center py-10'>
           <div className='col-11 col-md-10 col-lg-9 col-xl-6'>
             <div className='battery-details '>
