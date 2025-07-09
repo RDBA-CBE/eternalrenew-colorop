@@ -192,7 +192,7 @@ p{
 
 .navbar-expand-lg .navbar-collapse .dropdown-menu .dropdown-item {
   color: #165ea5;
-  padding-left: 1rem;
+  // padding-left: 1rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
 }
@@ -355,7 +355,7 @@ top: 380px !important;
 }
 
 .solar-projects-container .border-radius{
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
   border-top-left-radius: 10px;
 }
 
@@ -365,7 +365,9 @@ top: 380px !important;
   border-top-right-radius: 10px;
 }
 
-
+.project-border {
+  border-radius:10px;
+}
 
 
 .solar-project-overlay {

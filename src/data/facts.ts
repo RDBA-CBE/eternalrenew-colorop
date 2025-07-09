@@ -36,8 +36,8 @@ export const factList4 = [
 
 // used in the facts-7, facts-10, facts-11 block
 export const factList5 = [
-  { id: 1, title: 'Completed Projects', amount: 150 ,image:'img/photos/projects-icon.png'},
-  { id: 2, title: 'Happy Clients', amount: 100,image:'img/photos/happy-clients-icon.png' },
+  { id: 1, title: 'Completed Projects', amount: 150 ,image:'img/photos/projects-icon.png' ,showPlus: true },
+  { id: 2, title: 'Happy Clients', amount: 100,image:'img/photos/happy-clients-icon.png',showPlus: true },
   { id: 3, title: 'Projects', amount: 200,image:'img/photos/awards-icon.png' }
 ];
 

@@ -32334,6 +32334,7 @@ button:focus {
     pointer-events: none;
     opacity: 0;
     display: block;
+   
   }
   .navbar-expand-lg:not(.hover-none) .navbar-nav .dropdown:not(.dropdown-submenu):hover > .dropdown-menu {
     top: 100%;
@@ -42999,5 +43000,8 @@ footer img{
   }
 }
 
+.navdrop-menu {
+  min-width:fit-content !important;
+}
 
 

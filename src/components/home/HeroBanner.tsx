@@ -12,8 +12,8 @@ export default function HeroBanner() {
   const bannerContent = [
     {
       title:"Sustainable Energy , <br/> Infinite Possibilities ",
-      description:"Developing solar farms to meet India’s green energy goals",
-      src:"/img/home/banner-1.jpg"
+      // description:"Developing solar farms to meet India’s green energy goals",
+      src:"/img/home/banner-12.jpg"
 
     },
     {

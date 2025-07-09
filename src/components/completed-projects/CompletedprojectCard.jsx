@@ -1,15 +1,30 @@
 import React from 'react';
 
-const completedprojects = [
+const projects = [
   {
-    // location: 'Ayyermalai',
-    title: 'Completed Projects',
+    location: 'Ayyermalai',
+    title: 'Karur Solar Park I',
+    subtitle: 'Read more',
+    image: '/img/home/Projects/karur-solar-park-I.jpg',
+    class: 'border-radius',
+    slug: 'karur-solar-park-1',
+  },
+  {
+    location: 'Aravakurichi',
+    title: 'Karur Solar Park II',
+    subtitle: 'Read more',
+    image: '/img/home/Projects/karur-solar-park-II.jpg',
+    class: 'card-padding',
+    slug: 'karur-solar-park-2',
+  },
+  {
+    location: 'Vengaimandalam',
+    title: ' Trichy Solar Park',
     subtitle: 'Read more',
     image: '/img/home/Projects/trichy-solar-park.jpg',
-    class: 'project-border',
-    slug: 'completed-projects',
+    class: 'border-radius-left',
+    slug: 'trichy-solar-park',
   },
-
 ];
 
 const projects2 = [
@@ -82,10 +97,10 @@ const projects4 = [
 const upcomingprojects = [
   {
     location: 'Thiruvannamalai',
-    title: 'Upcoming Projects',
+    title: 'Thiruvannamalai Solar Park 2.0',
     subtitle: 'Read more',
-    image: '/img/home/Projects/karur-solar-park-II.jpg',
-    class: 'project-border',
+    image: '/img/home/Projects/karur-solar-park-I.jpg',
+    class: 'border-radius',
     slug: 'upcoming-projects',
   },
 ];
@@ -93,15 +108,15 @@ const upcomingprojects = [
 const ongoingprojects = [
   {
     location: 'Villupuram',
-    title: 'Ongoing Projects',
+    title: 'Villupuram Solar Park',
     subtitle: 'Read more',
-    image: '/img/home/Projects/pazhani-solar-park.jpg',
-    class: 'project-border',
+    image: '/img/home/Projects/karur-solar-park-I.jpg',
+    class: 'border-radius',
     slug: 'ongoing-projects',
   },
 ];
 
-const NewProjectCard = () => {
+const CompletedProjectCard = () => {
   return (
     <>
       <div className='container solar-projects-container pb-10 pb-md-0'>
@@ -178,9 +193,10 @@ const NewProjectCard = () => {
             </div>
           ))}
         </div> */}
-        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
-          {/* Ongoing Projects */}
+        {/* <div className='row px-3 px-md-0 mt-10 mt-md-10'>
+          
           <div className='col-12 col-md-4'>
+            <h2 style={{ color: 'white' }}>Ongoing Projects</h2>
             {ongoingprojects.map((project, index) => (
               <div
                 className={`bg-white p-0 ${project.class ? project.class : ''}`}
@@ -194,16 +210,16 @@ const NewProjectCard = () => {
                 >
                   <div className='solar-project-overlay'>
                     <div>
-                      {/* <p
+                      <p
                         className='solar-project-location w-100'
                         dangerouslySetInnerHTML={{ __html: project.location }}
-                      ></p> */}
+                      ></p>
                       <h3
                         className='solar-project-title text-white'
                         dangerouslySetInnerHTML={{ __html: project.title }}
                       ></h3>
                       <p className='solar-project-subtitle text-white w-100'>
-                        <a href={`/${project.slug}`} className='text-white text-center d-block'>
+                        <a href={`/${project.slug}`} className='text-white'>
                           {project.subtitle}
                         </a>
                       </p>
@@ -214,8 +230,9 @@ const NewProjectCard = () => {
             ))}
           </div>
 
-          {/* Upcoming Projects */}
+
           <div className='col-12 col-md-4'>
+            <h2 style={{ color: 'white' }}>Upcoming Projects</h2>
             {upcomingprojects.map((project, index) => (
               <div
                 className={`bg-white p-0 ${project.class ? project.class : ''}`}
@@ -229,16 +246,16 @@ const NewProjectCard = () => {
                 >
                   <div className='solar-project-overlay'>
                     <div>
-                      {/* <p
+                      <p
                         className='solar-project-location w-100'
                         dangerouslySetInnerHTML={{ __html: project.location }}
-                      ></p> */}
+                      ></p>
                       <h3
                         className='solar-project-title text-white'
                         dangerouslySetInnerHTML={{ __html: project.title }}
                       ></h3>
                       <p className='solar-project-subtitle text-white w-100'>
-                        <a href={`/${project.slug}`} className='text-white text-center d-block'>
+                        <a href={`/${project.slug}`} className='text-white'>
                           {project.subtitle}
                         </a>
                       </p>
@@ -249,7 +266,8 @@ const NewProjectCard = () => {
             ))}
           </div>
           <div className='col-12 col-md-4'>
-            {completedprojects.map((project, index) => (
+            <h2 style={{ color: 'white' }}>Completed Projects</h2>
+            {upcomingprojects.map((project, index) => (
               <div
                 className={`bg-white p-0 ${project.class ? project.class : ''}`}
                 key={index}
@@ -262,16 +280,16 @@ const NewProjectCard = () => {
                 >
                   <div className='solar-project-overlay'>
                     <div>
-                      {/* <p
+                      <p
                         className='solar-project-location w-100'
                         dangerouslySetInnerHTML={{ __html: project.location }}
-                      ></p> */}
+                      ></p>
                       <h3
                         className='solar-project-title text-white'
                         dangerouslySetInnerHTML={{ __html: project.title }}
                       ></h3>
                       <p className='solar-project-subtitle text-white w-100'>
-                        <a href={`/${project.slug}`} className='text-white text-center d-block '>
+                        <a href={`/${project.slug}`} className='text-white'>
                           {project.subtitle}
                         </a>
                       </p>
@@ -282,10 +300,9 @@ const NewProjectCard = () => {
             ))}
           </div>
           
-        </div>
+        </div> */}
 
-        {/* <div className='row px-3 px-md-0 mt-10 mt-md-10'>
-          <h2 style={{ color: 'white' }}>Completed Projects</h2>
+        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
           {projects.map((project, index) => (
             <div
               className={`col-12  col-md-4 bg-white  p-0 ${
@@ -389,10 +406,10 @@ const NewProjectCard = () => {
               </div>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </>
   );
 };
 
-export default NewProjectCard;
+export default CompletedProjectCard;

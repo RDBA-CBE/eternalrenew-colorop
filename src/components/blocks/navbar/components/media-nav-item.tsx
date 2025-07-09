@@ -25,7 +25,7 @@ export default function MediaNavItem() {
         Media
       </a>
 
-      <ul className='dropdown-menu d-none d-lg-block'>
+      <ul className='dropdown-menu d-none d-lg-block p-0'>
         {mediaNavigation.map(({ id, url, title }) => {
           const openInNewTab = id === 1;
           return (
@@ -33,12 +33,13 @@ export default function MediaNavItem() {
               key={id}
               href={url}
               title={title}
-              linkClassName='dropdown-item'
+              linkClassName="dropdown-item px-2 py-2 text-center"
               openInNewTab={openInNewTab}
             />
           );
         })}
       </ul>
+      
 
       <ul className='dropdown-menu d-block d-lg-none'>
         {mediaMblNavigation.map(({ id, url, title }) => {

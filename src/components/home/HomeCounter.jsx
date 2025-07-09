@@ -21,13 +21,14 @@ export default function HomeCounter() {
 
           <div className='col-lg-8 mt-lg-2'>
             <div className='row align-items-center counter-wrapper gy-6 text-center'>
-              {factList5.map(({ id, image, title, amount }) => (
+              {factList5.map(({ id, image, title, amount , showPlus  }) => (
                 <Counter1
                   key={id}
                   image={image}
                   title={title}
                   number={amount}
                   unit={title === 'Projects' ? 'MW' : ''}
+                  showPlus={showPlus}
                   titleColor='text-yellow'
                 />
               ))}
