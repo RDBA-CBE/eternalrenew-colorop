@@ -92,7 +92,7 @@ export default function OngoingProjectDetailMain({ banner }) {
                 </strong>
                 <span className='text-orange1 col-7 px-0'>Villupuram</span>
               </div>
-              <div className='battery-detail-row d-flex justify-content-between py-2 row'>
+              <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>
                   Approach Road :
                 </strong>

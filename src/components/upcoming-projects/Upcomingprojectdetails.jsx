@@ -25,12 +25,12 @@ export default function UpcomingProjectDetailMain({ banner }) {
                 <strong className='text-white col-5 px-0'>Land Area:</strong>
                 <span className='text-orange1 col-7 px-0'>81 Acres</span>
               </div>
-              <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
+              {/* <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>
                   No. of Panels Installed:
                 </strong>
                 <span className=' text-orange1 col-7 px-0'>22034</span>
-              </div>
+              </div> */}
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0'>
                   Panel Type & Make :
