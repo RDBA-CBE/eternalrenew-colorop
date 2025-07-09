@@ -1,6 +1,6 @@
 'use client';
 
-export default function UpcomingProjectDetailMain({ banner }) {
+export default function OngoingProjectDetailMain({ banner }) {
   return (
     <section className='pro-detail p-0 mt-10'>
       <div className='container-fluid'>
@@ -23,7 +23,7 @@ export default function UpcomingProjectDetailMain({ banner }) {
 
                   <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                     <strong className='text-white col-5 px-0 '>
-                      Proposed DC Capacity:12
+                      Proposed DC Capacity:
                     </strong>
                     <span className=' text-orange1 col-7 px-0'>32.5 MWp</span>
                   </div>
