@@ -43,15 +43,15 @@ export default function AwardsCard() {
           <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
-                <div className="col-lg-5">
+                <div className="col-lg-7">
                   <h3 className="h1 fs-28 post-title mb-3 text-white">Collaboration with IIT Madras:</h3>
                   <p className="text-white">
                    Eternal Renewables Collaborated with IIT Madras for Net Zero Skilling Program on 07.02.2025.
                   </p>
                 </div>
-                <div className="col-lg-7">
+                <div className="col-lg-5">
                   <figure>
-                    <img className="img-fluid rounded" src="/img/photos/Awards-2.jpeg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/awards-001.png"  alt="" />
                   </figure>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export default function AwardsCard() {
           <div className="card bg-orange1 mb-10">
             <div className="card-body px-12 py-12">
               <div className="row align-items-center">
-                <div className="col-lg-5 order-lg-2">
+                <div className="col-lg-7 order-lg-2">
                   {/* <div className="post-category mb-3 text-white">Mobile Design</div> */}
                   <h3 className="h1 fs-28 post-title mb-3 text-white">AUTHORISED CHANNEL PARTNER OF Tata Power renewables</h3>
                   {/* <p className="text-white">
@@ -71,9 +71,9 @@ export default function AwardsCard() {
                   {/* <NextLink title="See Project" href="#" className="btn btn-sm btn-blue btn-icon btn-icon-end mb-0" /> */}
                 </div>
 
-                <div className="col-lg-7">
+                <div className="col-lg-5">
                   <figure>
-                    <img className="img-fluid rounded" src="/img/photos/Awards-1.jpeg"  alt="" />
+                    <img className="img-fluid rounded" src="/img/photos/awards-002.png"  alt="" />
                   </figure>
                 </div>
               </div>

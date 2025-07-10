@@ -1,26 +1,65 @@
 // GLOBAL CUSTOM COMPONENTS
+import ListItemLink from "components/reuseable/links/ListItemLink";
 import DropdownToggleLink from "components/reuseable/links/DropdownToggleLink";
-// LOCAL CUSTOM COMPONENTS
-import renderLinks from "./render-links";
-// CUSTOM DATA
-import { projectsNavigation } from "data/navigation";
+import { useState } from "react";
+
 
 export default function ProjectsNavItem() {
+  const mediaNavigation = [
+    { id: 1, url: "/ongoing-projects", title: "Ongoing Projects" },
+    { id: 2, url: "/upcoming-projects", title: "Upcoming Projects" },
+    { id: 3, url: "/completed-projects", title: "Completed Projects" },
+  ];
+
+  const mediaMblNavigation = [
+    { id: 1, url: "/projects", title: "Overview" },
+    { id: 2, url: "/ongoing-projects", title: "Ongoing Projects" },
+    { id: 3, url: "/upcoming-projects", title: "Upcoming Projects" },
+    { id: 4, url: "/completed-projects", title: "Completed Projects" },
+  ];
+
+  const [toggle, setToggle] = useState(false);
+
   return (
     <li className="nav-item dropdown">
-      {/* <DropdownToggleLink title="Projects" className="nav-link dropdown-toggle" /> */}
-      <DropdownToggleLink title="What We Do" className="nav-link text-blue" />
+      {/* Mobile Toggle Link */}
+      <DropdownToggleLink
+        title="Projects"
+        className="nav-link text-blue dropdown-toggle d-block d-lg-none"
+        onClick={() => setToggle(!toggle)}
+      />
 
-      {/* <div className="dropdown-menu dropdown-lg">
-        <div className="dropdown-lg-content">
-          {projectsNavigation.map(({ title, children }, i) => (
-            <div key={title + i}>
-              <h6 className="dropdown-header">{title}</h6>
-              <ul className="list-unstyled">{renderLinks(children)}</ul>
-            </div>
-          ))}
-        </div>
-      </div> */}
+      {/* Desktop Link */}
+      <a
+        href="projects"
+        className="nav-link text-orange dropdown-toggle d-none d-lg-block"
+      >
+        Projects
+      </a>
+
+      {/* Desktop Menu */}
+      <ul className="dropdown-menu navdrop-menu d-none d-lg-block p-0" >
+        {mediaNavigation.map(({ id, url, title }) => (
+          <ListItemLink
+            key={id}
+            href={url}
+            title={title}
+            linkClassName="dropdown-item px-2 py-2"
+          />
+        ))}
+      </ul>
+
+      {/* Mobile Menu - toggled */}
+      <ul className={`dropdown-menu ${toggle ? "d-block" : "d-none"} d-lg-none`}>
+        {mediaMblNavigation.map(({ id, url, title }) => (
+          <ListItemLink
+            key={id}
+            href={url}
+            title={title}
+            linkClassName="dropdown-item"
+          />
+        ))}
+      </ul>
     </li>
   );
 }

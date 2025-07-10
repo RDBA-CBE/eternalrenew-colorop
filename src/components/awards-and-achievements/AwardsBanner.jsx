@@ -51,7 +51,7 @@ export default function AwardsBanner() {
             <div className='row g-4 rounded'>
               <img
                 className='img-fluid rounded p-0'
-                src='/img/photos/project-banner.jpg'
+                src='/img/photos/awards-banner-2.jpg'
                 alt=''
               />
               {/* <div className="col-4 d-flex flex-column ms-auto">

@@ -123,12 +123,12 @@ export default function NavbarOne({
               </a>
             </li> */}
             <WhatWeDoNavItem />
-            <li className='nav-item '>
+            {/* <li className='nav-item '>
               <a href='projects' className='nav-link text-blue'>
                 Projects
               </a>
-            </li>
-
+            </li> */}
+            <ProjectsNavItem />
             <li className='nav-item '>
               <a href='howwedo' className='nav-link text-blue'>
                 How We Do
