@@ -178,7 +178,8 @@ const NewProjectCard = () => {
             </div>
           ))}
         </div> */}
-        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
+        <div className='row px-3 px-md-0 mt-15 mb-10'>
+
           {/* Ongoing Projects */}
           <div className='col-12 col-md-4'>
             {ongoingprojects.map((project, index) => (
