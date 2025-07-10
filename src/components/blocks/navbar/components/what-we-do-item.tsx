@@ -7,11 +7,13 @@ import { useState } from "react";
 export default function WhatWeDoNavItem() {
   const mediaNavigation = [
     { id: 1, url: "/wherewelead", title: " Where We Lead" },
+    { id: 2, url: "/awards-and-achievements", title: " Awards" },
   ];
 
   const mediaMblNavigation = [
     { id: 1, url: "/whatwedo", title: "Overview" },
     { id: 2, url: "/wherewelead", title: " Where We Lead" },
+    { id: 3, url: "/awards-and-achievements", title: " Awards" },
   ];
 
   const [toggle, setToggle] = useState(false);
@@ -40,7 +42,7 @@ export default function WhatWeDoNavItem() {
             key={id}
             href={url}
             title={title}
-            linkClassName="dropdown-item px-2 py-2 text-center"
+            linkClassName="dropdown-item px-2 py-2"
           />
         ))}
       </ul>

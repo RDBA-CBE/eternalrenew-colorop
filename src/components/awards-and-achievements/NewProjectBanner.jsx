@@ -1,32 +1,32 @@
-'use client';
+"use client";
 
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 // CUSTOM UTILS
-import { fadeInAnimate, slideInDownAnimate } from 'utils/animation';
+import { fadeInAnimate, slideInDownAnimate } from "utils/animation";
 
-export default function OngoingProjectBanner() {
+export default function NewProjectBanner() {
   return (
-    <section className='video-wrapper px-0 mt-0 min-vh-80 '>
+    <section className="video-wrapper px-0 mt-0 min-vh-80 ">
       <video
         loop
         muted
         autoPlay
         playsInline
-        id='1187841'
-        src='/img/home/banner-1.jpg'
-        poster='/img/home/banner-1.jpg'
+        id="1187841"
+        src="/img/home/banner-1.jpg"
+        poster="/img/home/banner-1.jpg"
       />
 
-      <div className='video-content'>
-        <div className='container text-center'>
-          <div className='row'>
-            <div className='col-lg-8 text-center text-white mx-auto'>
-              <h1 className='display-1 fs-45 text-white mb-5'>
-                Ongoing Projects
+      <div className="video-content">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col-lg-8 text-center text-white mx-auto">
+              <h1 className="display-1 fs-45 text-white mb-5">
+                Projects
                 {/* <ReplaceMe  key={index} className="rotator-zoom">{item?.title}</ReplaceMe> */}
               </h1>
 
-              <p className='lead fs-22 mb-0 mx-xxl-8 fw-medium text-white'>
+              <p className="lead fs-22 mb-0 mx-xxl-8 fw-medium text-white">
                 Explore our diverse portfolio of both turnkey and bespoke
                 sustainable energy solutions that are meticulously engineered
                 with precision to help our clients achieve their business

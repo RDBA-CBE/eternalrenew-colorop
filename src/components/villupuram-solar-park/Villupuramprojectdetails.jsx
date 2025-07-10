@@ -1,6 +1,6 @@
 'use client';
 
-export default function OngoingProjectDetailMain({ banner }) {
+export default function VillupuramProjectDetailMain({ banner }) {
   return (
     <section className='pro-detail p-0'>
       {/* <div className='container-fluid'>
@@ -110,7 +110,7 @@ export default function OngoingProjectDetailMain({ banner }) {
         <div className='row justify-content-center pb-0'>
           <div className='col-md-8 col-lg-10 col-xl-8 text-center'>
             <img
-              src='/img/home/Projects/project-f3.jpg'
+              src='/img/home/Projects/left-image.jpg'
               alt=''
               className='img-fluid battery-info-image'
             />
