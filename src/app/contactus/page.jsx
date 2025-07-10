@@ -218,8 +218,8 @@ export default function ContactUs() {
           <div className="container">
             <div className="row text-center">
               <div className="col-xl-11 col-xxl-9 mx-auto">
-                <h2 className="display-3  text-green1 mb-3">Service &amp; Support</h2>
-                <p className=" mb-7 px-lg-17">We provide 24/7 to provide expert guidance, technical assistance, and maintenance solutions, ensuring your renewable energy systems perform at their best all through the year.</p>
+                <h2 className="display-3  text-white mb-3">Service &amp; Support</h2>
+                <p className="text-white mb-7 px-lg-17">We provide 24/7 to provide expert guidance, technical assistance, and maintenance solutions, ensuring your renewable energy systems perform at their best all through the year.</p>
               </div>
             </div>
 
