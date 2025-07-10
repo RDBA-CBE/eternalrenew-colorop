@@ -1,6 +1,6 @@
 'use client';
 
-export default function VillupuramProjectDetailMain({ banner }) {
+export default function Thiruvannamalai20ProjectDetailMain({ banner }) {
   return (
     <section className='pro-detail p-0 '>
       <div className='container battery-info-section py-5 '>
