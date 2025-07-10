@@ -19,7 +19,7 @@ export default function Demo34() {
 
   const banner ={
     title:"TRICHY SOLAR PARK ",
-    description:"Trichy Solar Park-13 MWp<br/>Location: Vengaimandalam, Trichy District, Tamilnadu",
+    description:"Location: Vengaimandalam, Trichy District, Tamilnadu",
     img:"/img/home/Projects/trichy-solar-park/banner-img.jpg"
   }
   return (
