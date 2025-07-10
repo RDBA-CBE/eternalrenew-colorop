@@ -7,7 +7,7 @@ const projects = [
     subtitle: 'Read more',
     image: '/img/home/Projects/trichy-solar-park.jpg',
     class: 'border-radius-left',
-    slug: 'thiruvannamalai-2.0-solar-park',
+    slug: 'thiruvannamalai-solar-park-2',
   },
   // {
   //   location: 'Aravakurichi',
