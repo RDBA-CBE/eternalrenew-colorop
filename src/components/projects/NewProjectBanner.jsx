@@ -14,7 +14,7 @@ export default function NewProjectBanner() {
         playsInline
         id="1187841"
         src="/img/home/banner-1.jpg"
-        poster="/img/home/banner-1.jpg"
+        poster="/img/home/banner-15.jpg"
       />
 
       <div className="video-content">

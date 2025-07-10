@@ -7,7 +7,7 @@ import NewProjectBanner from "components/projects/NewProjectBanner"
 import NewProjectCard from "components/projects/NewprojectCard"
 import ProjectCard1 from "components/projects/ProjectCard1"
 import KarurProjectOneBanner from "components/karur-solar-park-i/karurprojectbannerone"
-import KarurProjectDetailOneMain from "components/karur-solar-park-i/karurprojectdetailsone"
+import KarurProjectDetailOneMain from "components/karur-solar-park-i/karurprojectdetailsone.jsx"
 
 
 import { Footer12 } from "components/blocks/footer";

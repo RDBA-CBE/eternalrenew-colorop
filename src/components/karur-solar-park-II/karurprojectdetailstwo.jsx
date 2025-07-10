@@ -1,4 +1,5 @@
 'use client';
+import NextLink from 'components/reuseable/links/NextLink';
 
 export default function KarurProjectDetailTwoMain({ banner }) {
   return (
@@ -7,14 +8,17 @@ export default function KarurProjectDetailTwoMain({ banner }) {
         <div className='row'>
           <div className='col-md-6'>
             <div className='img-con'>
-              <img src='/img/home/Projects/karur-solar-park-ii/down-img.jpg' alt='' />
+              <img
+                src='/img/home/Projects/karur-solar-park-ii/down-img.jpg'
+                alt=''
+              />
             </div>
           </div>
           <div className='col-md-6 pt-5'>
             <div className='content-con' style={{ width: '100%' }}>
               <p className='text-white fs-16'>
                 Karur Solar Park II is located in Anjakavundanpatty &
-                Erumaprpatty Villages of Aravakurichi Taluk, Karur District,
+                Erumapatty Villages of Aravakurichi Taluk, Karur District,
                 Tamilnadu , India. The solar farm is connected with 110/33 KV
                 Pallapatty Substation via 33/11 KV E.Karungalpatty Substation
                 through the 33 KV dedicated single circuit transmission overhead
@@ -118,7 +122,7 @@ export default function KarurProjectDetailTwoMain({ banner }) {
               </div>
               <div className='battery-detail-row d-flex justify-content-between border-bottom py-2 row'>
                 <strong className='text-white col-5 px-0 '>
-                   Panel Type & Make:
+                  Panel Type & Make:
                 </strong>
                 <span className=' text-orange1 col-7 px-0'>
                   500Wp, 540 Wp, 550 Wp and 600 Wp Monofacial, Trina Solar, JA
@@ -191,6 +195,13 @@ export default function KarurProjectDetailTwoMain({ banner }) {
               className='img-fluid battery-info-image'
             />
           </div>
+        </div>
+        <div className='mt-10 text-end'>
+          <NextLink
+            title='Back'
+            href='/completed-projects'
+            className='btn btn-lg btn-soft-primary rounded-pill'
+          />
         </div>
       </div>
     </section>

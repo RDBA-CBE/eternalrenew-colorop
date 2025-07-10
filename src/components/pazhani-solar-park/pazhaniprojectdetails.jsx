@@ -1,4 +1,5 @@
 'use client';
+import NextLink from 'components/reuseable/links/NextLink';
 
 export default function PazhaniProjectDetailMain({ banner }) {
   return (
@@ -191,6 +192,13 @@ export default function PazhaniProjectDetailMain({ banner }) {
               className='img-fluid battery-info-image'
             />
           </div>
+        </div>
+        <div className='mt-10 text-end'>
+          <NextLink
+            title='Back'
+            href='/completed-projects'
+            className='btn btn-lg btn-soft-primary rounded-pill'
+          />
         </div>
       </div>
     </section>

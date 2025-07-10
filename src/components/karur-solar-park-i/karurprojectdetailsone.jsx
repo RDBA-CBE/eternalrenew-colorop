@@ -1,4 +1,5 @@
 'use client';
+import NextLink from 'components/reuseable/links/NextLink';
 
 export default function KarurProjectDetailOneMain({ banner }) {
   return (
@@ -180,6 +181,13 @@ export default function KarurProjectDetailOneMain({ banner }) {
               operations. This clean energy development with no air emissions,
               no waste and minimal carbon footprint .
             </p>
+          </div>
+          <div className='mt-10 text-end'>
+            <NextLink
+              title='Back'
+              href='/completed-projects'
+              className='btn btn-lg btn-soft-primary rounded-pill'
+            />
           </div>
         </div>
 
