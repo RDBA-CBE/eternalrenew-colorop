@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import Navbar from "components/blocks/navbar/navbar-1";
 
 import UpcomingProjectBanner from "components/upcoming-projects/UpcomingProjectBanner"
-import UpcomingProjectCard from "components/upcoming-projects/UpcomingprojectCard"
+import UpcomingProjectCard from "components/upcoming-projects/UpcomingProjectCard"
 
 import { Footer12 } from "components/blocks/footer";
 

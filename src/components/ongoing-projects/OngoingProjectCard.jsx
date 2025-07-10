@@ -3,7 +3,7 @@ import React from 'react';
 const projects = [
   {
     // location: 'Gingee',
-    title: 'Villururam Solar Park',
+    title: 'Villupuram Solar Park',
     subtitle: 'Read more',
     image: '/img/home/Projects/project-img.jpg',
     class: 'border-radius-left',

@@ -2,8 +2,8 @@ import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 
 import Navbar from "components/blocks/navbar/navbar-1";
-import Thiruvannamalai20ProjectBanner from "components/thiruvannamalai-solar-park-2.0/Thiruvannamalai20projectbanner"
-import Thiruvannamalai20ProjectDetailMain from "components/thiruvannamalai-solar-park-2.0/Thiruvannamalai20projectdetails"
+import Thiruvannamalai20ProjectBanner from "components/thiruvannamalai-solar-park-2.0/Thiruvannamalai20ProjectBanner"
+import Thiruvannamalai20ProjectDetailMain from "components/thiruvannamalai-solar-park-2.0/Thiruvannamalai20ProjectDetailMain"
 
 
 import { Footer12 } from "components/blocks/footer";

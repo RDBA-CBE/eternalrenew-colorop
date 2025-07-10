@@ -31,7 +31,7 @@ export default function OngoingProjectBanner() {
                 sustainable energy solutions that are meticulously engineered
                 with precision to help our clients achieve their business
                 objectives and requirements and realize their dream of cutting
-                down carbon emissions and protecting the ecosystem.
+                down carbon emissions and protecting the ecosystems.
               </p>
             </div>
           </div>
