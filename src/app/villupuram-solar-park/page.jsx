@@ -4,8 +4,8 @@ import { Fragment } from 'react';
 import Navbar from 'components/blocks/navbar/navbar-1';
 // import OngoingProjectBanner from 'components/ongoing-projects/OngoingProjectBanner';
 // import OngoingProjectDetailMain from 'components/ongoing-projects/Ongoingprojectdetails';
-import VillupuramProjectDetailMain from 'components/villupuram-solar-park/Villupuramprojectdetails.jsx'
-import VillupuramProjectBanner from 'components/villupuram-solar-park/VillupuramProjectBanner'
+import VillupuramProjectDetailMain from 'components/villupuram-solar-park/VillupuramProjectDetailMain.jsx'
+import VillupuramProjectBanner from 'components/villupuram-solar-park/VillupuramProjectBanner.jsx'
 
 import { Footer12 } from 'components/blocks/footer';
 
