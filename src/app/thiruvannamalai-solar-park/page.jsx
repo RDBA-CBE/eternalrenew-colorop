@@ -7,7 +7,7 @@ import NewProjectBanner from "components/projects/NewProjectBanner"
 import NewProjectCard from "components/projects/NewprojectCard"
 import ProjectCard1 from "components/projects/ProjectCard1"
 import ThiruvannamalaiProjectBanner from "components/thiruvannamalai-solar-park/ThiruvannamalaiProjectBanner"
-import ThiruvannamalaiProjectDetailMain from "components/thiruvannamalai-solar-park/Thiruvannamalaiprojectdetails"
+import ThiruvannamalaiProjectDetailMain from "components/thiruvannamalai-solar-park/ThiruvannamalaiProjectDetailMain"
 
 
 import { Footer12 } from "components/blocks/footer";
