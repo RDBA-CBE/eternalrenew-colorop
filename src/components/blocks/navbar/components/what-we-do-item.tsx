@@ -36,13 +36,13 @@ export default function WhatWeDoNavItem() {
       </a>
 
       {/* Desktop Menu */}
-      <ul className="dropdown-menu navdrop-menu d-none d-lg-block p-0" >
+      <ul className="dropdown-menu d-none d-lg-block" >
         {mediaNavigation.map(({ id, url, title }) => (
           <ListItemLink
             key={id}
             href={url}
             title={title}
-            linkClassName="dropdown-item px-2 py-2"
+            linkClassName="dropdown-item"
           />
         ))}
       </ul>
