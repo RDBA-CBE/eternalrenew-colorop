@@ -130,7 +130,7 @@ const CompletedProjectCard = () => {
               key={index}
             >
               <div
-                className={`solar-project-card ${
+                className={`solar-project-card project-border ${
                   project.class !== 'card-padding' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
@@ -167,7 +167,7 @@ const CompletedProjectCard = () => {
               key={index}
             >
               <div
-                className={`solar-project-card ${
+                className={`solar-project-card project-border ${
                   project.class !== 'card-padding' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
@@ -203,7 +203,7 @@ const CompletedProjectCard = () => {
                 key={index}
               >
                 <div
-                  className={`solar-project-card ${
+                  className={`solar-project-card project-border ${
                     project.class !== 'card-padding' ? project.class : ' '
                   }`}
                   style={{ backgroundImage: `url(${project.image})` }}
@@ -239,7 +239,7 @@ const CompletedProjectCard = () => {
                 key={index}
               >
                 <div
-                  className={`solar-project-card ${
+                  className={`solar-project-card project-border ${
                     project.class !== 'card-padding' ? project.class : ' '
                   }`}
                   style={{ backgroundImage: `url(${project.image})` }}
@@ -273,7 +273,7 @@ const CompletedProjectCard = () => {
                 key={index}
               >
                 <div
-                  className={`solar-project-card ${
+                  className={`solar-project-card project-border ${
                     project.class !== 'card-padding' ? project.class : ' '
                   }`}
                   style={{ backgroundImage: `url(${project.image})` }}
@@ -305,14 +305,14 @@ const CompletedProjectCard = () => {
         <div className='row px-3 px-md-0 mt-15 '>
           {projects.map((project, index) => (
             <div
-              className={`col-12  col-md-4 bg-white  p-0 ${
+              className={`col-12 col-md-4 mt-5 mt-sm-5 ${
                 project.class ? project.class : ''
               } `}
               key={index}
             >
               <div
-                className={`solar-project-card ${
-                  project.class !== 'card-padding' ? project.class : ' '
+                className={`solar-project-card project-border ${
+                  project.class !== '' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
               >
@@ -341,14 +341,14 @@ const CompletedProjectCard = () => {
         <div className='row px-3 px-md-0 mt-10 mt-md-10'>
           {projects2.map((project, index) => (
             <div
-              className={`col-12  col-md-4 bg-white  p-0 ${
+              className={`col-12 col-md-4 mt-5 mt-sm-5 ${
                 project.class ? project.class : ''
               } `}
               key={index}
             >
               <div
-                className={`solar-project-card ${
-                  project.class !== 'card-padding' ? project.class : ' '
+                className={`solar-project-card project-border ${
+                  project.class !== '' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
               >
@@ -376,14 +376,14 @@ const CompletedProjectCard = () => {
         <div className='row px-3 px-md-0 mt-10 mb-10'>
           {projects3.map((project, index) => (
             <div
-              className={`col-12  col-md-4 bg-white  p-0 ${
+              className={`col-12 col-md-4 mt-5 mt-sm-5 ${
                 project.class ? project.class : ''
               } `}
               key={index}
             >
               <div
-                className={`solar-project-card ${
-                  project.class !== 'card-padding' ? project.class : ' '
+                className={`solar-project-card project-border ${
+                  project.class !== '' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
               >
