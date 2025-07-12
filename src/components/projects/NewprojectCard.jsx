@@ -181,7 +181,7 @@ const NewProjectCard = () => {
         <div className='row px-3 px-md-0 mt-15 mb-10'>
 
           {/* Ongoing Projects */}
-          <div className='col-12 col-md-4'>
+          <div className='col-12 col-md-4 mt-5 mt-sm-5'>
             {ongoingprojects.map((project, index) => (
               <div
                 className={`bg-white p-0 ${project.class ? project.class : ''}`}
@@ -216,7 +216,7 @@ const NewProjectCard = () => {
           </div>
 
           {/* Upcoming Projects */}
-          <div className='col-12 col-md-4'>
+          <div className='col-12 col-md-4 mt-5 mt-sm-5'>
             {upcomingprojects.map((project, index) => (
               <div
                 className={`bg-white p-0 ${project.class ? project.class : ''}`}
@@ -249,7 +249,7 @@ const NewProjectCard = () => {
               </div>
             ))}
           </div>
-          <div className='col-12 col-md-4'>
+          <div className='col-12 col-md-4 mt-5 mt-sm-5'>
             {completedprojects.map((project, index) => (
               <div
                 className={`bg-white p-0 ${project.class ? project.class : ''}`}

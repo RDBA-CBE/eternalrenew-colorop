@@ -96,7 +96,7 @@ export default function MediaList() {
 
           {mediaList.map((item) => (
             <a
-              href={item.item} // 🔁 Changed from item.url
+              href={item.item} // 
               key={item.id}
               className='col text-decoration-none'
               target='_blank'
