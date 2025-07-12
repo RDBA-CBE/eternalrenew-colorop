@@ -338,7 +338,7 @@ const CompletedProjectCard = () => {
           ))}
         </div>
 
-        <div className='row px-3 px-md-0 mt-10 mt-md-10'>
+        <div className='row px-3 px-md-0 mt-7 mt-md-7'>
           {projects2.map((project, index) => (
             <div
               className={`col-12 col-md-4 mt-5 mt-sm-5 ${
@@ -373,7 +373,7 @@ const CompletedProjectCard = () => {
           ))}
         </div>
 
-        <div className='row px-3 px-md-0 mt-10 mb-10'>
+        <div className='row px-3 px-md-0 mt-7 mb-10'>
           {projects3.map((project, index) => (
             <div
               className={`col-12 col-md-4 mt-5 mt-sm-5 ${
