@@ -5,7 +5,7 @@ const projects = [
     // location: 'Gingee',
     title: 'Thiruvannamalai Solar Park 2.0',
     subtitle: 'Read more',
-    image: '/img/home/Projects/trichy-solar-park.jpg',
+    image: '/img/home/Projects/thiruvannamalai-2-img.jpg',
     class: 'border-radius-left',
     slug: 'thiruvannamalai-solar-park-2',
   },
