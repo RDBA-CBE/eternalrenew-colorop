@@ -26,14 +26,14 @@ export default function HeroBanner() {
     
     {
       title:"Reducing dependence on fossil fuels ",
-      description:"Driving India’s renewable energy targets with high-quality, reliable and impactful assets",
+      // description:"Driving India’s renewable energy targets with high-quality, reliable and impactful assets",
       src:"/img/home/banner-4.jpg"
 
     },
     {
       // title:"Educating and inspiring communities",
       // description:"Making sustainable energy solutions easy and affordable",
-      src:"/img/home/banner-18.jpg"
+      src:"/img/home/banner-3.jpg"
 
     },
   ]
