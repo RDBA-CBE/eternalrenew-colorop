@@ -33,7 +33,7 @@ export default function HeroBanner() {
     {
       // title:"Educating and inspiring communities",
       // description:"Making sustainable energy solutions easy and affordable",
-      src:"/img/home/banner-3.jpg"
+      src:"/img/home/banner-18.jpg"
 
     },
   ]
