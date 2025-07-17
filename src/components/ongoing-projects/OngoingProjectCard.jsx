@@ -6,7 +6,7 @@ const projects = [
     title: 'Villupuram Solar Park',
     subtitle: 'Read more',
     image: '/img/home/Projects/project-img.jpg',
-    class: 'border-radius-left',
+    class: 'border-side',
     slug: 'villupuram-solar-park',
   },
   // {

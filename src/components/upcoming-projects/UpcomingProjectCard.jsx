@@ -6,7 +6,7 @@ const projects = [
     title: 'Thiruvannamalai Solar Park 2.0',
     subtitle: 'Read more',
     image: '/img/home/Projects/thiruvannamalai-2-img.jpg',
-    class: 'border-radius-left',
+    class: 'border-side',
     slug: 'thiruvannamalai-solar-park-2',
   },
   // {

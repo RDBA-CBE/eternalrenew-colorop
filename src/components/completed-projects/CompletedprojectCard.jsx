@@ -6,7 +6,7 @@ const projects = [
     title: 'Karur Solar Park I - 19.5 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-I.jpg',
-    class: 'border-radius',
+    class: 'border-side',
     slug: 'karur-solar-park-1',
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     title: 'Karur Solar Park II - 19.5 MWp',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-II.jpg',
-    class: 'card-padding',
+    class: '',
     slug: 'karur-solar-park-2',
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     title: ' Trichy Solar Park - 13 MWp',
     subtitle: 'Read more',
     image: '/img/home/Projects/trichy-solar-park.jpg',
-    class: 'border-radius-left',
+    class: 'border-side-left',
     slug: 'trichy-solar-park',
   },
 ];
@@ -33,7 +33,7 @@ const projects2 = [
     title: 'Namakkal Solar Park I - 42.3 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-I.jpg',
-    class: 'border-radius',
+    class: 'border-side',
     slug: 'namakkal-solar-park-1',
   },
   {
@@ -41,7 +41,7 @@ const projects2 = [
     title: 'Namakkal Solar Park II - 5.6 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/namakkal-solar-park-II.jpg',
-    class: 'card-padding',
+    class: '',
     slug: 'namakkal-solar-park-2',
   },
   {
@@ -49,7 +49,7 @@ const projects2 = [
     title: 'Thiruvannamalai Solar Park - 19.5 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/thiruvannamalai-solar-park.jpg',
-    class: 'border-radius-left',
+    class: 'border-side-left',
     slug: 'thiruvannamalai-solar-park',
   },
 ];
@@ -59,7 +59,7 @@ const projects3 = [
     title: 'Pazhani Solar Park - 41.9 Mwp',
     subtitle: 'Read more',
     image: '/img/home/Projects/pazhani-solar-park.jpg',
-    class: 'border-radius',
+    class: 'border-side',
     slug: 'pazhani-solar-park',
   },
   // {
@@ -67,7 +67,7 @@ const projects3 = [
   //   title: "consectetur",
   //   subtitle: "Read more",
   //   image: "/img/home/banner-1.jpg",
-  //   class:"card-padding"
+  //   class:""
   // },
   // {
   //   location: "consectetur",
@@ -75,7 +75,7 @@ const projects3 = [
   //   subtitle: "Read more",
 
   //   image:"/img/home/banner-1.jpg",
-  //   class:"border-radius-left"
+  //   class:"border-side-left"
   // },
 ];
 const projects4 = [
@@ -84,14 +84,14 @@ const projects4 = [
     title: 'Amet <br/>  consectetur',
     subtitle: 'Read more',
     image: '/img/home/banner-1.jpg',
-    class: 'border-radius',
+    class: 'border-side',
   },
   {
     location: 'consectetur',
     title: 'consectetur',
     subtitle: 'Read more',
     image: '/img/home/banner-1.jpg',
-    class: ' border-radius-left',
+    class: ' border-side-left',
   },
 ];
 const upcomingprojects = [
@@ -100,7 +100,7 @@ const upcomingprojects = [
     title: 'Thiruvannamalai Solar Park 2.0',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-I.jpg',
-    class: 'border-radius',
+    class: 'border-side',
     slug: 'upcoming-projects',
   },
 ];
@@ -111,7 +111,7 @@ const ongoingprojects = [
     title: 'Villupuram Solar Park',
     subtitle: 'Read more',
     image: '/img/home/Projects/karur-solar-park-I.jpg',
-    class: 'border-radius',
+    class: 'border-side',
     slug: 'ongoing-projects',
   },
 ];
@@ -131,7 +131,7 @@ const CompletedProjectCard = () => {
             >
               <div
                 className={`solar-project-card project-border ${
-                  project.class !== 'card-padding' ? project.class : ' '
+                  project.class !== '' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
               >
@@ -168,7 +168,7 @@ const CompletedProjectCard = () => {
             >
               <div
                 className={`solar-project-card project-border ${
-                  project.class !== 'card-padding' ? project.class : ' '
+                  project.class !== '' ? project.class : ' '
                 }    `}
                 style={{ backgroundImage: `url(${project.image})` }}
               >
@@ -204,7 +204,7 @@ const CompletedProjectCard = () => {
               >
                 <div
                   className={`solar-project-card project-border ${
-                    project.class !== 'card-padding' ? project.class : ' '
+                    project.class !== '' ? project.class : ' '
                   }`}
                   style={{ backgroundImage: `url(${project.image})` }}
                 >
@@ -240,7 +240,7 @@ const CompletedProjectCard = () => {
               >
                 <div
                   className={`solar-project-card project-border ${
-                    project.class !== 'card-padding' ? project.class : ' '
+                    project.class !== '' ? project.class : ' '
                   }`}
                   style={{ backgroundImage: `url(${project.image})` }}
                 >
@@ -274,7 +274,7 @@ const CompletedProjectCard = () => {
               >
                 <div
                   className={`solar-project-card project-border ${
-                    project.class !== 'card-padding' ? project.class : ' '
+                    project.class !== '' ? project.class : ' '
                   }`}
                   style={{ backgroundImage: `url(${project.image})` }}
                 >
